@@ -7,27 +7,28 @@
 
             <!-- Map card -->
             <div class="card">
-              <div class="card-header"> <?=$title?> </h3>
+              <div class="card-header"> <?= $title ?> </h3>
               </div>
               <div class="card-body table-responsive">
                 <table id="table" class="table table-bordered table-striped text-center">
-                    <thead>
-                      <th>No</th>
-                      <th>Nama</th>
-                      <th>Waktu</th>
-                      <th>Keterangan</th>
-                    </thead>
-                    <tbody>
-                      <?php $no=1; foreach ($data as $d) { ?>
+                  <thead>
+                    <th>No</th>
+                    <th>Nama coba</th>
+                    <th>Waktu</th>
+                    <th>Keterangan</th>
+                  </thead>
+                  <tbody>
+                    <?php $no = 1;
+                    foreach ($data as $d) { ?>
                       <tr>
-                        <td width="1%"><?=$no++?></td>
-                        <td><?=ucfirst($d->nama)?></td>
-                        <td><?=ucfirst($d->waktu)?></td>
-                        <td><?=ucfirst($d->keterangan)?></td>
+                        <td width="1%"><?= $no++ ?></td>
+                        <td><?= ucfirst($d->nama) ?></td>
+                        <td><?= ucfirst($d->waktu) ?></td>
+                        <td><?= ucfirst($d->keterangan) ?></td>
                       </tr>
-                      <?php } ?>
-                    </tbody>
-                  </table>
+                    <?php } ?>
+                  </tbody>
+                </table>
               </div>
             </div>
           </section>
