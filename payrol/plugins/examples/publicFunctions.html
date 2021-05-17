@@ -1,0 +1,202 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="../css/optionalStyling.css"> 
+        <link type="text/css" rel="stylesheet" href="../css/web2cal.css"> 
+		
+        <script src="../ext/jquery-1.3.2.min.js"> </script> 
+        <script src="../js/Web2Cal-Basic-2.0-min.js">  </script>
+        <script src="../js/web2cal.support.js">  </script>
+        <script src="../js/web2cal.default.template.js">  </script> 
+        <script src="../js/sampleData.js">  </script> 
+        <title>Web2Cal | Public Functions Demo</title> 
+    </head>
+  
+    <body> 
+		<h2>
+			<a href="http://web2cal.com/">Web2Cal Ajax Events Calendar</a>
+		</h2>  
+		<p>
+		 	This demo is for evaluation purpose only. Upgrade to Web2Cal Premium version, to get much 
+			
+			Better Performance (Can handle LARGE set of data),
+			DST Support, Themes, 
+			Easy Debugging,  
+			More Callback Functions,
+			Recurring Events,
+			and many more views. 
+		</p> 
+		<p>
+			Read the <a href="http://web2cal.com/ajaxeventscalendar/license">License Terms</a> Carefully before using it.	<strong>	Do NOT use this package in a commercial website. </strong>
+		</p>
+        <div id="calendarContainer">
+        </div> 
+		<Br/>
+		<Br/>
+		<Br/>
+		<input type="button" value="Get All Events"			 onclick="getAllEvents()"/> 
+		<input type="button" value="Get Events For a Day" 	 onclick="getEventsForDay()"/> 
+		<input type="button" value="Get All Groups"          onclick="getAllGroups()"/> 
+		<input type="button" value="Get Event By ID"         onclick="getEventById()"/> 
+		<input type="button" value="Show Status Message"     onclick="showCalInfo()"/> 
+		<input type="button" value="Hide Status Message"     onclick="hideCalInfo()"/> 
+		<input type="button" value="Go Next"                 onclick="doNext()"/> 
+		<input type="button" value="Go Previous"             onclick="doPrev()"/>
+		<input type="button" value="Re-Arrange"              onclick="refreshCal()"/>
+
+		<h3>Output: </h3>
+		<div id="outputContainer" style="width:500px; border:1px solid #ccc; "></div>
+		
+    </body> 
+</html>
+<script>
+    var ical; 
+	function getEventById()
+	{
+		alert("Getting event [eventId=15]...");
+		jQuery("#outputContainer").empty();
+		var ev=ical.getEventById(15); 
+		jQuery("#outputContainer").html(toString(ev) +"<br/>");
+	}
+	function refreshCal()
+	{
+		ical.refresh();
+	}
+	function doNext()
+	{
+		ical.doNext();
+	}
+	function doPrev()
+	{
+		ical.doPrev();
+	}
+	function toString(obj)	
+	{
+		var str="";
+		for (x in obj)
+		{
+			if(obj.hasOwnProperty(x))
+			{
+				str+=x+":"+obj[x] +"<br/>";
+			}
+		}
+		return str;
+	}
+	function showCalInfo()
+	{
+		ical.showStatusMsg("Doing Something ... ");
+	}
+	function hideCalInfo()
+	{
+		ical.hideStatusMsg();
+	}
+    function getAllEvents()
+	{ 
+		alert("Works only in Premium Versions");
+		return;
+		
+	}
+	function getEventsForDay()
+	{
+		alert("Works only in Premium Versions");
+		return;
+	}
+	function getAllGroups()
+	{
+		
+		alert("Works only in Premium Versions");
+		return;
+	} 
+	
+    /*
+     Create the Calendar.
+     */
+    function drawCalendar()
+    {  
+        ical = new Web2Cal('calendarContainer', {
+            loadEvents: loadCalendarEvents,   
+			onPreview: onPreview
+        });
+        ical.build();
+    }  
+	var activeEvent;
+	function onPreview(evt, dataObj, html)
+	{
+		activeEvent=dataObj;
+		eventObject=dataObj;
+		ical.showPreview(evt, html);
+	}
+    /*
+     Method invoked when event is moved or resized
+     @param event object containing eventID and newly updated Times
+     */
+    function updateEvent(event)
+    { 
+        ical.updateEvent(event);
+    }
+    
+    /*
+     Method invoked when creating a new event, before showing the new event form.
+     @param obj - Object containing (startTime, endTime)
+     @param groups - List of Group objects ({groupId, name})
+     @param allday - boolean to indicate if the event created is allday event.
+     */
+    function onNewEvent(obj, groups, allday)
+    {
+        Web2Cal.defaultPlugins.onNewEvent(obj, groups, allday); 
+    } 
+    
+    /**
+     Method to get Events and display it in the calendar.
+     If you need to make an asynchronous call, invoke ical.render in the callback method.
+     @param startTime - Calendar Display Range start
+     @para endTime - Calendar End Range end
+     */
+    function loadCalendarEvents(startTime, endTime)
+    {  
+		ical.render(getCalendarData());
+		
+    } 
+	
+
+    /**
+     Clicking delete in Preview window
+     */
+    function rzDeleteEvent()
+    { 
+		ical.deleteEvent({eventId: activeEvent.eventId});
+		ical.hidePreview();
+    }
+    
+    /**
+     * Click of Add in add event box.
+     */
+    function rzAddEvent()
+    {
+        var newev = Web2Cal.defaultPlugins.getNewEventObject();
+        ical.addEvent(newev);
+    }
+    
+    /**
+     * Onclick of Close in AddEvent Box.
+     */
+    function rzCloseAddEvent()
+    {
+        ical.closeAddEvent();
+		ical.hidePreview();
+    }
+     
+    /**
+     * Once page is loaded, invoke the Load Calendar Script.
+     */
+    jQuery(document).ready(function()
+    { 
+	 	drawCalendar(); 
+	 	
+		new Web2Cal.TimeControl(jQuery("#eventStartTime").get(0));
+        new Web2Cal.TimeControl(jQuery("#eventEndTime").get(0), jQuery("#eventStartTime").get(0), {
+            onTimeSelect: updateDateForTime,
+            dateField: "eventEndDate"
+        });
+    });
+</script>

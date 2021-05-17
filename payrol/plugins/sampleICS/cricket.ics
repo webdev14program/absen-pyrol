@@ -1,0 +1,582 @@
+BEGIN:VCALENDAR
+PRODID:-//Markthisdate.com\,0.7
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME: T20 Cricket World Cup 2009
+BEGIN:VEVENT
+DTSTART;VALUE=DATE-TIME:20090601T123000Z
+DTEND;VALUE=DATE-TIME:20090601T153000Z
+URL:http://www.markthisdate.com/a/a
+LOCATION:Kennington Oval, Lambeth, London, SE11 5SG, United Kingdom
+SUMMARY:IRE vs NED - T20WC Warm Up  @ Lords\, London
+DESCRIPTION:For more information about this event check http://icc-cricket.yahoo.net/wt20-2009/fixtures.html\n\n 
+CLASS:PUBLIC
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTSTAMP:20090610T183700Z
+CATEGORIES:T20 Cricket World Cup 2009
+UID:76275b96a27ce09ad614b16caeb5a6b0@markthisdate.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE-TIME:20090601T123000Z
+DTEND;VALUE=DATE-TIME:20090601T153000Z
+URL:http://www.markthisdate.com/a/a
+LOCATION:Kennington Oval, Lambeth, London, SE11 5SG, United Kingdom
+SUMMARY:AUS vs BAN - T20WC Warm Up @ Trent Bridge\,
+  Nottingham
+DESCRIPTION:For more information about this event check http://icc-cricket.yahoo.net/wt20-2009/fixtures.html\n\n 
+CLASS:PUBLIC
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTSTAMP:20090610T183700Z
+CATEGORIES:T20 Cricket World Cup 2009
+UID:eeaef433d7afe1ab02be417a5660cd11@markthisdate.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE-TIME:20090601T163000Z
+DTEND;VALUE=DATE-TIME:20090601T193000Z
+URL:http://www.markthisdate.com/a/a
+LOCATION:Kennington Oval, Lambeth, London, SE11 5SG, United Kingdom
+SUMMARY:NZ vs IND - T20WC Warm Up @ Lords\, London D/N
+DESCRIPTION:For more information about this event check http://icc-cricket.yahoo.net/wt20-2009/fixtures.html\n\n 
+CLASS:PUBLIC
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTSTAMP:20090610T183700Z
+CATEGORIES:T20 Cricket World Cup 2009
+UID:fbb850438b0d32c314d509e0dbdbc7c6@markthisdate.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE-TIME:20090601T163000Z
+DTEND;VALUE=DATE-TIME:20090601T193000Z
+URL:http://www.markthisdate.com/a/a
+LOCATION:Kennington Oval, Lambeth, London, SE11 5SG, United Kingdom
+SUMMARY:PAK vs RSA - T20WC Warm Up @ Trent Bridge\,
+  Nottingham D/N
+DESCRIPTION:For more information about this event check http://icc-cricket.yahoo.net/wt20-2009/fixtures.html\n\n 
+CLASS:PUBLIC
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTSTAMP:20090610T183700Z
+CATEGORIES:T20 Cricket World Cup 2009
+UID:718ca623ac11e570d87d08af1c25a453@markthisdate.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE-TIME:20090602T123000Z
+DTEND;VALUE=DATE-TIME:20090602T153000Z
+URL:http://www.markthisdate.com/a/a
+LOCATION:Kennington Oval, Lambeth, London, SE11 5SG, United Kingdom
+SUMMARY:IRE vs WI - T20WC Warm Up  @ The Oval\, London
+DESCRIPTION:For more information about this event check http://icc-cricket.yahoo.net/wt20-2009/fixtures.html\n\n 
+CLASS:PUBLIC
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTSTAMP:20090610T183700Z
+CATEGORIES:T20 Cricket World Cup 2009
+UID:3bd2d796821d849647636f8290d2f8d7@markthisdate.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE-TIME:20090602T163000Z
+DTEND;VALUE=DATE-TIME:20090602T193000Z
+URL:http://www.markthisdate.com/a/a
+LOCATION:Kennington Oval, Lambeth, London, SE11 5SG, United Kingdom
+SUMMARY:ENG vs SCO - T20WC Warm Up @ Trent Bridge\,
+  Nottingham D/N
+DESCRIPTION:For more information about this event check http://icc-cricket.yahoo.net/wt20-2009/fixtures.html\n\n 
+CLASS:PUBLIC
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTSTAMP:20090610T183700Z
+CATEGORIES:T20 Cricket World Cup 2009
+UID:f91435253430f56ecc0a39efd766ba24@markthisdate.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE-TIME:20090602T163000Z
+DTEND;VALUE=DATE-TIME:20090602T193000Z
+URL:http://www.markthisdate.com/a/a
+LOCATION:Kennington Oval, Lambeth, London, SE11 5SG, United Kingdom
+SUMMARY:AUS vs NZ - T20WC Warm Up @ The Oval\, London D/N
+DESCRIPTION:For more information about this event check http://icc-cricket.yahoo.net/wt20-2009/fixtures.html\n\n 
+CLASS:PUBLIC
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTSTAMP:20090610T183700Z
+CATEGORIES:T20 Cricket World Cup 2009
+UID:daac69bc7d868ce9f88d433046eac057@markthisdate.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE-TIME:20090603T123000Z
+DTEND;VALUE=DATE-TIME:20090603T153000Z
+URL:http://www.markthisdate.com/a/a
+LOCATION:Kennington Oval, Lambeth, London, SE11 5SG, United Kingdom
+SUMMARY:SL vs RSA - T20WC Warm Up  @ Lords\, London
+DESCRIPTION:For more information about this event check http://icc-cricket.yahoo.net/wt20-2009/fixtures.html\n\n 
+CLASS:PUBLIC
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTSTAMP:20090610T183700Z
+CATEGORIES:T20 Cricket World Cup 2009
+UID:62eaa488380fe8278114585f81b1f463@markthisdate.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE-TIME:20090603T123000Z
+DTEND;VALUE=DATE-TIME:20090603T153000Z
+URL:http://www.markthisdate.com/a/a
+LOCATION:Kennington Oval, Lambeth, London, SE11 5SG, United Kingdom
+SUMMARY:NED vs SCO - T20WC Warm Up  @ The Oval\, London
+DESCRIPTION:For more information about this event check http://icc-cricket.yahoo.net/wt20-2009/fixtures.html\n\n 
+CLASS:PUBLIC
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTSTAMP:20090610T183700Z
+CATEGORIES:T20 Cricket World Cup 2009
+UID:73ef703a74d00a312f3bcb0d896f7c51@markthisdate.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE-TIME:20090603T163000Z
+DTEND;VALUE=DATE-TIME:20090603T193000Z
+URL:http://www.markthisdate.com/a/a
+LOCATION:Kennington Oval, Lambeth, London, SE11 5SG, United Kingdom
+SUMMARY:ENG vs WI - T20WC Warm Up @ Lords\, London D/N
+DESCRIPTION:For more information about this event check http://icc-cricket.yahoo.net/wt20-2009/fixtures.html\n\n 
+CLASS:PUBLIC
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTSTAMP:20090610T183700Z
+CATEGORIES:T20 Cricket World Cup 2009
+UID:1abc4bcb0b68adc08e8eb7877d75a948@markthisdate.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE-TIME:20090603T163000Z
+DTEND;VALUE=DATE-TIME:20090603T193000Z
+URL:http://www.markthisdate.com/a/a
+LOCATION:Kennington Oval, Lambeth, London, SE11 5SG, United Kingdom
+SUMMARY:IND vs PAK - T20WC Warm Up @ The Oval\, London D/N
+DESCRIPTION:For more information about this event check http://icc-cricket.yahoo.net/wt20-2009/fixtures.html\n\n 
+CLASS:PUBLIC
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTSTAMP:20090610T183700Z
+CATEGORIES:T20 Cricket World Cup 2009
+UID:56e542315228f9b12d5cb0e17dfe97c7@markthisdate.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE-TIME:20090604T163000Z
+DTEND;VALUE=DATE-TIME:20090604T193000Z
+URL:http://www.markthisdate.com/a/a
+LOCATION:Kennington Oval, Lambeth, London, SE11 5SG, United Kingdom
+SUMMARY:BAN vs SL - T20WC Warm Up @ Trent Bridge\,
+  Nottingham D/N
+DESCRIPTION:For more information about this event check http://icc-cricket.yahoo.net/wt20-2009/fixtures.html\n\n 
+CLASS:PUBLIC
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTSTAMP:20090610T183700Z
+CATEGORIES:T20 Cricket World Cup 2009
+UID:6c92b04cbb07924dee41693c516ed4b8@markthisdate.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE-TIME:20090605T163000Z
+DTEND;VALUE=DATE-TIME:20090605T193000Z
+URL:http://www.markthisdate.com/a/a
+LOCATION:Kennington Oval, Lambeth, London, SE11 5SG, United Kingdom
+SUMMARY:ENG vs NED - T20WC Group B  Match @ Lords\, London
+  D/N
+DESCRIPTION:For more information about this event check http://icc-cricket.yahoo.net/wt20-2009/fixtures.html\n\n 
+CLASS:PUBLIC
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTSTAMP:20090610T183700Z
+CATEGORIES:T20 Cricket World Cup 2009
+UID:102848fddef0f6c1cddff80670754b08@markthisdate.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE-TIME:20090606T090000Z
+DTEND;VALUE=DATE-TIME:20090606T120000Z
+URL:http://www.markthisdate.com/a/a
+LOCATION:Kennington Oval, Lambeth, London, SE11 5SG, United Kingdom
+SUMMARY:NZ vs SCO - T20WC Group D Match @ The Oval\,
+  London
+DESCRIPTION:For more information about this event check http://icc-cricket.yahoo.net/wt20-2009/fixtures.html\n\n 
+CLASS:PUBLIC
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTSTAMP:20090610T183700Z
+CATEGORIES:T20 Cricket World Cup 2009
+UID:d160376b128a88a5d96148946fa8fd6f@markthisdate.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE-TIME:20090606T130000Z
+DTEND;VALUE=DATE-TIME:20090606T160000Z
+URL:http://www.markthisdate.com/a/a
+LOCATION:Kennington Oval, Lambeth, London, SE11 5SG, United Kingdom
+SUMMARY:AUS vs WI - T20WC Group C Match @ The Oval\,
+  London
+DESCRIPTION:For more information about this event check http://icc-cricket.yahoo.net/wt20-2009/fixtures.html\n\n 
+CLASS:PUBLIC
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTSTAMP:20090610T183700Z
+CATEGORIES:T20 Cricket World Cup 2009
+UID:efdc48683daa0591dafa40575ef6de61@markthisdate.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE-TIME:20090606T170000Z
+DTEND;VALUE=DATE-TIME:20090606T200000Z
+URL:http://www.markthisdate.com/a/a
+LOCATION:Kennington Oval, Lambeth, London, SE11 5SG, United Kingdom
+SUMMARY:IND vs BAN - T20WC Group A Match @ Trent Bridge\,
+  Nottingham D/N
+DESCRIPTION:For more information about this event check http://icc-cricket.yahoo.net/wt20-2009/fixtures.html\n\n 
+CLASS:PUBLIC
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTSTAMP:20090610T183700Z
+CATEGORIES:T20 Cricket World Cup 2009
+UID:6c6b265fcdd16266e656248d8a2b79ed@markthisdate.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE-TIME:20090607T123000Z
+DTEND;VALUE=DATE-TIME:20090607T153000Z
+URL:http://www.markthisdate.com/a/a
+LOCATION:Kennington Oval, Lambeth, London, SE11 5SG, United Kingdom
+SUMMARY:RSA vs SCO - T20WC Group D Match @ The Oval\,
+  London
+DESCRIPTION:For more information about this event check http://icc-cricket.yahoo.net/wt20-2009/fixtures.html\n\n 
+CLASS:PUBLIC
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTSTAMP:20090610T183700Z
+CATEGORIES:T20 Cricket World Cup 2009
+UID:6f3836bcea455b160609a5a7741aff9c@markthisdate.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE-TIME:20090607T163000Z
+DTEND;VALUE=DATE-TIME:20090607T193000Z
+URL:http://www.markthisdate.com/a/a
+LOCATION:Kennington Oval, Lambeth, London, SE11 5SG, United Kingdom
+SUMMARY:ENG vs PAK - T20WC Group B Match @ The Oval\,
+  London D/N
+DESCRIPTION:For more information about this event check http://icc-cricket.yahoo.net/wt20-2009/fixtures.html\n\n 
+CLASS:PUBLIC
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTSTAMP:20090610T183700Z
+CATEGORIES:T20 Cricket World Cup 2009
+UID:2f3164f594b791009f4aa7ea04600f9c@markthisdate.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE-TIME:20090608T123000Z
+DTEND;VALUE=DATE-TIME:20090608T153000Z
+URL:http://www.markthisdate.com/a/a
+LOCATION:Kennington Oval, Lambeth, London, SE11 5SG, United Kingdom
+SUMMARY:IRE vs BAN - T20WC Group A  Match @ Trent Bridge\,
+  Nottingham
+DESCRIPTION:For more information about this event check http://icc-cricket.yahoo.net/wt20-2009/fixtures.html\n\n 
+CLASS:PUBLIC
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTSTAMP:20090610T183700Z
+CATEGORIES:T20 Cricket World Cup 2009
+UID:51e3bda46e30dffa40c78e4d1ac50be7@markthisdate.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE-TIME:20090608T163000Z
+DTEND;VALUE=DATE-TIME:20090608T193000Z
+URL:http://www.markthisdate.com/a/a
+LOCATION:Kennington Oval, Lambeth, London, SE11 5SG, United Kingdom
+SUMMARY:AUS vs SL - T20WC Group C Match @ Trent Bridge\,
+  Nottingham D/N
+DESCRIPTION:For more information about this event check http://icc-cricket.yahoo.net/wt20-2009/fixtures.html\n\n 
+CLASS:PUBLIC
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTSTAMP:20090610T183700Z
+CATEGORIES:T20 Cricket World Cup 2009
+UID:65c6fb1cc951b1dfb4c170ad4bdd4121@markthisdate.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE-TIME:20090609T123000Z
+DTEND;VALUE=DATE-TIME:20090609T153000Z
+URL:http://www.markthisdate.com/a/a
+LOCATION:Kennington Oval, Lambeth, London, SE11 5SG, United Kingdom
+SUMMARY:PAK vs NED - T20WC Group B Match @ Lords\, London
+DESCRIPTION:For more information about this event check http://icc-cricket.yahoo.net/wt20-2009/fixtures.html\n\n 
+CLASS:PUBLIC
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTSTAMP:20090610T183700Z
+CATEGORIES:T20 Cricket World Cup 2009
+UID:b60e8ea308aec9ba33cee234b11b0498@markthisdate.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE-TIME:20090609T163000Z
+DTEND;VALUE=DATE-TIME:20090609T193000Z
+URL:http://www.markthisdate.com/a/a
+LOCATION:Kennington Oval, Lambeth, London, SE11 5SG, United Kingdom
+SUMMARY:NZ vs RSA - T20WC Group D Match @ Lords\, London
+  D/N
+DESCRIPTION:For more information about this event check http://icc-cricket.yahoo.net/wt20-2009/fixtures.html\n\n 
+CLASS:PUBLIC
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTSTAMP:20090610T183700Z
+CATEGORIES:T20 Cricket World Cup 2009
+UID:08206627c1e36d73a5b852c0f69dac42@markthisdate.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE-TIME:20090610T123000Z
+DTEND;VALUE=DATE-TIME:20090610T153000Z
+URL:http://www.markthisdate.com/a/a
+LOCATION:Kennington Oval, Lambeth, London, SE11 5SG, United Kingdom
+SUMMARY:SL vs WI - T20WC Group C Match @ Trent Bridge\,
+  Nottingham
+DESCRIPTION:For more information about this event check http://icc-cricket.yahoo.net/wt20-2009/fixtures.html\n\n 
+CLASS:PUBLIC
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTSTAMP:20090610T183700Z
+CATEGORIES:T20 Cricket World Cup 2009
+UID:1eb4c0c9c831572da6af8c48fa5e1a17@markthisdate.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE-TIME:20090610T163000Z
+DTEND;VALUE=DATE-TIME:20090610T193000Z
+URL:http://www.markthisdate.com/a/a
+LOCATION:Kennington Oval, Lambeth, London, SE11 5SG, United Kingdom
+SUMMARY:IND vs IRE - T20WC Group A Match @ Trent Bridge\,
+  Nottingham D/N
+DESCRIPTION:For more information about this event check http://icc-cricket.yahoo.net/wt20-2009/fixtures.html\n\n 
+CLASS:PUBLIC
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTSTAMP:20090610T183700Z
+CATEGORIES:T20 Cricket World Cup 2009
+UID:1e5deca9aae1705de06b8eda2f47500f@markthisdate.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE-TIME:20090611T123000Z
+DTEND;VALUE=DATE-TIME:20090611T153000Z
+URL:http://www.markthisdate.com/a/a
+LOCATION:Kennington Oval, Lambeth, London, SE11 5SG, United Kingdom
+SUMMARY:D1 vs A2 - T20WC Super8  (Group F) @ Trent
+  Bridge\, Nottingham
+DESCRIPTION:For more information about this event check http://icc-cricket.yahoo.net/wt20-2009/fixtures.html\n\n 
+CLASS:PUBLIC
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTSTAMP:20090610T183700Z
+CATEGORIES:T20 Cricket World Cup 2009
+UID:8ea4e97658641c3403be1e66cb5c5b54@markthisdate.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE-TIME:20090611T163000Z
+DTEND;VALUE=DATE-TIME:20090611T193000Z
+URL:http://www.markthisdate.com/a/a
+LOCATION:Kennington Oval, Lambeth, London, SE11 5SG, United Kingdom
+SUMMARY:B2 vs D2 - T20WC Super8 (Group E) @ Trent Bridge\,
+  Nottingham D/\nN
+DESCRIPTION:For more information about this event check http://icc-cricket.yahoo.net/wt20-2009/fixtures.html\n\n 
+CLASS:PUBLIC
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTSTAMP:20090610T183700Z
+CATEGORIES:T20 Cricket World Cup 2009
+UID:16ff8c4dc8ba020487f786f7633670b7@markthisdate.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE-TIME:20090612T123000Z
+DTEND;VALUE=DATE-TIME:20090612T153000Z
+URL:http://www.markthisdate.com/a/a
+LOCATION:Kennington Oval, Lambeth, London, SE11 5SG, United Kingdom
+SUMMARY:B1 vs C2 - T20WC Super8  (Group F) @ Lords\,
+  London
+DESCRIPTION:For more information about this event check http://icc-cricket.yahoo.net/wt20-2009/fixtures.html\n\n 
+CLASS:PUBLIC
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTSTAMP:20090610T183700Z
+CATEGORIES:T20 Cricket World Cup 2009
+UID:a013676e6b980264888ab27a0f506e1d@markthisdate.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE-TIME:20090612T163000Z
+DTEND;VALUE=DATE-TIME:20090612T193000Z
+URL:http://www.markthisdate.com/a/a
+LOCATION:Kennington Oval, Lambeth, London, SE11 5SG, United Kingdom
+SUMMARY:A1 vs C1 - T20WC Super8  (Group E) @ Lords\,
+  London D/N
+DESCRIPTION:For more information about this event check http://icc-cricket.yahoo.net/wt20-2009/fixtures.html\n\n 
+CLASS:PUBLIC
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTSTAMP:20090610T183700Z
+CATEGORIES:T20 Cricket World Cup 2009
+UID:3a5e5b17a54321cdeb6fba075b47ad9c@markthisdate.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE-TIME:20090613T123000Z
+DTEND;VALUE=DATE-TIME:20090613T153000Z
+URL:http://www.markthisdate.com/a/a
+LOCATION:Kennington Oval, Lambeth, London, SE11 5SG, United Kingdom
+SUMMARY:C1 vs D2 - T20WC Super8  (Group E) @ The Oval\,
+  London
+DESCRIPTION:For more information about this event check http://icc-cricket.yahoo.net/wt20-2009/fixtures.html\n\n 
+CLASS:PUBLIC
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTSTAMP:20090610T183700Z
+CATEGORIES:T20 Cricket World Cup 2009
+UID:337cdc7c068f1f8e11b3eca6f08c6406@markthisdate.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE-TIME:20090613T163000Z
+DTEND;VALUE=DATE-TIME:20090613T193000Z
+URL:http://www.markthisdate.com/a/a
+LOCATION:Kennington Oval, Lambeth, London, SE11 5SG, United Kingdom
+SUMMARY:D1 vs B1 - T20WC Super8  (Group F) @ The Oval\,
+  London D/N
+DESCRIPTION:For more information about this event check http://icc-cricket.yahoo.net/wt20-2009/fixtures.html\n\n 
+CLASS:PUBLIC
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTSTAMP:20090610T183700Z
+CATEGORIES:T20 Cricket World Cup 2009
+UID:0d92cd0a37c6172d8641448d0da9f329@markthisdate.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE-TIME:20090614T123000Z
+DTEND;VALUE=DATE-TIME:20090614T153000Z
+URL:http://www.markthisdate.com/a/a
+LOCATION:Kennington Oval, Lambeth, London, SE11 5SG, United Kingdom
+SUMMARY:A2 vs C2 - T20WC Super8  (Group F) @ Lords\,
+  London
+DESCRIPTION:For more information about this event check http://icc-cricket.yahoo.net/wt20-2009/fixtures.html\n\n 
+CLASS:PUBLIC
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTSTAMP:20090610T183700Z
+CATEGORIES:T20 Cricket World Cup 2009
+UID:768d46c7e611b65091fe1f9aeeb145b6@markthisdate.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE-TIME:20090614T163000Z
+DTEND;VALUE=DATE-TIME:20090614T193000Z
+URL:http://www.markthisdate.com/a/a
+LOCATION:Kennington Oval, Lambeth, London, SE11 5SG, United Kingdom
+SUMMARY:A1 vs B2 - T20WC Super8  (Group E) @ Lords\,
+  London D/N
+DESCRIPTION:For more information about this event check http://icc-cricket.yahoo.net/wt20-2009/fixtures.html\n\n 
+CLASS:PUBLIC
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTSTAMP:20090610T183700Z
+CATEGORIES:T20 Cricket World Cup 2009
+UID:75e7df0902de95f4ef4ae0b754aae00b@markthisdate.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE-TIME:20090615T123000Z
+DTEND;VALUE=DATE-TIME:20090615T153000Z
+URL:http://www.markthisdate.com/a/a
+LOCATION:Kennington Oval, Lambeth, London, SE11 5SG, United Kingdom
+SUMMARY:B1 vs A2 - T20WC Super8  (Group F) @ The Oval\,
+  London
+DESCRIPTION:For more information about this event check http://icc-cricket.yahoo.net/wt20-2009/fixtures.html\n\n 
+CLASS:PUBLIC
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTSTAMP:20090610T183700Z
+CATEGORIES:T20 Cricket World Cup 2009
+UID:9a8841e1cf0264c575cc1c8b00d66b3c@markthisdate.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE-TIME:20090615T163000Z
+DTEND;VALUE=DATE-TIME:20090615T193000Z
+URL:http://www.markthisdate.com/a/a
+LOCATION:Kennington Oval, Lambeth, London, SE11 5SG, United Kingdom
+SUMMARY:B2 vs C1 - T20WC Super8  (Group E) @ The Oval\,
+  London D/N
+DESCRIPTION:For more information about this event check http://icc-cricket.yahoo.net/wt20-2009/fixtures.html\n\n 
+CLASS:PUBLIC
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTSTAMP:20090610T183700Z
+CATEGORIES:T20 Cricket World Cup 2009
+UID:2c0dbf1bbd6170d6487bbd2300e76dc9@markthisdate.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE-TIME:20090616T123000Z
+DTEND;VALUE=DATE-TIME:20090616T153000Z
+URL:http://www.markthisdate.com/a/a
+LOCATION:Kennington Oval, Lambeth, London, SE11 5SG, United Kingdom
+SUMMARY:D1 vs C2 - T20WC Super8  (Group F) @ Trent
+  Bridge\, Nottingham
+DESCRIPTION:For more information about this event check http://icc-cricket.yahoo.net/wt20-2009/fixtures.html\n\n 
+CLASS:PUBLIC
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTSTAMP:20090610T183700Z
+CATEGORIES:T20 Cricket World Cup 2009
+UID:63ab0b73f6efce9bf42ea42cd5b702cf@markthisdate.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE-TIME:20090616T163000Z
+DTEND;VALUE=DATE-TIME:20090616T193000Z
+URL:http://www.markthisdate.com/a/a
+LOCATION:Kennington Oval, Lambeth, London, SE11 5SG, United Kingdom
+SUMMARY:D2 vs A1 - T20WC Super8  (Group E) @ Trent
+  Bridge\, Nottingham D\n/N
+DESCRIPTION:For more information about this event check http://icc-cricket.yahoo.net/wt20-2009/fixtures.html\n\n 
+CLASS:PUBLIC
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTSTAMP:20090610T183700Z
+CATEGORIES:T20 Cricket World Cup 2009
+UID:f2c1acf67cd67ea01435ed0d8a776cf0@markthisdate.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE-TIME:20090618T163000Z
+DTEND;VALUE=DATE-TIME:20090618T193000Z
+URL:http://www.markthisdate.com/a/a
+LOCATION:Kennington Oval, Lambeth, London, SE11 5SG, United Kingdom
+SUMMARY:E1 vs F2 - T20WC Semi-Final @ Trent Bridge\,
+  Nottingham D/N
+DESCRIPTION:For more information about this event check http://icc-cricket.yahoo.net/wt20-2009/fixtures.html\n\n 
+CLASS:PUBLIC
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTSTAMP:20090610T183700Z
+CATEGORIES:T20 Cricket World Cup 2009
+UID:5280e5c8206c9b66006a8cc095aa4466@markthisdate.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE-TIME:20090619T163000Z
+DTEND;VALUE=DATE-TIME:20090619T193000Z
+URL:http://www.markthisdate.com/a/a
+LOCATION:Kennington Oval, Lambeth, London, SE11 5SG, United Kingdom
+SUMMARY:E2 vs F1 - T20WC Semi-Final @ The Oval\, London
+  D/N
+DESCRIPTION:For more information about this event check http://icc-cricket.yahoo.net/wt20-2009/fixtures.html\n\n 
+CLASS:PUBLIC
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTSTAMP:20090610T183700Z
+CATEGORIES:T20 Cricket World Cup 2009
+UID:2c64de825022277a184dbfeaf966dd06@markthisdate.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE-TIME:20090620T140000Z
+DTEND;VALUE=DATE-TIME:20090620T170000Z
+URL:http://www.markthisdate.com/a/a
+LOCATION:Kennington Oval, Lambeth, London, SE11 5SG, United Kingdom
+SUMMARY:T20WC Final @ Lords\, London
+DESCRIPTION:For more information about this event check http://icc-cricket.yahoo.net/wt20-2009/fixtures.html\n\n 
+CLASS:PUBLIC
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DTSTAMP:20090610T183700Z
+CATEGORIES:T20 Cricket World Cup 2009
+UID:49ece2604c216c38317c8b9462d0c0a2@markthisdate.com
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,69 @@
+									Web2Calendar License Agreement
+CAREFULLY READ THE FOLLOWING LICENSE AGREEMENT. YOU ACCEPT AND AGREE TO BE BOUND BY THIS LICENSE AGREEMENT BY DOWNLOADING, INSTALLING, USING, OR DISTRIBUTING THE SOFTWARE. IF YOU DO NOT AGREE TO THIS LICENSE, DO NOT INSTALL OR USE THE SOFTWARE.
+
+1. DEFINITIONS
+When used in this Agreement, "Web2Cal" means Web2Cal LLC, located in NJ, USA, and the words "You" and "Your" mean the party purchasing a license to use the Licensed Software under the terms of this agreement.   
+"Licensed Software" means Web2Calendar, License Key and any and all updates thereto, together with all associated documentation provided by Web2Cal. or its authorized resellers. Licensed Software also means uncompiled source code if such source code is provided to You by Web2Cal.
+"License Key" means a unique code provided by Web2Cal or its authorized resellers which identifies You, as well as the license type, and which unlocks or enables certain features of the Licensed Software.
+"Application" or "Your Application" means a software application that You develop which incorporates all or parts of the Licensed Software.
+
+2. OWNERSHIP
+a) The SOFTWARE, as well as the related copyrights and intellectual property rights, are the exclusive property of Web2Cal. Licensee acquires no title, right or interest in the SOFTWARE other than the license rights granted herein.
+b) Licensee shall be responsible for their conservation on the copies received hereunder and for their reproduction on any backup copy of the SOFTWARE or on any portion of the same merged into other programs. Nobody shall remove from the SOFTWARE any trademark, tradename, copyright notice or other notice.
+c) Any source code and document included with the SOFTWARE, unless otherwise specified, is copyrighted by Web2Cal and should NOT be considered public domain. Nobody shall modify the source code without being granted the Advanced Developer License unless it has been declared to be configurable (e.g. the html default templates).
+License types and Grant
+
+3. LICENSE GRANT.
+The Cumulative License granted to You by Web2Cal is a combination of the Base License Grant, described in section (3A) below, which is common to every Licensed Software title covered by this agreement, and one or more supplemental License Grant which covers the specific product obtained by You from Web2Cal or its authorized resellers. There are four types of supplemental licenses:
+
+3A. BASE LICENSE GRANT
+Your acceptance of the terms of this Agreement, Web2Cal hereby grants to You certain nonexclusive and nontransferable rights limited by the terms of this Agreement. The Licensed Software is licensed (not sold) to You, for use strictly under the terms of this Agreement, and Web2Cal reserves all rights not expressly granted to You herein. If You upgrade the Licensed Software to a higher-numbered version thereof or to a comparable Web2Cal product, this license is terminated and Your rights shall be limited to the license associated with the upgraded product or version. 
+
+3B. BASIC FREE LICENSE
+Without payment of a fee whatsoever, in consideration for the mutual covenants contained herein, Web2Cal grants you a non-transferable and non-exclusive license to install and use the SOFTWARE in any non-commercial website, including evaluation for purchase of a commercial license. A non-commercial website means:
+  (a) personal or hobby sites which generate no revenue (whether from commissions, advertisement, sales or any other source);
+  (b) websites owned and maintained by charitable or not-for-profit organisations;
+  (c) websites owned and maintained by a school, college or other educational institution.
+You must provide a link back to webcal.com on every page web2calendar is used. Text links linking to web2cal.com must be readable and must never be hidden, at least font size 9pt must be used.
+
+3C. PREMIUM - SINGLE DOMAIN LICENSE
+Subject to the payment of the fee required for a Single Domain License, Web2Cal grants to you a non-transferable and non-exclusive license to install and use the SOFTWARE on any computer but only for use in ONE registered fully qualified domain name (FQDN) and its "www." prefixed counterpart. Each Single License can be registered with 1 FQDN only
+
+3D. PREMIUM - DOMAIN WIDE LICENSE
+Subject to the payment of the fee required for a Domain Wide License, Web2Cal grants to you a non-transferable and non-exclusive license to install and use the SOFTWARE on any computer but only for use in ONE registered web domain and its subdomains and any non-dotted hostnames. Each Domain License can be registered with 1 web domain only.
+
+3E. PREMIUM - ENTERPRISE LICENSE
+Subject to payment of the fee required for an Enterprise License, Web2Cal grants you a non-transferable and non-exclusive license to install and use the SOFTWARE on any computer within Licensee's organization in connection with unlimited domains and subdomains. You are further permitted to integrate the Licensed Software into Your Applications and to distribute such Licensed Software in connection with said Applications, provided that
+(a) said Applications do not in any way compete with the Licensed Software or expose the functionality of the Licensed Software through a programmable interface;
+(b) each of Your Applications developed using Licensed Software is substantially larger, more complex, and contains a significantly wider range of functions as compared to the Licensed Software;
+(c) each of Your Applications developed using Licensed Software is designed for end users rather than for developers who would be able to build other software that would compete with the Licensed Software, and
+ (d) You do not permit further distribution of the Licensed Software by Your end users.
+
+4. RESTRICTIONS ON USE AND TRANSFER.
+You may not sublicense, rent, lease, assign or otherwise transfer the Licensed Software or any of Your rights thereto, either in whole or in part, to anyone else, except that You may, after obtaining written permission from Web2Cal, permanently transfer the Licensed Software in its entirety, provided You retain no copies of the Licensed Software and the transferee agrees to the terms and conditions of this Agreement. Use of the Licensed Software with a License Key obtained from a source other than Web2Cal or its authorized resellers is expressly and strictly forbidden. Web2Cal reserves the right to take any and all actions that Web2Cal, in its sole discretion, deems necessary to protect against, monitor and control the use of the Licensed Software with illegal License Keys. You agree to ensure that anyone who uses any portion of the Licensed Software provided to You complies with the terms and conditions of this Agreement.
+You may not: a) use any part of the Software or Modifications or Your knowledge of the Software (or any information that You learn as a result of Your use of the Software) to create a product with the same or substantially the same functionality as the Software; b) transfer, rent, lease, or sublicense the Software or Modifications, or any portions thereof; c) change or remove the copyright notice from any of the files included in the Software or Modifications.
+UNDER NO CIRCUMSTANCES MAY YOU USE THE SOFTWARE (INCLUDING WITHOUT LIMITATION THE SOURCE CODE THEREOF) AS THE BASIS FOR OR IN CONNECTION WITH A PRODUCT THAT CONTAINS THE SAME, OR SUBSTANTIALLY THE SAME, FUNCTIONALITY AS THE SOFTWARE.
+
+5. INTELLECTUAL PROPERTY RIGHTS.
+You acknowledge that the Licensed Software contains copyrighted material, trade secrets, trademarks and other proprietary material of Web2Cal("Confidential Information"), and is protected under United States and international copyright law and other applicable laws. You may not engage in any unauthorized use or disclosure of any Confidential Information. You agree that the source code of the Licensed Software is confidential and proprietary to Web2Cal. Accordingly, You may not copy the Licensed Software, or decompile, disassemble, reverse engineer or create a derivative work based upon the Licensed Software, or authorize anyone else to do so. You must reproduce and maintain all copyright notices that are contained in the Licensed Software on any copy thereof that You make or use.
+
+6. TERM AND TERMINATION.
+Except as otherwise provided in this Agreement, the term of the license granted herein is perpetual and becomes effective when You install or use the Licensed Software. You may terminate this license at any time by destroying any and all copies of the Licensed Software or by returning all such copies to Web2Cal. This Agreement and the associated license for the Licensed Software will terminate automatically and without provision of notice by Web2Cal if You fail to comply with any of the terms or conditions of this Agreement or if You cease permanent use of the Licensed Software, for whatever reason. Upon termination of this Agreement for any reason, You agree that You will destroy all copies of the Licensed Software or return all such copies to Web2Cal. In addition to this sentence and the previous sentence, Sections 4, 5 and 7-13 shall survive any termination of this Agreement.
+
+7. DISCLAIMER OF WARRANTIES.
+THERE ARE NO WARRANTIES, CLAIMS OR REPRESENTATIONS MADE BY WEB2CAL, EITHER EXPRESS, IMPLIED, OR STATUTORY, WITH RESPECT TO THE SOFTWARE, INCLUDING WARRANTIES OF QUALITY, PERFORMANCE, NONINFRINGEMENT, MERCHANTABILITY, OR FITNESS FOR A PARTICULAR PURPOSE, NOR ARE THERE ANY WARRANTIES CREATED BY COURSE OF DEALING, COURSE OF PERFORMANCE, OR TRADE USAGE. WEB2CAL DOES NOT WARRANT THAT THE SOFTWARE WILL MEET YOUR NEEDS OR BE FREE FROM ERRORS, OR THAT THE OPERATIONS OF THE SOFTWARE WILL BE UNINTERRUPTED. THE FOREGOING EXCLUSIONS AND DISCLAIMERS ARE AN ESSENTIAL PART OF THIS TERMS AND CONDITIONS, AND FORMED THE BASIS FOR DETERMINING THE PRICE CHARGED FOR THE PRODUCTS. SOME STATES DO NOT ALLOW EXCLUSION OF AN IMPLIED WARRANTY, SO THIS DISCLAIMER MAY NOT APPLY TO YOU. YOU AGREE THAT YOU ARE SOLELY RESPONSIBLE FOR THE ACCURACY AND ADEQUACY OF THE SOFTWARE AND ANY DATA GENERATED OR PROCESSED BY THE SOFTWARE FOR YOUR INTENDED USE AND YOU WILL DEFEND, INDEMNIFY AND HOLD WEB2CAL, ITS OFFICERS AND EMPLOYEES HARMLESS FROM ANY 3RD PARTY CLAIMS, DEMANDS, OR SUITS THAT ARE BASED UPON THE ACCURACY AND ADEQUACY OF THE SOFTWARE IN YOUR USE OR ANY DATA GENERATED BY THE SOFTWARE IN YOUR USE 
+
+8. INDEMNIFICATION.
+You agree to defend, indemnify, and hold Web2Cal and all of its employees, agents, representatives, directors, officers, partners, shareholders, attorneys, predecessors, successors, and assigns harmless from and against any and all claims, proceedings, damages, injuries, liabilities, losses, costs, and expenses (including reasonable attorneys' fees and litigation expenses), relating to or arising from Your use of the Licensed Software, or any breach of this Agreement, except to the extent such claim relates to or arises from a violation by Web2Cal of any third party copyright, trademark, trade secret or other intellectual property right.
+
+9. EXPORT.
+You agree that You will not export or transmit the Licensed Software or any Applications, directly or indirectly, to any restricted countries or in any manner that would violate United States laws and regulations as shall from time to time govern the license and delivery of technology abroad by persons subject to the jurisdiction of the United States government, including the Export Administration Act of 1979, as amended, and any applicable laws or regulations issued thereafter.
+
+10. U.S. GOVERNMENT RESTRICTED RIGHTS.
+If You are licensing the Licensed Software on behalf of the U.S. Government or any of its agencies ("Government"), the use, duplication, reproduction, release, modification, disclosure or transfer of the Licensed Software by the Government is subject to restricted rights in accordance with Federal Acquisition Regulation ("FAR") 12.212 for civilian agencies and Defense Federal Acquisition Regulation Supplement ("DFARS") 227.7202 for military agencies. The Licensed Software is commercial. Use of the Licensed Software by the Government is further restricted in accordance with the terms and conditions of this Agreement.
+
+11. MISCELLANEOUS.
+If any provision of this Agreement is held to be invalid or unenforceable under any circumstances, its application in any other circumstances and the remaining provisions of this Agreement shall not be affected. No waiver of any right under this Agreement shall be effective unless given in writing by an authorized representative of Web2Cal. No waiver by Web2Cal of any right shall be deemed to be a waiver of any other right of Web2Cal arising under this Agreement. This Agreement is solely between You and Web2Cal and shall not be construed to create any third party beneficiary rights in any other individual, partnership, corporation or other entity.    
+
+12. ENTIRE AGREEMENT.
+YOU AGREE THAT THIS AGREEMENT IS THE COMPLETE AND EXCLUSIVE STATEMENT OF THE AGREEMENT BETWEEN YOU AND WEB2CAL, AND THAT IT SUPERSEDES ANY PROPOSALS OR PRIOR AGREEMENTS, ORAL OR WRITTEN, AND ANY OTHER COMMUNICATIONS RELATING TO THE LICENSED SOFTWARE AND THE SUBJECT MATTER HEREOF. WEB2CAL SHALL NOT BE BOUND BY ANY PROVISION OF ANY PURCHASE ORDER, RECEIPT, ACCEPTANCE, CONFIRMATION, CORRESPONDENCE OR OTHERWISE, OR BY ANY AGREEMENT BETWEEN YOU AND ANY OTHER PARTY, UNLESS WEB2CAL SPECIFICALLY AGREES TO SUCH PROVISION IN WRITING IN A FORM OF A LEGAL CONTRACT, DATED AND SIGNED BY YOU AND BY WEB2CAL 'S OFFICER OR AUTHORIZED EMPLOYEE. NO VENDOR, DISTRIBUTOR, PROVIDER, RESELLER, OEM, SALES REPRESENTATIVE, OR OTHER PERSON IS AUTHORIZED TO MODIFY THIS AGREEMENT OR TO MAKE ANY WARRANTY, REPRESENTATION OR PROMISE REGARDING THE LICENSED SOFTWARE WHICH IS DIFFERENT FROM THOSE SET FORTH IN THIS AGREEMENT.

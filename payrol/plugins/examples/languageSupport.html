@@ -1,0 +1,132 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="../css/optionalStyling.css"> 
+        <link type="text/css" rel="stylesheet" href="../css/web2cal.css"> 
+		
+        <script src="../ext/jquery-1.3.2.min.js"> </script>
+        <script src="../ext/jquery.cookie.js"> </script> 
+        <script src="../js/Web2Cal-Basic-2.0-min.js">  </script>
+        <script src="../js/web2cal.support.js">  </script>
+        <script src="../js/web2cal.default.template.js">  </script>
+		
+		<!-- Import the specific language files -->		
+        <script src="../js/locale/Locale_FR.js">  </script>
+        <script src="../js/locale/Locale_HU.js">  </script>
+        <script src="../js/locale/Locale_IT.js">  </script>
+        <script src="../js/locale/Locale_SP.js">  </script>
+        <title>Web2Cal | Localization [Language] Support</title>
+    </head>
+  
+    <body>    
+		<h2>
+			<a href="http://web2cal.com/">Web2Cal Ajax Events Calendar</a>
+		</h2>  
+		<p>
+		 	This demo is for evaluation purpose only. Upgrade to Web2Cal Premium version, to get much 
+			
+			Better Performance (Can handle LARGE set of data),
+			DST Support, Themes, 
+			Easy Debugging,  
+			More Callback Functions,
+			Recurring Events,
+			and many more views. 
+		</p> 
+		<p>
+			Read the <a href="http://web2cal.com/ajaxeventscalendar/license">License Terms</a> Carefully before using it.	<strong>	Do NOT use this package in a commercial website. </strong>
+		</p>	
+		<select id="languages">
+				<option value="EN">English</option>
+				<option value="FR">French</option>
+				<option value="IT">Italian</option>
+				<option value="SP">Spanish</option>
+		</select>
+		<input type="button" value="GO" onclick="selectLanguage()"/>
+		<br/>
+        <div id="calendarContainer">
+        </div>    
+    </body> 
+</html>
+<script>
+	
+    var ical;
+	//Function to get language stored in cookie  
+	function getCookieValue(name, defaultValue)
+	{
+		var val=jQuery.cookie(name); 
+		if(!val)
+		{
+			val=defaultValue;
+		} 
+		return val;
+	}
+	
+	function selectLanguage()
+	{
+		//Get the selected language.
+		var lang = jQuery("#languages").val();
+		
+		//Save it in cookie
+		jQuery.cookie("language", lang);
+		
+		//Reload the page
+		window.location.reload();
+	}
+		
+    /*
+     Create the Calendar.
+     */
+    function drawCalendar()
+    {
+		//getValues from cookie 
+		var lang=getCookieValue( "language", "EN");
+		Web2Cal.LANG=eval("Web2CalLanguage_"+lang); //Set this value to language you need before initiating Web2Cal.
+		
+		
+        ical = new Web2Cal('calendarContainer', {
+            loadEvents: function(){ical.render(new Array());},             
+            onNewEvent: onNewEvent,
+			showOptions:true, 
+			optionsOnClick: showFilter
+
+        });
+        ical.build();
+    }
+     
+    
+	function showFilter()
+	{
+		new Web2Cal.popup( {
+				url: "settings.html"	,
+				title: "Change Calendar Settings",
+				width: "500px",
+				height: "350px"
+		});
+	}
+	
+    /*
+     Method invoked when creating a new event, before showing the new event form.
+     @param obj - Object containing (startTime, endTime)
+     @param groups - List of Group objects ({groupId, name})
+     @param allday - boolean to indicate if the event created is allday event.
+     */
+    function onNewEvent(obj, groups, allday)
+    {
+        Web2Cal.defaultPlugins.onNewEvent(obj, groups, allday); 
+    }
+      
+    /**
+     * Onclick of Close in AddEvent Box.
+     */
+    function rzCloseAddEvent()
+    {
+        ical.closeAddEvent();
+    } 
+    /**
+     * Once page is loaded, invoke the Load Calendar Script.
+     */
+    jQuery(document).ready(function()
+    { 
+	 	drawCalendar(); 
+    });
+</script>

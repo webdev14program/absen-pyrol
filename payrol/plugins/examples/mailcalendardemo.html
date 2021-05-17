@@ -1,0 +1,487 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>   
+        <link type="text/css" rel="stylesheet" href="../css/optionalStyling.css"> 
+        <link type="text/css" rel="stylesheet" href="../css/web2cal.css"> 
+        <link type="text/css" rel="stylesheet" href="../css/mailcal.css"> 
+        <link type="text/css" rel="stylesheet" href="../ext/css/ui-lightness/jquery-ui-1.8.1.custom.css"> 
+		
+        <script src="../ext/jquery-1.3.2.min.js"> </script>
+		<script src="../ext/jquery.cookie.js"> </script>
+		<script src="../ext/jquery-ui-1.8.1.custom.min.js"> </script>
+        <script src="../js/Web2Cal-Basic-2.0-min.js">  </script>
+        <script src="../js/web2cal.support.js">  </script>
+        <script src="../js/web2cal.default.template.js">  </script>  
+        <script src="../js/sampleData.js"> </script> 
+		
+        <script src="../js/locale/Locale_FR.js">  </script>
+        <script src="../js/locale/Locale_HU.js">  </script>
+        <script src="../js/locale/Locale_IT.js">  </script>
+        <script src="../js/locale/Locale_SP.js">  </script>
+        <title>Web2Cal | Webmail</title> 
+    </head>
+    <body>	
+		<h2>
+			<a href="http://web2cal.com/">Web2Cal Ajax Events Calendar</a>
+		</h2>  
+		<p>
+		 	This demo is for evaluation purpose only. Upgrade to Web2Cal Premium version, to get much 
+			
+			Better Performance (Can handle LARGE set of data),
+			DST Support, Themes, 
+			Easy Debugging,  
+			More Callback Functions,
+			Recurring Events,
+			and many more views. 
+		</p> 
+		<p>
+			Read the <a href="http://web2cal.com/ajaxeventscalendar/license">License Terms</a> Carefully before using it.	<strong>	Do NOT use this package in a commercial website. </strong>
+		</p>
+        <div id="mailContents">
+            <div class="fleft">
+                <div class="maillogo">
+                		WebMail
+                </div>
+            </div>
+            <div class="fright calendarInfo">
+                <ul>
+                    <li>
+                        demo@web2cal.com
+                    </li>
+                    <li>
+                        <a href="#" onclick="alert('This is a Demo');">Settings</a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="alert('This is a Demo');">Help</a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="alert('This is a Demo');">Logout</a>
+                    </li>
+                </ul>
+            </div>
+            <div style="clear:both;">
+            </div>
+            <div id="menu">
+                <ul class="menu">
+                    <li class="level1 item1 first">
+                        <a href="#" onclick="alert('This is a demo')" class="level1 item1 first"><span>Mail</span></a>
+                    </li>
+                    <li class="level1 item2 active">
+                        <a href="#" onclick="alert('This is a demo')" class="level1 item2 active"><span>Calendar</span></a>
+                    </li>
+                    <li class="level1 item3 ">
+                        <a href="#" onclick="alert('This is a demo')"  class="level1 item3 "><span>Address Book</span></a>
+                        <li class="level1 item1 first">
+                            <a href="#" onclick="alert('This is a demo')" class="level1 item1 first"><span style="">Tasks</span></a>
+                        </li>
+                        <li class="level1 item1 first">
+                            <a href="#" onclick="alert('This is a demo')" class="level1 item1 first"><span style="">Documents</span></a>
+                        </li>
+                    </li>
+                </ul>
+                <div class="menuSearchBox" style="margin-top:13px;margin-right:5px; color: #fff;float:right;">
+                    Search Mail: <input type="text" style="width:20em;">
+                </div>
+            </div>
+            <div style="clear:both">
+            </div>
+            <div id="calendarContainer">
+            </div>
+        </div>
+        <div id="newCalEvent" class="calendarForm" style="padding: 8px; display:none;">
+            <table width="96%" border="0" cellspacing="2" cellpadding="2">
+                <tr>
+                    <td>
+                        <div class="label">
+                            Event Name
+                        </div>
+                    </td>
+                    <td colspan="2">
+                        <input type="text" class="calInput" id="eventName" name="eventName" style="width:26em;"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="label">
+                            Calendar
+                        </div>
+                    </td>
+                    <td>
+                        <div class="selectGroup">
+                            <select id="eventGroup" style=" width: 10em" name="eventGroup">
+                            </select>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="label">
+                            Time
+                        </div>
+                    </td>
+                    <td>
+                        <input type="text" class="calInput"  class="calInput"  id="eventStartDate" style=" width: 6em" name="eventStartDate" />
+						<input type="text" class="calInput"  id="eventStartTime" style=" width: 5em" name="eventStartTime" />
+						TO 
+						<input type="text" class="calInput"  id="eventEndDate" style=" width: 6em" name="eventEndDate" />
+						<input type="text" class="calInput"  id="eventEndTime" style=" width: 5em" name="eventEndTime" />
+                    </td>
+                    <td>
+                        <div class="label">
+                            All day?<input type="checkbox" id="allDayEvent" class="inputbox" />
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="label">
+                            Description
+                        </div>
+                    </td>
+                    <td colspan="2">
+                        <textarea cols="38" rows="2" name="eventDesc" id="eventDesc">
+                        </textarea>
+                    </td>
+                </tr>
+            </table> 
+            <div style="position:absolute; width:90%;bottom:0px;border-top:0px solid #ccc;text-align:center;">
+                <table align="center">
+                    <tr>
+                        <td align="center" colspan="2">
+                            <a class="websbutton" name="edit" style="width: 80px;float:left; margin-right:15px;" href="javascript:void(0)" onclick="return createNewEvent();">Create event</a>
+                            <a class="ui-dialog-close websbutton" role="button" name="delete" style="width: 80px;float:left; margin-right:15px;" href="#" onclick="jQuery('#newCalEvent').dialog( 'close' );">Close</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
+<script>
+    var ical;
+    
+    function createNewEvent()
+    { 
+        var newEv = getNewEventObj(); 
+        jQuery("#newCalEvent").dialog( "close" );
+        ical.addEvent(newEv);
+        return false;
+    }
+    
+    function selectRadio(name)
+    {
+        jQuery("input[name='" + name + "']").attr('checked', true);
+    }
+    
+	function getCookieValue(name, defaultValue)
+	{
+		var val=jQuery.cookie(name);
+		
+		if(!val)
+		{
+			val=defaultValue;
+		} 
+		return val;
+	}
+    /*
+     Create the Calendar.
+     */
+    function drawCalendar()
+    {
+		var lang=getCookieValue( "language", "EN");
+		Web2Cal.LANG=eval("Web2CalLanguage_"+lang);
+		  
+        ical = new Web2Cal('calendarContainer', {
+            loadEvents: loadCalendarEvents,
+            onUpdateEvent: updateEvent,            
+            onNewEvent: onNewEvent,			
+            showLeftNav: true,
+            leftNavTitle: "Calendars",
+            newEventInPopUp: true,
+            defaultView: getCookieValue( "defaultView", "week"), 
+            startTime: (+getCookieValue( "startTime", 0)), 
+			endTime: (+getCookieValue( "endTime", 24)),
+			customViewSize: (+getCookieValue( "customViewSize", 4)),
+			startOfWeek:(+getCookieValue( "startOfWeek", 1)),
+			timeFormat: (+getCookieValue( "timeFormat", 0)),
+            views: getCookieValue( "viewsList", "day, month, week, workweek, agenda, custom"),
+			optionsOnClick: showOptions,
+			showOptions: true,
+			date: "10/21/2009",
+            newEventTemplate: "newCalEvent",
+            onRecEventUpdate: onRecurssiveEventUpdate 
+        });
+        
+        Web2CalConstants.NEW_EVENT_POPUP_WIDTH = "450px";
+        Web2CalConstants.NEW_EVENT_POPUP_HEIGHT = "370px";
+        
+        ical.build();
+    }
+    
+	function showOptions()
+	{
+		new Web2Cal.popup( {
+				url: "settings.html"	,
+				title: "Change Calendar Settings",
+				width: "500px",
+				height: "350px"
+		});
+	}
+	function onRecurssiveEventUpdate(evt)
+	{
+		ical.updateEvent(evt);
+	}
+    
+    function showRecurrenceOptions(obj)
+    {
+        var val = obj.value;
+        jQuery(".recurrenceOptions").hide(); 
+        if (val != "") 
+        {
+            jQuery("#recurrenceContainer").show();
+            jQuery(".recurrenceOptions" + val).fadeIn(700);
+        }
+        else 
+        {
+            jQuery("#recurrenceContainer").hide();
+        }
+    } 
+    
+    /*
+     Method invoked when event is moved or resized
+     @param event object containing eventID and newly updated Times
+     */
+    function updateEvent(event)
+    { 
+        ical.updateEvent(event);
+    }
+    
+    /*
+     Method invoked when creating a new event, before showing the new event form.
+     @param obj - Object containing (startTime, endTime)
+     @param groups - List of Group objects ({groupId, name})
+     @param allday - boolean to indicate if the event created is allday event.
+     */
+    function onNewEvent(obj, groups, allday)
+    { 
+        var st = new UTC(obj.startTime);
+        var ed = new UTC(obj.endTime);
+      
+        var newevt = jQuery("#newCalEvent");
+        newevt.find("#recursiveEvent").attr("checked", false).end()
+		.find("#recursionContainer").hide().end()
+		.find("#eventDesc").val("").end()
+		.find("#eventName").val("").focus().end()
+		.find("#startDate").val(st.toJustDateString()).end()
+		.find("#endDate").val(ed.toJustDateString()).end()
+		.find("#recurrenceStartLabel").html(st.toStandardFormat()).end()
+		.find("#recurrenceMonthRuleOnTheNthDay").html(st.getDate() + " of Month").end()
+		.find("#recurrenceMonthHdnDate").val(st.getDate()).end()
+		.find(".recurrenceWeeklyDay").attr("checked", false).end()
+		.find("#recurrenceWeeklyDay" + (st.getDay())).attr("checked", true).end()
+		.find("#eventStartDate").val(st.toStandardFormat()).end()
+		.find("#eventEndDate").val(ed.toStandardFormat());
+        
+        if (allday) 
+        {
+            newevt.find("#allDayEvent").attr("checked", true);
+            newevt.find("#eventStartTime").val("").end().find("#eventEndTime").val("");
+        }
+        else 
+        {
+            newevt.find("#allDayEvent").attr("checked", false);
+            newevt.find("#eventStartTime").val(st.toNiceTime());
+            newevt.find("#eventEndTime").val(ed.toNiceTime());
+            
+        }
+        
+        var groupDD = newevt.find("#eventGroup").get(0);
+        removeAllOptions(groupDD);
+        var self = this;
+        for (var g in groups) 
+        {
+            if (!groups.hasOwnProperty(g)) 
+                continue;
+            var gId = groups[g].groupId;
+            addOption(groupDD, groups[g].groupName, groups[g].groupId, false);
+        } 
+    } 
+	
+    function createExclusion(mainEventId, fTime, tTime, sequence, gId, name, deleted)
+	{
+		return {
+			 eventId: 100
+			,parentEventId: mainEventId
+			,startTime: fTime.getDateObj()
+			,endTime: tTime.getDateObj()
+			,sequence: sequence
+			, eventType:"EXCLUDE"
+			, group: {groupId: gId, name: name}
+			, deleted: deleted
+		};
+	}
+    /**
+     Method to get Events and display it in the calendar.
+     If you need to make an asynchronous call, invoke ical.render in the callback method.
+     @param startTime - Calendar Display Range start
+     @para endTime - Calendar End Range end
+     */
+    function loadCalendarEvents(startTime, endTime)
+    {
+        var calendars = new Array();
+        var events=new Array();  	    
+		events.push(createEvent("Status Meetings", 2, "", "", createDateTime(10, 0,-6), createDateTime(11, 30,-6), "Project Status Meeting", false));
+		      events.push(createExclusion(2, createDateTime(14, 0,-8), createDateTime(16, 0,-8), 4));
+				events.push(createEvent("Board Meeting", 3, "", "", createDateTime(11, 30,-2), createDateTime(13, 30,-2), "Company Board Meeting", false));
+				events.push(createEvent("Off to MIAMI", 5, "", "", createDateTime(4, 30,-2), createDateTime(13, 30,-1), "Miami Meeting", true  ));        	        
+        calendars.push({
+            groupId: 1,
+            name: "Work Calendar", events:events 
+    	    
+        });
+        var events=new Array();       
+		 events.push(createEvent("Dinner with Sue", 1, "", "", createDateTime(19, 0,-2), createDateTime(21, 30,-2), "Dinner with Sue @ Pensi", false ));
+        calendars.push({
+            groupId: 2,
+            name: "Personal Calendar",
+            events:events 
+        });
+        ical.render(calendars);
+    }
+    /*
+     Click on Edit Button in preview window
+     */
+    function rzEditEvent()
+    {
+        alert("editing");
+    }
+    
+    /**
+     Clicking delete in Preview window
+     */
+    function rzDeleteEvent()
+    {
+        alert("Delete Event in DB and invoke ical.deleteEvent({eventId: id})");
+    }
+    
+    /**
+     * Sets up the new event, date control / time control etc...
+     *
+     * @param {Object} newevt
+     */
+    function setupNewEvt(newevt)
+    {
+        newevt.find("#eventStartDate").datepicker({
+            format: 'm/d/Y' 
+        });
+        
+        newevt.find("#eventEndDate").datepicker({
+            format: 'm/d/Y'
+        });
+        
+        newevt.find("#recurrenceRuleEndTimeDate").datepicker();
+        
+        
+        //setup recurring.. 
+        var recChk = newevt.find("#recursiveEvent").get(0);
+        if (recChk) 
+        {
+            recChk.onclick = function()
+            {
+                if (this.checked) 
+                {
+                    newevt.find("#recursionContainer").slideDown(500);
+                }
+                else 
+                {
+                    newevt.find("#recursionContainer").slideUp(400);
+                }
+                
+            };
+        }
+        var alldaybox = newevt.find("#allDayEvent").get(0);
+        var _sTime;
+        var _eTime;
+        if (alldaybox) 
+        {
+            alldaybox.onclick = function()
+            {
+                if (this.checked) 
+                {
+                    _sTime = newevt.find("#eventStartTime").val();
+                    _eTime = newevt.find("#eventEndTime").val();
+                    newevt.find("#eventStartTime").attr("disabled", true).val("");
+                    newevt.find("#eventEndTime").attr("disabled", true).val("");
+                }
+                else 
+                {
+                    newevt.find("#eventStartTime").attr("disabled", false).val(_sTime);
+                    newevt.find("#eventEndTime").attr("disabled", false).val(_eTime);
+                    
+                };
+             };
+        } 
+        new Web2Cal.TimeControl(newevt.find("#eventStartTime").get(0));
+        new Web2Cal.TimeControl(newevt.find("#eventEndTime").get(0), newevt.find("#eventStartTime").get(0), {
+            onTimeSelect: updateDateForTime,
+            dateField: "eventEndDate"
+        });
+        
+    }
+    
+    /**
+     Click of Add in add event box
+     */
+    function getNewEventObj()
+    {
+    
+        var newEventContainer = jQuery("#newCalEvent");
+        var name = newEventContainer.find("#eventName").val();
+        var grp = newEventContainer.find("#eventGroup").val();
+        var grpName = newEventContainer.find("#eventGroup  option:selected").text();
+        
+        var strtTime = newEventContainer.find("#eventStartTime").val();
+        var endTime = newEventContainer.find("#eventEndTime").val();
+        var startDate = newEventContainer.find("#eventStartDate").val();
+        var endDate = newEventContainer.find("#eventEndDate").val();
+        
+        if (name == "") 
+        {
+            name = HtmlEncode("No Title");
+        }
+        
+        var alldaybox = jQuery("#allDayEvent", newEventContainer).get(0);
+        var allday = alldaybox.checked;
+        
+        //var newev={name:name,description:desc,startDate:date,endDate:endDate, startTime:strtTime,endTime:endTime, group:grp, allDay: allday};
+        var start = getDateFromStrings(startDate, strtTime);
+        var end = getDateFromStrings(endDate, endTime);
+        if (allday) 
+        {
+            start.setHours(0, 0, 0);
+            end.setHours(0, 0, 0);
+        }
+        
+        var newev = {
+            name: name,
+            startTime: start,
+            endTime: end,
+            allDay: allday,
+            group: {
+                groupId: grp,
+                name: grpName
+            }        
+            ,
+            eventId: Math.ceil(999 * Math.random())
+        };
+        return newev;
+    } 
+    /*
+     Once page is loaded, invoke the Load Calendar Script
+     */
+    jQuery(document).ready(function()
+    {
+        drawCalendar();
+        setupNewEvt(jQuery("#newCalEvent"));
+    });
+</script>

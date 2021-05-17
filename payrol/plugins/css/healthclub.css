@@ -1,0 +1,393 @@
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    p adding: 5px;
+    margin: 0px;
+    color: #888;
+}
+
+div.calheaderContainer, #calNavData li a.current
+{
+    background: url("../images/healthclub/vistablue.gif") 0px -2px repeat-x !important;
+}
+
+div.leftNavGroupsList
+{
+    background: #E4E8E8 url("../images/healthclub/hdrbg.gif") 0px 0px repeat-x !important;
+}
+
+div.leftNavGroupsList .header
+{
+    background-color: transparent !important;
+}
+
+div.calheaderContainer
+{
+    height: 22px;
+}
+
+div#recursionContainer
+{
+    background-color: #E8EEF7;
+}
+
+div#calNavData li a
+{
+    background: url("../images/healthclub/hdrbg2.gif") repeat-x;
+}
+
+div.mcell
+{
+    background-color: #EFF3F7;
+    border: 1px solid #fff;
+}
+
+div.mcell .dateCont
+{
+    height: 12px;
+    font-size: 10px;
+    border-bottom: none;
+    text-align: right;
+    font-weight: bold;
+    background-color: transparent;
+    text-align: -moz-right;
+    overflow: hidden;
+    padding-right: 2px;
+    z-index: 35;
+}
+
+div.notInMonth
+{
+    background-color: #E4E8E8;
+}
+
+div.calStatus .calStatusHeader, .timeTxt:hover, .timeTxtover, .minicalContainer, #calNavData li a.current, .plotterContent, .monthAllEventsContainer .header
+{
+    background-color: #0F4C63 !important;
+}
+
+div.plotterContent
+{
+    padding: 0px 1px 6px 6px !important;
+}
+
+div.calendarForm
+{
+    font-size: 10px;
+}
+
+div.calendarForm div.label, .calendarForm label, .calendarForm td, .fullPreview td, .calendarTemplate td
+{
+    padding: 2px 0px;
+    font-size: 11px;
+}
+
+div.calendarForm input.calInput, .calendarForm textarea, .calendarForm select
+{
+    font-size: 11px;
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-color: #333 #ccc #ccc #333;
+}
+
+div#menu
+{
+    height: 40px;
+    border-bottom: 2px solid #fff;
+}
+
+div#menu input
+{
+    padding-left: 36px;
+    background: #fff url(../images/search.gif) 0px -4px no-repeat
+}
+
+div#menu, .weekrow th, .navHeader th, .navHeaderRow th
+{
+    background: url("../images/dark-bg.gif") repeat-x;
+}
+
+div#menu
+{
+    background: #fff url("../images/dark-bg.gif") 0px 12px repeat-x;
+} 
+.leftNavGroupsList .header, .weekrow th, .navHeader th, .navHeaderRow th
+{
+    background-color: #4D4D4E
+}
+
+div#menu ul
+{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    float: left;
+}
+
+div#menu li
+{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    float: left;
+}
+
+div#menu li a, #menu li span.separator
+{
+    height: 40px;
+    display: block;
+    float: left;
+    line-height: 50px;
+    text-decoration: none;
+    color: #000000;
+    overflow: hidden;
+}
+
+div#menu li span
+{
+    display: block;
+}
+
+div#menu li span
+{
+    background-repeat: no-repeat;
+    background-position: 95% 0px;
+}
+
+div#menu li a.current
+{
+    color: #aa1428;
+}
+
+div#menu a:hover, div#menu span.separator:hover, div#menu span.sfhover, div#menu a.current:hover
+{
+    color: #aa1428;
+}
+
+div#menu li.active
+{
+    font-weight: bold;
+}
+
+div#menu li.level1
+{
+    margin-right: 5px;
+}
+
+div#menu a.level1 span, div#menu span.level1 span
+{
+    padding: 0px 15px 0px 15px;
+}
+
+div#menu li.level1:hover, div#menu li.sfhover
+{
+    background: #888;
+}
+
+div#menu li.sfhover li.sfhover
+{
+    background: none;
+}
+
+div#menu li:hover a.level1, div#menu li.sfhover a.level1, div#menu li:hover span.level1, div#menu li.sfhover span.level1
+{
+    background: #888;
+}
+
+div#menu li.active
+{
+    background: #ccc;
+}
+
+div#menu a.active, div#menu span.active
+{
+    background: #ccc;
+}
+
+div#menu li.active li
+{
+    background: none;
+}
+
+div#menu li li a.active
+{
+    background: none;
+}
+
+div#menu li a.level1, #menu li span.level1
+{
+    color: #ffffff;
+}
+
+div#menu li.active a.level1, #menu li.active span.level1
+{
+    line-height: 43px;
+    color: #000000;
+}
+
+div#menu li:hover a.level1, #menu li:hover span.level1, div#menu li.sfhover a.level1, #menu li.sfhover span.level1
+{
+    line-height: 43px;
+    color: #000000;
+}
+
+div#menu li.level1 a:hover.level1, #menu li.level1 span:hover.level1, #menu li.level1 span.sfhover span
+{
+    color: #aa1428;
+}
+
+div#menu li:hover ul, div#menu li.sfhover ul
+{
+    left: 0px;
+    z-index: 100;
+}
+
+div#menu li.level1 li
+{
+    width: 100%;
+    text-indent: 15px;
+}
+
+div#menu li.level1 li a, div#menu li.level1 li span.separator
+{
+    height: 25px;
+    padding: 0px;
+    margin: 0px 1px 0px 1px;;
+    float: none;
+    display: block;
+    line-height: 25px;
+}
+
+div#calendarContainer
+{
+    padding: 0px;
+    margin: 0px;
+    background-color: #f1f1f1;
+}
+
+div#calendarContainer .content
+{
+    padding-right: 180px;
+    padding-left: 0px;
+} .minicalContainer
+{
+    padding-right: 2px !important;
+    padding-left: 0px !important;
+} .ssminical
+{
+    margin-right: 2px !important;
+    margin-left: 0px !important;
+}
+
+div#calendarContainer .leftNav
+{
+    position: absolute;
+    bottom: 10px;
+    right: 0px !important;
+    left: auto !important;
+}
+
+div#calendarContainer .topnavContainer
+{
+    height: 25px;
+    color: #fff !important;
+}
+
+div#calendarContainer .topnavContainer a
+{
+    color: #fff !important;
+}
+
+div#calendarContainer .topnavContainer a:hover
+{
+    color: #fff !important;
+    background-color: #ccc !important;
+}
+
+div#calendarContainer .topnavContainer a.current:hover
+{
+    color: #fff !important;
+    background-color: #fff !important;
+}
+
+div#calendarContainer .topnavContainer #calNavData li a.current
+{
+    background-color: #fff;
+    color: #333 !important;
+}
+
+div#calendarContainer .topnavContainer #calNavData li a
+{
+    background-color: transparent;
+}
+
+div#mailContents
+{
+}
+
+div.nextButton
+{
+    background: url("../images/healthclub/right.gif");
+    background-position: 0px 3px;
+    height: 19px;
+    width: 19px;
+    background-repeat: no-repeat;
+}
+
+div.prevButton
+{
+    background: url("../images/healthclub/left.gif");
+    background-position: 2px 3px;
+    width: 19px;
+    height: 19px;
+    background-repeat: no-repeat;
+} .calendarInfo a
+{
+    color: #00417b;
+    font-weight: normal;
+    text-decoration: none;
+}.calendarInfo a:hover
+{
+    color: #00417b;
+    font-weight: normal;
+    text-decoration: underline;
+} .calendarInfo
+{
+    color: #00417b;
+    font-weight: bold;
+    top: 3px;
+    position: relative;
+    margin-right: 20px;
+} .calendarInfo ul
+{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+} .calendarInfo ul li
+{
+    float: left;
+    margin: 0px 10px;
+} .maillogo
+{
+    background: url("http://www.web2cal.com/images/web2cal-logo.png") 1px 0px no-repeat;
+    width: 650px;
+    height: 50px;
+}  .calStatus .calStatusHeader, .timeTxt:hover, .timeTxtover
+, #calendarContainer .topnavContainer,   #calNavData li a.current
+, .monthAllEventsContainer .header
+{
+    background-color: #7F7F7F;
+} .calNavGoNext
+{
+    background-position: -20px -217px;
+    background-repeat: no-repeat;
+} .calNavGoPrev
+{
+    background-position: -4px -217px;
+    background-repeat: no-repeat;
+} .labelBlock
+{
+} 

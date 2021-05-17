@@ -1,0 +1,17 @@
+Version V2.0 (May, 2010)
+Code Cleanup
+Support for Generic Preview and New Event Templates. 
+Support for Generic onNewEvent Callback.
+Cleaned up Options
+Cleaned up Demos
+Restructured Demos 
+New Demos
+Added support for editEventTemplate
+Additional Languages support (SP, IT, HU, FR)
+Complete working PHP Example
+
+Version V-1.2.9-0810G 
+Bug Fixes
+	Time Formatting fix in time control.
+	Fixed The To Date to show the display range + 1 
+	Fixed TimeControl to hide on creating new event on grid.

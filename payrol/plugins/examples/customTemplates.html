@@ -1,0 +1,388 @@
+ <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="../css/optionalStyling.css"> 
+        <link type="text/css" rel="stylesheet" href="../css/web2cal.css"> 
+		
+        <script src="../ext/jquery-1.3.2.min.js"> </script> 
+        <script src="../js/Web2Cal-Basic-2.0-min.js">  </script>
+        <script src="../js/web2cal.support.js">  </script>
+        <script src="../js/web2cal.default.template.js">  </script>
+        <script src="../js/sampleData.js">  </script> 
+        <title>Web2Cal | Custom Templates Demo</title> 
+    </head>
+  
+    <body>
+		<h2>
+			<a href="http://web2cal.com/">Web2Cal Ajax Events Calendar</a>
+		</h2>  
+		<p>
+		 	This demo is for evaluation purpose only. Upgrade to Web2Cal Premium version, to get much 
+			
+			Better Performance (Can handle LARGE set of data),
+			DST Support, Themes, 
+			Easy Debugging,  
+			More Callback Functions,
+			Recurring Events,
+			and many more views. 
+		</p> 
+		<p>
+			Read the <a href="http://web2cal.com/ajaxeventscalendar/license">License Terms</a> Carefully before using it.	<strong>	Do NOT use this package in a commercial website. </strong>
+		</p>
+        <div id="calendarContainer">
+        </div>  
+		<!-- Preview Template... -->
+	     <div id="customPTemplate"  class="calendarTemplate fullPreviewTemplate " style="display:none">
+			<div class="aPointer p-left" style="display: block; z-index: 2; "></div>
+			<div id="ds-right" class="dshadow ds-right"></div>
+			<div id="ds-bottom" class="dshadow ds-bottom"></div>
+			<div id="ds-corner" class="dshadow ds-corner"></div> 
+				<div class="header">
+						${eventName}
+					</div> 
+					<div class="prevRow">			
+						<label>From: </label>
+						<div class="value">${_formattedStartDate} ${formattedStartTime}</div>
+					</div>	
+					<div class="prevRow">	
+						<label>To: </label>		
+						<div class="value">${_formattedEndDate} ${formattedEndTime}</div>
+					</div>	
+					<div class="prevRow">	
+						<label>Description: </label>
+						<div class="value">${description}</div>
+					</div>	
+
+					<div class="prevRow">	
+						<label>Movable: </label>
+						<div class="value">${movable}</div>
+					</div>	
+
+					<div class="prevRow">	
+						<label>Resizable: </label>
+						<div class="value">${resizable}</div>
+					</div>	
+
+					<div class="prevRow">	
+						<label>Attribute 1: </label>
+						<div class="value">${attribute1}</div>
+					</div>	
+					
+					<div class="prevRow">	
+						<label>Attribute 2: </label>
+						<div class="value">${attribute2}</div>
+					</div>	
+					
+					<div class="prevRow">	
+						<label>Attribute 3: </label>
+						<div class="value">${attribute3}</div>
+					</div>	
+					
+					<div class="prevRow">	
+						<label>Attribute 4: </label>
+						<div class="value">${attribute4}</div>
+					</div>	
+					
+					<div class="prevRow">	
+						<label>Attribute 5: </label>
+						<div class="value">${attribute5}</div>
+					</div>	
+					
+					<div class="prevRow">	
+						<label>Attribute 6: </label>
+						<div class="value">${attribute6}</div>
+					</div>	
+					
+					<br/>
+			<ul class="actions">
+				<li> <a href="#" onclick="editMyEvent('${eventId}');" name="edit" class="buttonSmall"> Edit event </a> </li>
+				<li> <a href="" onclick="deleteMyEvent('${eventId}');" name="delete" class="buttonSmall"> Delete event </a> </li>  
+			</ul> 
+		</div> 
+		 
+		 
+		
+		<!-- New Form --> 
+		<div id="customNewEventTemplate" class="calendarTemplate newEventTemplate">
+			<div class="aPointer p-left " ></div>
+			<div class="header" >
+				Create New Event
+			</div>
+			<div class="formRow">
+					<div class="fleft">
+						<label>Name: </label>		
+						<div class="value"><input type="text" name="eventName" style="width:19em;" id="eventName"></div>			
+					</div>		
+			</div>				
+			<div class="formRow">
+					<label>Time: </label>
+					<div class="value">
+						<input type="Text" name="eventStartDate" style="width:5em;" id="eventStartDate"/>
+						<input type="Text" name="eventStartTime" style="width:4em;" id="eventStartTime"/>
+						<input type="Text" name="eventEndDate" style="width:5em;" id="eventEndDate"/>
+						<input type="Text" name="eventEndTime" style="width:4em;" id="eventEndTime"/>
+					</div>			
+			</div>		
+			<div class="formRow">			
+				<div class="fleft" style="margin-right:65px;">
+					<label>All Day?</label>			
+					<div class="value"><input type="checkbox" class="inputbox" id="allDayEvent"/></div>			
+				</div>	
+				<div class="fleft">
+					<label>Group: </label>			
+					<div class="value"><select name="eventGroup" style="width:10em; border:1px solid #C3D9FF;"  id="eventGroup"></select></div>
+				</div>	
+			</div>	 					
+			<div class="formRow">
+					<label>Description: </label>			
+					<div class="value"><textarea style="width:19em;"  id="eventDescription"></textarea></div>			
+			</div>	  	
+			<div class="formRow">
+					<label>  <input type="checkbox" value="Y" id="chkMovable"/> Movable?</label> 
+			</div>										
+			<div class="formRow">
+					<label> <input type="checkbox" value="N" id="chkResizable"/> Resizable?</label> 
+			</div>										
+			<div class="formRow">
+					<label>Attribute 1: </label>			
+					<div class="value"><input type="text" style="width:19em;" id="attribute1"></div>			
+			</div>	  
+			<div class="formRow">
+					<label>Attribute 2: </label>			
+					<div class="value"><input type="text" style="width:19em;" id="attribute2"></div>			
+			</div>	  
+			<div class="formRow">
+					<label>Attribute 3: </label>			
+					<div class="value"><input type="text" style="width:19em;" id="attribute3"></div>			
+			</div>	  
+			<div class="formRow">
+					<label>Attribute 4: </label>			
+					<div class="value"><input type="text" style="width:19em;" id="attribute4"></div>			
+			</div>	  
+			<div class="formRow">
+					<label>Attribute 5: </label>			
+					<div class="value"><input type="text" style="width:19em;" id="attribute5"></div>			
+			</div>	  
+			<div class="formRow">
+					<label>Attribute 6: </label>			
+					<div class="value"><input type="text" style="width:19em;" id="attribute6"></div>			
+			</div>	  
+			<div class="actions">
+				<a href="#" onclick="addMyEvent();" id="newEvAddEventBtn"  class="buttonSmall">Save</a>  
+				<a href="#" onclick="updateMyEvent();" id="newEvUpdateEventBtn" style="display :none;" class="buttonSmall">Update</a> 
+				<a href="#" onclick="closeAddEvent();"  class="buttonSmall">Close</a>
+			</div>
+		</div>
+		 
+    </body> 
+</html>
+<script>
+    var ical;     
+ 	
+    /*
+     Create the Calendar.
+     */
+    function drawCalendar()
+    {
+         ical = new Web2Cal('calendarContainer', {
+            loadEvents: 		loadCalendarEvents,
+            onUpdateEvent: 		updateEvent,
+            onNewEvent: 		onNewEvent,
+			previewTemplate: 	"customPTemplate",
+			newEventTemplate:	"customNewEventTemplate"
+        });
+        ical.build();
+    } 
+	
+    /*
+     Method invoked when event is moved or resized
+     @param event object containing eventID and newly updated Times
+     */
+    function updateEvent(event)
+    { 
+        ical.updateEvent(event);
+    }
+    
+    /*
+     Method invoked when creating a new event, before showing the new event form.
+     @param obj - Object containing (startTime, endTime)
+     @param groups - List of Group objects ({groupId, name})
+     @param allday - boolean to indicate if the event created is allday event.
+     */
+    function onNewEvent(obj, groups, allday)
+    {
+		var st = new UTC(obj.startTime);
+		var ed = new UTC(obj.endTime);
+			var newevt=jQuery("#customNewEventTemplate"); 
+			//Clear out and reset form
+			newevt.find("#eventDesc").val("").end()
+				.find("#eventName").val("").focus().end()
+				.find("#eventStartDate").val( st.toStandardFormat()).end() 
+			 	.find("#eventEndDate").val(ed.toStandardFormat() ).end();
+				 
+		 	if(allday) 
+				newevt.find("#allDayEvent").attr("checked", true).end()				
+					  .find("#eventStartTime").val("").end()
+					  .find("#eventEndTime").val(""); 
+			else 
+				newevt.find("#allDayEvent").attr("checked", false).end()
+					.find("#eventStartTime").val( st.toNiceTime() ).end()
+					.find("#eventEndTime").val( ed.toNiceTime() ); 
+
+			//display a list of groups to select from.
+			var groupDD=newevt.find("#eventGroup").get(0);
+			removeAllOptions(groupDD);
+			for(var g in groups)
+			{	
+				if(!groups.hasOwnProperty(g))continue;
+				var gId = groups[g].groupId;
+				addOption(groupDD, groups[g].groupName,groups[g].groupId,false);
+			} 
+			if(obj.group && obj.group.groupId)	
+				newevt.find("#eventGroup").val(obj.group.groupId); 
+			
+			newevt.find("#newEvAddEventBtn").show().end()
+				.find("#newEvUpdateEventBtn").hide();
+    } 
+    
+    /**
+     Method to get Events and display it in the calendar.
+     If you need to make an asynchronous call, invoke ical.render in the callback method.
+     @param startTime - Calendar Display Range start
+     @para endTime - Calendar End Range end
+     */
+    function loadCalendarEvents(startTime, endTime)
+    {   
+		ical.render(getCalendarData());
+    }
+	    
+    /**
+     * Click of Add in add event box.
+     */
+    function addMyEvent()
+    { 
+		newev = getEventFromForm()	
+        ical.addEvent(newev);
+		return false;
+    }
+	
+	function getEventFromForm()
+	{
+		var newEventContainer = jQuery("#customNewEventTemplate"); 
+			var name=newEventContainer.find( "#eventName").val();
+			var grp=newEventContainer.find("#eventGroup").val();
+			var grpName=newEventContainer.find("#eventGroup  option:selected").text(); 
+			var strtTime=newEventContainer.find("#eventStartTime").val();
+			var endTime=newEventContainer.find("#eventEndTime").val();
+			var startDate=newEventContainer.find("#eventStartDate").val();
+			var endDate=newEventContainer.find("#eventEndDate").val();
+			var description=newEventContainer.find("#eventDescription").val();
+			var movable=newEventContainer.find("#chkMovable").val();
+			var resizable=newEventContainer.find("#chkResizable").val();
+			
+			var attr1=newEventContainer.find("#attribute1").val();
+			var attr2=newEventContainer.find("#attribute2").val();
+			var attr3=newEventContainer.find("#attribute3").val();
+			var attr4=newEventContainer.find("#attribute4").val();
+			var attr5=newEventContainer.find("#attribute5").val();
+			var attr6=newEventContainer.find("#attribute6").val();
+			 
+			if(name=="")
+			{
+				name=HtmlEncode("No Title");
+			}
+			
+			var alldaybox=jQuery("#allDayEvent", newEventContainer).get(0);
+			var allday=alldaybox.checked;
+			var start	=	getDateFromStrings(startDate, strtTime);
+			var end		=	getDateFromStrings(endDate, endTime);			 
+			if(allday)
+			{
+				start.setHours(0,0,0);
+				end.setHours(0,0,0);
+			} 
+			var newev={name:name,  startTime:start, endTime:end
+						, allDay:allday
+						, group:{groupId:grp, name: grpName}  
+						, eventId: Math.ceil(999*Math.random()) 
+						, description: description
+						, resizable: resizable
+						, movable: movable
+						, attribute1: attr1
+						, attribute2: attr2
+						, attribute3: attr3
+						, attribute4: attr4
+						, attribute5: attr5
+						, attribute6: attr6
+						};
+			return newev;
+	}
+	
+	function updateMyEvent()
+	{
+		newev = getEventFromForm();
+		newev.eventId=editingEvent.eventId;
+		jQuery("#customNewEventTemplate").hide()
+		ical.updateEvent(newev);
+	}
+	
+	//Show Edit Form
+	var editingEvent;
+	function editMyEvent(eventId)
+	{
+		
+		var eventObject = ical.getEventById(eventId);
+		editingEvent=eventObject;
+		var newEventContainer = jQuery("#customNewEventTemplate"); 
+		var name=newEventContainer.find( "#eventName").val(eventObject.eventName);
+		var grp=newEventContainer.find("#eventGroup").val(eventObject.group.groupId);
+		 
+		var strtTime=newEventContainer.find("#eventStartTime").val(  eventObject.formattedStartTime );
+		var endTime=newEventContainer.find("#eventEndTime").val(eventObject.formattedStartTime );
+
+		var startDate=newEventContainer.find("#eventStartDate").val( eventObject._startTime.toStandardFormat() );
+		var endDate=newEventContainer.find("#eventEndDate").val(  eventObject._endTime.toStandardFormat() );
+
+		var description=newEventContainer.find("#eventDescription").val(eventObject.description);
+		var attr1=newEventContainer.find("#attribute1").val(eventObject.attribute1);
+		var attr2=newEventContainer.find("#attribute2").val(eventObject.attribute2);
+		var attr3=newEventContainer.find("#attribute3").val(eventObject.attribute3);
+		var attr4=newEventContainer.find("#attribute4").val(eventObject.attribute4);
+		var attr5=newEventContainer.find("#attribute5").val(eventObject.attribute5);
+		var attr6=newEventContainer.find("#attribute6").val(eventObject.attribute6);
+		newEventContainer.find("#newEvAddEventBtn").hide().end()
+				.find("#newEvUpdateEventBtn").show();
+		ical.hidePreview();
+		ical.showEditEventTemplate(newEventContainer.get(0), eventObject.eventId);
+		
+		return false;
+	}
+	//Delete Event
+	function deleteMyEvent(eventId)
+	{
+		var ev= {eventId:eventId}
+		ical.deleteEvent(ev);
+	}
+    
+    /**
+     * Onclick of Close in AddEvent Box.
+     */
+    function closeAddEvent()
+    {
+        ical.closeAddEvent();
+    }
+     
+    /**
+     * Once page is loaded, invoke the Load Calendar Script.
+     */
+    jQuery(document).ready(function()
+    { 
+	 	drawCalendar(); 
+	 	
+		new Web2Cal.TimeControl(jQuery("#eventStartTime").get(0));
+        new Web2Cal.TimeControl(jQuery("#eventEndTime").get(0), jQuery("#eventStartTime").get(0), {
+            onTimeSelect: updateDateForTime,
+            dateField: "eventEndDate"
+        });
+    });
+</script>

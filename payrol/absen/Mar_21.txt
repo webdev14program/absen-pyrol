@@ -1,0 +1,1167 @@
+ 70217006        Mutiara Agistha 26/02/2021 08:34       C/Masuk
+ 70217006        Mutiara Agistha 26/02/2021 17:27      C/Keluar
+ 70217006        Mutiara Agistha 01/03/2021 10:07       C/Masuk
+ 70217006        Mutiara Agistha 01/03/2021 17:53      C/Keluar
+ 70217006        Mutiara Agistha 02/03/2021 08:25       C/Masuk
+ 70217006        Mutiara Agistha 02/03/2021 17:41      C/Keluar
+ 70217006        Mutiara Agistha 03/03/2021 17:20      C/Keluar
+ 70217006        Mutiara Agistha 04/03/2021 08:23       C/Masuk
+ 70217006        Mutiara Agistha 04/03/2021 17:34      C/Keluar
+ 70217006        Mutiara Agistha 05/03/2021 08:25       C/Masuk
+ 70217006        Mutiara Agistha 05/03/2021 18:48      C/Keluar
+ 70217006        Mutiara Agistha 06/03/2021 09:19       C/Masuk
+ 70217006        Mutiara Agistha 06/03/2021 12:43      C/Keluar
+ 70217007 Valerie Mimosa Windana 26/02/2021 08:19       C/Masuk
+ 70217007 Valerie Mimosa Windana 26/02/2021 17:40      C/Keluar
+ 70217007 Valerie Mimosa Windana 01/03/2021 06:51       C/Masuk
+ 70217007 Valerie Mimosa Windana 01/03/2021 08:07       C/Masuk
+ 70217007 Valerie Mimosa Windana 01/03/2021 17:44      C/Keluar
+ 70217007 Valerie Mimosa Windana 02/03/2021 07:47       C/Masuk
+ 70217007 Valerie Mimosa Windana 02/03/2021 17:32      C/Keluar
+ 70217007 Valerie Mimosa Windana 03/03/2021 07:45       C/Masuk
+ 70217007 Valerie Mimosa Windana 03/03/2021 17:39      C/Keluar
+ 70217007 Valerie Mimosa Windana 04/03/2021 07:48       C/Masuk
+ 70217007 Valerie Mimosa Windana 04/03/2021 17:37      C/Keluar
+ 70217007 Valerie Mimosa Windana 05/03/2021 07:54       C/Masuk
+ 70217007 Valerie Mimosa Windana 05/03/2021 17:20      C/Keluar
+ 70217007 Valerie Mimosa Windana 08/03/2021 07:54       C/Masuk
+ 70217007 Valerie Mimosa Windana 09/03/2021 07:59       C/Masuk
+ 70217007 Valerie Mimosa Windana 09/03/2021 17:43      C/Keluar
+ 70217007 Valerie Mimosa Windana 10/03/2021 07:57       C/Masuk
+ 70217007 Valerie Mimosa Windana 10/03/2021 18:28      C/Keluar
+ 70217007 Valerie Mimosa Windana 12/03/2021 08:01       C/Masuk
+ 70217007 Valerie Mimosa Windana 12/03/2021 17:50      C/Keluar
+ 70217007 Valerie Mimosa Windana 15/03/2021 07:38       C/Masuk
+ 70217007 Valerie Mimosa Windana 15/03/2021 17:57      C/Keluar
+ 70217007 Valerie Mimosa Windana 16/03/2021 07:44       C/Masuk
+ 70217007 Valerie Mimosa Windana 16/03/2021 17:13      C/Keluar
+ 70217007 Valerie Mimosa Windana 17/03/2021 07:45       C/Masuk
+ 70217007 Valerie Mimosa Windana 17/03/2021 17:42      C/Keluar
+ 70217007 Valerie Mimosa Windana 18/03/2021 07:45       C/Masuk
+ 70217007 Valerie Mimosa Windana 18/03/2021 17:24      C/Keluar
+ 70217007 Valerie Mimosa Windana 19/03/2021 07:50       C/Masuk
+ 70217007 Valerie Mimosa Windana 19/03/2021 17:47      C/Keluar
+ 70217007 Valerie Mimosa Windana 22/03/2021 08:06       C/Masuk
+ 70217007 Valerie Mimosa Windana 22/03/2021 17:14      C/Keluar
+ 70217007 Valerie Mimosa Windana 23/03/2021 07:52       C/Masuk
+ 70217007 Valerie Mimosa Windana 23/03/2021 17:23      C/Keluar
+ 70217007 Valerie Mimosa Windana 24/03/2021 07:50       C/Masuk
+ 70217007 Valerie Mimosa Windana 24/03/2021 17:52      C/Keluar
+ 70217007 Valerie Mimosa Windana 25/03/2021 07:38       C/Masuk
+ 70219015                  Windy 19/03/2021 17:12      C/Keluar
+ 70219015                  Windy 22/03/2021 08:31       C/Masuk
+ 70219015                  Windy 22/03/2021 17:30      C/Keluar
+ 70219015                  Windy 23/03/2021 08:29       C/Masuk
+ 70219015                  Windy 23/03/2021 17:09      C/Keluar
+ 70219015                  Windy 24/03/2021 08:47       C/Masuk
+ 70219015                  Windy 24/03/2021 17:21      C/Keluar
+ 70219017         Irvan Triandes 26/02/2021 08:19       C/Masuk
+ 70219017         Irvan Triandes 26/02/2021 17:38      C/Keluar
+ 70219017         Irvan Triandes 01/03/2021 08:18       C/Masuk
+ 70219017         Irvan Triandes 01/03/2021 17:46      C/Keluar
+ 70219017         Irvan Triandes 02/03/2021 08:18       C/Masuk
+ 70219017         Irvan Triandes 02/03/2021 17:13      C/Keluar
+ 70219017         Irvan Triandes 03/03/2021 08:17       C/Masuk
+ 70219017         Irvan Triandes 03/03/2021 17:15      C/Keluar
+ 70219017         Irvan Triandes 04/03/2021 08:17       C/Masuk
+ 70219017         Irvan Triandes 04/03/2021 17:16      C/Keluar
+ 70219017         Irvan Triandes 05/03/2021 08:20       C/Masuk
+ 70219017         Irvan Triandes 05/03/2021 18:49      C/Keluar
+ 70219017         Irvan Triandes 06/03/2021 16:11      C/Keluar
+ 70219017         Irvan Triandes 08/03/2021 08:24       C/Masuk
+ 70219017         Irvan Triandes 08/03/2021 17:33      C/Keluar
+ 70219017         Irvan Triandes 09/03/2021 08:19       C/Masuk
+ 70219017         Irvan Triandes 09/03/2021 17:23      C/Keluar
+ 70219017         Irvan Triandes 10/03/2021 08:24       C/Masuk
+ 70219017         Irvan Triandes 10/03/2021 17:21      C/Keluar
+ 70219017         Irvan Triandes 12/03/2021 08:24       C/Masuk
+ 70219017         Irvan Triandes 12/03/2021 17:18      C/Keluar
+ 70219017         Irvan Triandes 15/03/2021 08:20       C/Masuk
+ 70219017         Irvan Triandes 15/03/2021 18:43      C/Keluar
+ 70219017         Irvan Triandes 16/03/2021 08:20       C/Masuk
+ 70219017         Irvan Triandes 16/03/2021 17:11      C/Keluar
+ 70219017         Irvan Triandes 17/03/2021 08:17       C/Masuk
+ 70219017         Irvan Triandes 17/03/2021 17:16      C/Keluar
+ 70219017         Irvan Triandes 18/03/2021 08:13       C/Masuk
+ 70219017         Irvan Triandes 18/03/2021 17:29      C/Keluar
+ 70219017         Irvan Triandes 19/03/2021 08:20       C/Masuk
+ 70219017         Irvan Triandes 19/03/2021 17:03      C/Keluar
+ 70219017         Irvan Triandes 22/03/2021 08:23       C/Masuk
+ 70219017         Irvan Triandes 22/03/2021 17:19      C/Keluar
+ 70219017         Irvan Triandes 23/03/2021 08:20       C/Masuk
+ 70219017         Irvan Triandes 23/03/2021 17:07      C/Keluar
+ 70219017         Irvan Triandes 24/03/2021 08:24       C/Masuk
+ 70219017         Irvan Triandes 24/03/2021 17:29      C/Keluar
+ 70219017         Irvan Triandes 25/03/2021 08:22       C/Masuk
+ 70318012             Firmansyah 26/02/2021 08:16       C/Masuk
+ 70318012             Firmansyah 26/02/2021 17:21      C/Keluar
+ 70318012             Firmansyah 01/03/2021 07:04       C/Masuk
+ 70318012             Firmansyah 01/03/2021 17:13      C/Keluar
+ 70318012             Firmansyah 02/03/2021 08:03       C/Masuk
+ 70318012             Firmansyah 02/03/2021 17:10      C/Keluar
+ 70318012             Firmansyah 03/03/2021 08:10       C/Masuk
+ 70318012             Firmansyah 03/03/2021 17:16      C/Keluar
+ 70318012             Firmansyah 04/03/2021 07:47       C/Masuk
+ 70318012             Firmansyah 04/03/2021 17:32      C/Keluar
+ 70318012             Firmansyah 08/03/2021 08:00       C/Masuk
+ 70318012             Firmansyah 08/03/2021 17:11      C/Keluar
+ 70318012             Firmansyah 09/03/2021 08:05       C/Masuk
+ 70318012             Firmansyah 09/03/2021 17:08      C/Keluar
+ 70318012             Firmansyah 10/03/2021 07:57       C/Masuk
+ 70318012             Firmansyah 12/03/2021 08:06       C/Masuk
+ 70318012             Firmansyah 12/03/2021 17:04      C/Keluar
+ 70318012             Firmansyah 13/03/2021 13:03      C/Keluar
+ 70318012             Firmansyah 15/03/2021 07:45       C/Masuk
+ 70318012             Firmansyah 15/03/2021 17:05      C/Keluar
+ 70318012             Firmansyah 16/03/2021 07:57       C/Masuk
+ 70318012             Firmansyah 16/03/2021 17:01      C/Keluar
+ 70318012             Firmansyah 17/03/2021 08:01       C/Masuk
+ 70318012             Firmansyah 17/03/2021 17:04      C/Keluar
+ 70318012             Firmansyah 18/03/2021 07:57       C/Masuk
+ 70318012             Firmansyah 18/03/2021 17:02      C/Keluar
+ 70318012             Firmansyah 19/03/2021 07:55       C/Masuk
+ 70318012             Firmansyah 19/03/2021 17:01      C/Keluar
+ 70318012             Firmansyah 22/03/2021 08:12       C/Masuk
+ 70318012             Firmansyah 22/03/2021 17:08      C/Keluar
+ 70318012             Firmansyah 24/03/2021 07:52       C/Masuk
+ 70318012             Firmansyah 24/03/2021 17:16      C/Keluar
+ 70318012             Firmansyah 25/03/2021 07:59       C/Masuk
+ 70319018          Jessica Halim 26/02/2021 08:19       C/Masuk
+ 70319018          Jessica Halim 26/02/2021 17:17      C/Keluar
+ 70319018          Jessica Halim 01/03/2021 08:09       C/Masuk
+ 70319018          Jessica Halim 01/03/2021 17:16      C/Keluar
+ 70319018          Jessica Halim 02/03/2021 08:02       C/Masuk
+ 70319018          Jessica Halim 02/03/2021 17:28      C/Keluar
+ 70319018          Jessica Halim 03/03/2021 08:05       C/Masuk
+ 70319018          Jessica Halim 03/03/2021 17:30      C/Keluar
+ 70319018          Jessica Halim 04/03/2021 07:57       C/Masuk
+ 70319018          Jessica Halim 04/03/2021 17:17      C/Keluar
+ 70319018          Jessica Halim 05/03/2021 07:56       C/Masuk
+ 70319018          Jessica Halim 05/03/2021 17:21      C/Keluar
+ 70319018          Jessica Halim 08/03/2021 08:16       C/Masuk
+ 70319018          Jessica Halim 08/03/2021 17:19      C/Keluar
+ 70319018          Jessica Halim 09/03/2021 08:20       C/Masuk
+ 70319018          Jessica Halim 09/03/2021 17:21      C/Keluar
+ 70319018          Jessica Halim 10/03/2021 08:18       C/Masuk
+ 70319018          Jessica Halim 10/03/2021 17:12      C/Keluar
+ 70319018          Jessica Halim 12/03/2021 08:19       C/Masuk
+ 70319018          Jessica Halim 12/03/2021 17:11      C/Keluar
+ 70319018          Jessica Halim 12/03/2021 17:11      C/Keluar
+ 70319018          Jessica Halim 15/03/2021 08:18       C/Masuk
+ 70319018          Jessica Halim 15/03/2021 17:14      C/Keluar
+ 70319018          Jessica Halim 16/03/2021 08:19       C/Masuk
+ 70319018          Jessica Halim 16/03/2021 17:05      C/Keluar
+ 70319018          Jessica Halim 17/03/2021 08:08       C/Masuk
+ 70319018          Jessica Halim 17/03/2021 17:14      C/Keluar
+ 70319018          Jessica Halim 18/03/2021 08:00       C/Masuk
+ 70319018          Jessica Halim 18/03/2021 17:07      C/Keluar
+ 70319018          Jessica Halim 19/03/2021 08:01       C/Masuk
+ 70319018          Jessica Halim 19/03/2021 17:07      C/Keluar
+ 70319018          Jessica Halim 22/03/2021 08:04       C/Masuk
+ 70319018          Jessica Halim 22/03/2021 17:20      C/Keluar
+ 70319018          Jessica Halim 23/03/2021 07:56       C/Masuk
+ 70319018          Jessica Halim 23/03/2021 17:18      C/Keluar
+ 70319018          Jessica Halim 24/03/2021 07:50       C/Masuk
+ 70319018          Jessica Halim 24/03/2021 17:11      C/Keluar
+ 70319018          Jessica Halim 25/03/2021 08:11       C/Masuk
+ 70320022     M Agustian Barokah 26/02/2021 08:16       C/Masuk
+ 70320022     M Agustian Barokah 26/02/2021 17:22      C/Keluar
+ 70320022     M Agustian Barokah 01/03/2021 08:16       C/Masuk
+ 70320022     M Agustian Barokah 02/03/2021 08:18       C/Masuk
+ 70320022     M Agustian Barokah 03/03/2021 08:09       C/Masuk
+ 70320022     M Agustian Barokah 03/03/2021 17:25      C/Keluar
+ 70320022     M Agustian Barokah 04/03/2021 08:14       C/Masuk
+ 70320022     M Agustian Barokah 04/03/2021 17:14      C/Keluar
+ 70320022     M Agustian Barokah 05/03/2021 08:15       C/Masuk
+ 70320022     M Agustian Barokah 05/03/2021 17:32      C/Keluar
+ 70320022     M Agustian Barokah 08/03/2021 08:10       C/Masuk
+ 70320022     M Agustian Barokah 08/03/2021 17:25      C/Keluar
+ 70320022     M Agustian Barokah 09/03/2021 08:17       C/Masuk
+ 70320022     M Agustian Barokah 10/03/2021 08:20       C/Masuk
+ 70320022     M Agustian Barokah 12/03/2021 08:13       C/Masuk
+ 70320022     M Agustian Barokah 12/03/2021 17:25      C/Keluar
+ 70320022     M Agustian Barokah 15/03/2021 08:16       C/Masuk
+ 70320022     M Agustian Barokah 15/03/2021 17:53      C/Keluar
+ 70320022     M Agustian Barokah 16/03/2021 08:18       C/Masuk
+ 70320022     M Agustian Barokah 16/03/2021 17:06      C/Keluar
+ 70320022     M Agustian Barokah 17/03/2021 08:09       C/Masuk
+ 70320022     M Agustian Barokah 17/03/2021 17:11      C/Keluar
+ 70320022     M Agustian Barokah 18/03/2021 08:17       C/Masuk
+ 70320022     M Agustian Barokah 18/03/2021 17:30      C/Keluar
+ 70320022     M Agustian Barokah 19/03/2021 08:25       C/Masuk
+ 70320022     M Agustian Barokah 19/03/2021 17:06      C/Keluar
+ 70320022     M Agustian Barokah 22/03/2021 08:20       C/Masuk
+ 70320022     M Agustian Barokah 22/03/2021 17:28      C/Keluar
+ 70320022     M Agustian Barokah 23/03/2021 08:24       C/Masuk
+ 70320022     M Agustian Barokah 23/03/2021 17:09      C/Keluar
+ 70320022     M Agustian Barokah 24/03/2021 08:16       C/Masuk
+ 70320022     M Agustian Barokah 24/03/2021 17:37      C/Keluar
+ 70320022     M Agustian Barokah 25/03/2021 08:21       C/Masuk
+ 70418013          M.Nur Ghozali 26/02/2021 08:16       C/Masuk
+ 70418013          M.Nur Ghozali 26/02/2021 18:43      C/Keluar
+ 70418013          M.Nur Ghozali 27/02/2021 08:16       C/Masuk
+ 70418013          M.Nur Ghozali 27/02/2021 18:12      C/Keluar
+ 70418013          M.Nur Ghozali 01/03/2021 08:09       C/Masuk
+ 70418013          M.Nur Ghozali 01/03/2021 17:46      C/Keluar
+ 70418013          M.Nur Ghozali 02/03/2021 07:48       C/Masuk
+ 70418013          M.Nur Ghozali 02/03/2021 17:10      C/Keluar
+ 70418013          M.Nur Ghozali 03/03/2021 07:53       C/Masuk
+ 70418013          M.Nur Ghozali 03/03/2021 17:15      C/Keluar
+ 70418013          M.Nur Ghozali 04/03/2021 07:48       C/Masuk
+ 70418013          M.Nur Ghozali 04/03/2021 17:12      C/Keluar
+ 70418013          M.Nur Ghozali 05/03/2021 08:02       C/Masuk
+ 70418013          M.Nur Ghozali 05/03/2021 18:43      C/Keluar
+ 70418013          M.Nur Ghozali 08/03/2021 07:57       C/Masuk
+ 70418013          M.Nur Ghozali 08/03/2021 17:40      C/Keluar
+ 70418013          M.Nur Ghozali 09/03/2021 07:59       C/Masuk
+ 70418013          M.Nur Ghozali 09/03/2021 18:34      C/Keluar
+ 70418013          M.Nur Ghozali 10/03/2021 07:58       C/Masuk
+ 70418013          M.Nur Ghozali 10/03/2021 17:12      C/Keluar
+ 70418013          M.Nur Ghozali 11/03/2021 14:51       C/Masuk
+ 70418013          M.Nur Ghozali 12/03/2021 08:02       C/Masuk
+ 70418013          M.Nur Ghozali 12/03/2021 17:20      C/Keluar
+ 70418013          M.Nur Ghozali 15/03/2021 07:53       C/Masuk
+ 70418013          M.Nur Ghozali 15/03/2021 18:09      C/Keluar
+ 70418013          M.Nur Ghozali 16/03/2021 07:46       C/Masuk
+ 70418013          M.Nur Ghozali 16/03/2021 17:21      C/Keluar
+ 70418013          M.Nur Ghozali 17/03/2021 07:45       C/Masuk
+ 70418013          M.Nur Ghozali 17/03/2021 17:51      C/Keluar
+ 70418013          M.Nur Ghozali 18/03/2021 07:49       C/Masuk
+ 70418013          M.Nur Ghozali 18/03/2021 17:21       C/Masuk
+ 70418013          M.Nur Ghozali 19/03/2021 08:00       C/Masuk
+ 70418013          M.Nur Ghozali 19/03/2021 17:34      C/Keluar
+ 70418013          M.Nur Ghozali 19/03/2021 17:34      C/Keluar
+ 70418013          M.Nur Ghozali 20/03/2021 07:57      C/Keluar
+ 70418013          M.Nur Ghozali 20/03/2021 07:58       C/Masuk
+ 70418013          M.Nur Ghozali 20/03/2021 13:49      C/Keluar
+ 70418013          M.Nur Ghozali 22/03/2021 08:05       C/Masuk
+ 70418013          M.Nur Ghozali 22/03/2021 17:14      C/Keluar
+ 70418013          M.Nur Ghozali 23/03/2021 07:58       C/Masuk
+ 70418013          M.Nur Ghozali 23/03/2021 17:44      C/Keluar
+ 70418013          M.Nur Ghozali 24/03/2021 07:52       C/Masuk
+ 70418013          M.Nur Ghozali 24/03/2021 17:56      C/Keluar
+ 70418013          M.Nur Ghozali 25/03/2021 07:52       C/Masuk
+ 70419019            Ardiyansyah 26/02/2021 08:30       C/Masuk
+ 70419019            Ardiyansyah 01/03/2021 08:13       C/Masuk
+ 70419019            Ardiyansyah 01/03/2021 08:15       C/Masuk
+ 70419019            Ardiyansyah 02/03/2021 08:11       C/Masuk
+ 70419019            Ardiyansyah 02/03/2021 08:12       C/Masuk
+ 70419019            Ardiyansyah 03/03/2021 08:52       C/Masuk
+ 70419019            Ardiyansyah 04/03/2021 09:09       C/Masuk
+ 70419019            Ardiyansyah 05/03/2021 08:12       C/Masuk
+ 70419019            Ardiyansyah 08/03/2021 08:07       C/Masuk
+ 70419019            Ardiyansyah 08/03/2021 08:28       C/Masuk
+ 70419019            Ardiyansyah 08/03/2021 17:32       C/Masuk
+ 70419019            Ardiyansyah 08/03/2021 17:32      C/Keluar
+ 70419019            Ardiyansyah 09/03/2021 07:58      C/Keluar
+ 70419019            Ardiyansyah 10/03/2021 07:57       C/Masuk
+ 70419019            Ardiyansyah 12/03/2021 08:08       C/Masuk
+ 70419019            Ardiyansyah 15/03/2021 08:49       C/Masuk
+ 70419019            Ardiyansyah 16/03/2021 08:23       C/Masuk
+ 70419019            Ardiyansyah 16/03/2021 17:14      C/Keluar
+ 70419019            Ardiyansyah 17/03/2021 08:06       C/Masuk
+ 70419019            Ardiyansyah 18/03/2021 08:21       C/Masuk
+ 70419019            Ardiyansyah 19/03/2021 08:43       C/Masuk
+ 70419019            Ardiyansyah 22/03/2021 08:16       C/Masuk
+ 70419019            Ardiyansyah 24/03/2021 08:27       C/Masuk
+ 70419019            Ardiyansyah 25/03/2021 08:08       C/Masuk
+ 70619020         Yulius Prayoga 26/02/2021 08:20       C/Masuk
+ 70619020         Yulius Prayoga 26/02/2021 17:30      C/Keluar
+ 70619020         Yulius Prayoga 01/03/2021 06:54       C/Masuk
+ 70619020         Yulius Prayoga 01/03/2021 08:07       C/Masuk
+ 70619020         Yulius Prayoga 01/03/2021 17:19      C/Keluar
+ 70619020         Yulius Prayoga 02/03/2021 08:01       C/Masuk
+ 70619020         Yulius Prayoga 02/03/2021 17:33      C/Keluar
+ 70619020         Yulius Prayoga 03/03/2021 08:01       C/Masuk
+ 70619020         Yulius Prayoga 03/03/2021 17:20      C/Keluar
+ 70619020         Yulius Prayoga 04/03/2021 08:01       C/Masuk
+ 70619020         Yulius Prayoga 04/03/2021 17:27      C/Keluar
+ 70619020         Yulius Prayoga 05/03/2021 08:13       C/Masuk
+ 70619020         Yulius Prayoga 05/03/2021 17:10      C/Keluar
+ 70619020         Yulius Prayoga 08/03/2021 07:55       C/Masuk
+ 70619020         Yulius Prayoga 08/03/2021 17:15      C/Keluar
+ 70619020         Yulius Prayoga 09/03/2021 08:15       C/Masuk
+ 70619020         Yulius Prayoga 10/03/2021 07:56       C/Masuk
+ 70619020         Yulius Prayoga 12/03/2021 08:01       C/Masuk
+ 70619020         Yulius Prayoga 12/03/2021 18:00      C/Keluar
+ 70619020         Yulius Prayoga 15/03/2021 07:38       C/Masuk
+ 70619020         Yulius Prayoga 15/03/2021 17:35      C/Keluar
+ 70619020         Yulius Prayoga 16/03/2021 08:01       C/Masuk
+ 70619020         Yulius Prayoga 16/03/2021 17:26      C/Keluar
+ 70619020         Yulius Prayoga 17/03/2021 08:05       C/Masuk
+ 70619020         Yulius Prayoga 17/03/2021 17:14      C/Keluar
+ 70619020         Yulius Prayoga 18/03/2021 07:53       C/Masuk
+ 70619020         Yulius Prayoga 18/03/2021 17:16      C/Keluar
+ 70619020         Yulius Prayoga 19/03/2021 07:54       C/Masuk
+ 70619020         Yulius Prayoga 19/03/2021 17:11      C/Keluar
+ 70619020         Yulius Prayoga 22/03/2021 08:04       C/Masuk
+ 70619020         Yulius Prayoga 22/03/2021 17:24      C/Keluar
+ 70619020         Yulius Prayoga 23/03/2021 08:15       C/Masuk
+ 70619020         Yulius Prayoga 23/03/2021 18:00      C/Keluar
+ 70619020         Yulius Prayoga 24/03/2021 08:11       C/Masuk
+ 70619020         Yulius Prayoga 24/03/2021 17:47      C/Keluar
+ 70619020         Yulius Prayoga 25/03/2021 07:52       C/Masuk
+ 71116001          Willy Chandra 01/03/2021 08:22       C/Masuk
+ 71116001          Willy Chandra 02/03/2021 08:23       C/Masuk
+ 71116001          Willy Chandra 02/03/2021 18:07      C/Keluar
+ 71116001          Willy Chandra 03/03/2021 08:22       C/Masuk
+ 71116001          Willy Chandra 03/03/2021 17:01       C/Masuk
+ 71116001          Willy Chandra 04/03/2021 08:21       C/Masuk
+ 71116001          Willy Chandra 04/03/2021 17:28      C/Keluar
+ 71116001          Willy Chandra 05/03/2021 08:24       C/Masuk
+ 71116001          Willy Chandra 05/03/2021 17:16      C/Keluar
+ 71116001          Willy Chandra 08/03/2021 08:25       C/Masuk
+ 71116001          Willy Chandra 09/03/2021 08:24       C/Masuk
+ 71116001          Willy Chandra 09/03/2021 17:16       C/Masuk
+ 71116001          Willy Chandra 12/03/2021 08:19       C/Masuk
+ 71116001          Willy Chandra 12/03/2021 17:17      C/Keluar
+ 71116001          Willy Chandra 15/03/2021 08:20       C/Masuk
+ 71116001          Willy Chandra 16/03/2021 08:11       C/Masuk
+ 71116001          Willy Chandra 17/03/2021 08:45       C/Masuk
+ 71116001          Willy Chandra 18/03/2021 08:24       C/Masuk
+ 71116001          Willy Chandra 18/03/2021 17:04      C/Keluar
+ 71116001          Willy Chandra 19/03/2021 08:18       C/Masuk
+ 71116001          Willy Chandra 22/03/2021 08:23       C/Masuk
+ 71116001          Willy Chandra 22/03/2021 17:23      C/Keluar
+ 71116001          Willy Chandra 24/03/2021 08:18       C/Masuk
+ 71116001          Willy Chandra 24/03/2021 17:34      C/Keluar
+ 71116001          Willy Chandra 25/03/2021 08:22       C/Masuk
+ 71216003       Tiara Selytasari 26/02/2021 08:25       C/Masuk
+ 71216003       Tiara Selytasari 26/02/2021 08:25       C/Masuk
+ 71216003       Tiara Selytasari 26/02/2021 17:19      C/Keluar
+ 71216003       Tiara Selytasari 01/03/2021 08:25       C/Masuk
+ 71216003       Tiara Selytasari 01/03/2021 08:25       C/Masuk
+ 71216003       Tiara Selytasari 01/03/2021 08:28       C/Masuk
+ 71216003       Tiara Selytasari 01/03/2021 08:28       C/Masuk
+ 71216003       Tiara Selytasari 02/03/2021 08:25       C/Masuk
+ 71216003       Tiara Selytasari 02/03/2021 08:25       C/Masuk
+ 71216003       Tiara Selytasari 02/03/2021 08:25       C/Masuk
+ 71216003       Tiara Selytasari 02/03/2021 17:11      C/Keluar
+ 71216003       Tiara Selytasari 03/03/2021 08:25       C/Masuk
+ 71216003       Tiara Selytasari 03/03/2021 08:25       C/Masuk
+ 71216003       Tiara Selytasari 03/03/2021 08:29       C/Masuk
+ 71216003       Tiara Selytasari 03/03/2021 17:02      C/Keluar
+ 71216003       Tiara Selytasari 04/03/2021 08:28       C/Masuk
+ 71216003       Tiara Selytasari 04/03/2021 08:28       C/Masuk
+ 71216003       Tiara Selytasari 04/03/2021 17:08      C/Keluar
+ 71216003       Tiara Selytasari 05/03/2021 08:26       C/Masuk
+ 71216003       Tiara Selytasari 05/03/2021 08:26       C/Masuk
+ 71216003       Tiara Selytasari 05/03/2021 17:17      C/Keluar
+ 71216003       Tiara Selytasari 08/03/2021 08:26       C/Masuk
+ 71216003       Tiara Selytasari 08/03/2021 08:26       C/Masuk
+ 71216003       Tiara Selytasari 08/03/2021 17:17      C/Keluar
+ 71216003       Tiara Selytasari 09/03/2021 08:16       C/Masuk
+ 71216003       Tiara Selytasari 09/03/2021 08:17       C/Masuk
+ 71216003       Tiara Selytasari 09/03/2021 08:17       C/Masuk
+ 71216003       Tiara Selytasari 09/03/2021 17:11      C/Keluar
+ 71216003       Tiara Selytasari 10/03/2021 08:26       C/Masuk
+ 71216003       Tiara Selytasari 10/03/2021 08:26       C/Masuk
+ 71216003       Tiara Selytasari 10/03/2021 08:26       C/Masuk
+ 71216003       Tiara Selytasari 10/03/2021 17:05      C/Keluar
+ 71216003       Tiara Selytasari 12/03/2021 08:21       C/Masuk
+ 71216003       Tiara Selytasari 12/03/2021 08:21       C/Masuk
+ 71216003       Tiara Selytasari 12/03/2021 08:21       C/Masuk
+ 71216003       Tiara Selytasari 12/03/2021 08:26       C/Masuk
+ 71216003       Tiara Selytasari 12/03/2021 17:09      C/Keluar
+ 71216003       Tiara Selytasari 12/03/2021 17:10      C/Keluar
+ 71216003       Tiara Selytasari 15/03/2021 08:21       C/Masuk
+ 71216003       Tiara Selytasari 15/03/2021 08:21       C/Masuk
+ 71216003       Tiara Selytasari 15/03/2021 08:24      C/Keluar
+ 71216003       Tiara Selytasari 15/03/2021 17:17      C/Keluar
+ 71216003       Tiara Selytasari 16/03/2021 08:23       C/Masuk
+ 71216003       Tiara Selytasari 16/03/2021 08:23       C/Masuk
+ 71216003       Tiara Selytasari 16/03/2021 17:02      C/Keluar
+ 71216003       Tiara Selytasari 17/03/2021 08:23       C/Masuk
+ 71216003       Tiara Selytasari 17/03/2021 08:23       C/Masuk
+ 71216003       Tiara Selytasari 17/03/2021 08:23       C/Masuk
+ 71216003       Tiara Selytasari 17/03/2021 17:14      C/Keluar
+ 71216003       Tiara Selytasari 17/03/2021 17:14      C/Keluar
+ 71216003       Tiara Selytasari 18/03/2021 08:24       C/Masuk
+ 71216003       Tiara Selytasari 18/03/2021 08:24       C/Masuk
+ 71216003       Tiara Selytasari 18/03/2021 08:24       C/Masuk
+ 71216003       Tiara Selytasari 18/03/2021 08:28       C/Masuk
+ 71216003       Tiara Selytasari 18/03/2021 17:05      C/Keluar
+ 71216003       Tiara Selytasari 19/03/2021 08:27       C/Masuk
+ 71216003       Tiara Selytasari 19/03/2021 08:27       C/Masuk
+ 71216003       Tiara Selytasari 19/03/2021 08:27       C/Masuk
+ 71216003       Tiara Selytasari 19/03/2021 17:04      C/Keluar
+ 71216003       Tiara Selytasari 19/03/2021 17:05      C/Keluar
+ 71216003       Tiara Selytasari 22/03/2021 08:22       C/Masuk
+ 71216003       Tiara Selytasari 22/03/2021 08:22       C/Masuk
+ 71216003       Tiara Selytasari 22/03/2021 08:22       C/Masuk
+ 71216003       Tiara Selytasari 22/03/2021 17:11      C/Keluar
+ 71216003       Tiara Selytasari 23/03/2021 08:23       C/Masuk
+ 71216003       Tiara Selytasari 23/03/2021 08:23       C/Masuk
+ 71216003       Tiara Selytasari 23/03/2021 08:26       C/Masuk
+ 71216003       Tiara Selytasari 23/03/2021 17:05      C/Keluar
+ 71216003       Tiara Selytasari 24/03/2021 08:11       C/Masuk
+ 71216003       Tiara Selytasari 24/03/2021 08:11       C/Masuk
+ 71216003       Tiara Selytasari 24/03/2021 08:12       C/Masuk
+ 71216003       Tiara Selytasari 24/03/2021 17:07      C/Keluar
+ 71216003       Tiara Selytasari 25/03/2021 08:27       C/Masuk
+ 71216003       Tiara Selytasari 25/03/2021 08:27       C/Masuk
+ 80196003          Wawan Gunawan 26/02/2021 08:22       C/Masuk
+ 80196003          Wawan Gunawan 26/02/2021 17:32      C/Keluar
+ 80196003          Wawan Gunawan 03/03/2021 08:22       C/Masuk
+ 80196003          Wawan Gunawan 03/03/2021 17:46      C/Keluar
+ 80196003          Wawan Gunawan 04/03/2021 08:07       C/Masuk
+ 80196003          Wawan Gunawan 04/03/2021 17:29      C/Keluar
+ 80196003          Wawan Gunawan 05/03/2021 08:27       C/Masuk
+ 80196003          Wawan Gunawan 05/03/2021 17:35      C/Keluar
+ 80196003          Wawan Gunawan 08/03/2021 08:29       C/Masuk
+ 80196003          Wawan Gunawan 08/03/2021 17:27      C/Keluar
+ 80196003          Wawan Gunawan 09/03/2021 08:26       C/Masuk
+ 80196003          Wawan Gunawan 09/03/2021 17:14      C/Keluar
+ 80196003          Wawan Gunawan 10/03/2021 08:21       C/Masuk
+ 80196003          Wawan Gunawan 10/03/2021 17:55      C/Keluar
+ 80196003          Wawan Gunawan 12/03/2021 08:26       C/Masuk
+ 80196003          Wawan Gunawan 12/03/2021 08:26       C/Masuk
+ 80196003          Wawan Gunawan 12/03/2021 17:50      C/Keluar
+ 80196003          Wawan Gunawan 17/03/2021 08:15       C/Masuk
+ 80196003          Wawan Gunawan 17/03/2021 17:34      C/Keluar
+ 80196003          Wawan Gunawan 18/03/2021 08:23       C/Masuk
+ 80196003          Wawan Gunawan 18/03/2021 17:33      C/Keluar
+ 80196003          Wawan Gunawan 19/03/2021 08:23       C/Masuk
+ 80196003          Wawan Gunawan 19/03/2021 17:52      C/Keluar
+ 80196003          Wawan Gunawan 22/03/2021 08:26       C/Masuk
+ 80196003          Wawan Gunawan 22/03/2021 17:23      C/Keluar
+ 80196003          Wawan Gunawan 23/03/2021 08:22       C/Masuk
+ 80196003          Wawan Gunawan 23/03/2021 17:29      C/Keluar
+ 80196003          Wawan Gunawan 24/03/2021 08:33       C/Masuk
+ 80196003          Wawan Gunawan 24/03/2021 17:53      C/Keluar
+ 80196003          Wawan Gunawan 25/03/2021 08:23       C/Masuk
+ 80210012              Komarudin 26/02/2021 08:26       C/Masuk
+ 80210012              Komarudin 26/02/2021 17:30      C/Keluar
+ 80210012              Komarudin 27/02/2021 08:16       C/Masuk
+ 80210012              Komarudin 01/03/2021 08:17       C/Masuk
+ 80210012              Komarudin 02/03/2021 08:04       C/Masuk
+ 80210012              Komarudin 02/03/2021 17:19      C/Keluar
+ 80210012              Komarudin 03/03/2021 07:58       C/Masuk
+ 80210012              Komarudin 03/03/2021 17:13      C/Keluar
+ 80210012              Komarudin 04/03/2021 08:05       C/Masuk
+ 80210012              Komarudin 04/03/2021 08:05       C/Masuk
+ 80210012              Komarudin 04/03/2021 17:31      C/Keluar
+ 80210012              Komarudin 05/03/2021 08:20       C/Masuk
+ 80210012              Komarudin 05/03/2021 17:11      C/Keluar
+ 80210012              Komarudin 08/03/2021 08:10       C/Masuk
+ 80210012              Komarudin 08/03/2021 17:22      C/Keluar
+ 80210012              Komarudin 09/03/2021 08:20       C/Masuk
+ 80210012              Komarudin 09/03/2021 17:24      C/Keluar
+ 80210012              Komarudin 10/03/2021 09:33       C/Masuk
+ 80210012              Komarudin 10/03/2021 17:19      C/Keluar
+ 80210012              Komarudin 12/03/2021 08:22       C/Masuk
+ 80210012              Komarudin 12/03/2021 08:22       C/Masuk
+ 80210012              Komarudin 17/03/2021 08:17       C/Masuk
+ 80210012              Komarudin 17/03/2021 17:21      C/Keluar
+ 80210012              Komarudin 18/03/2021 08:16       C/Masuk
+ 80210012              Komarudin 18/03/2021 17:34 Lembur Keluar
+ 80210012              Komarudin 18/03/2021 17:34      C/Keluar
+ 80210012              Komarudin 19/03/2021 08:16       C/Masuk
+ 80210012              Komarudin 19/03/2021 17:11      C/Keluar
+ 80210012              Komarudin 22/03/2021 08:22       C/Masuk
+ 80210012              Komarudin 22/03/2021 17:22      C/Keluar
+ 80210012              Komarudin 23/03/2021 08:09       C/Masuk
+ 80210012              Komarudin 24/03/2021 08:20       C/Masuk
+ 80210012              Komarudin 24/03/2021 17:28      C/Keluar
+ 80210012              Komarudin 25/03/2021 08:23       C/Masuk
+ 80213018                Junaedi 26/02/2021 00:20       C/Masuk
+ 80213018                Junaedi 26/02/2021 08:16       C/Masuk
+ 80213018                Junaedi 01/03/2021 08:23       C/Masuk
+ 80213018                Junaedi 01/03/2021 17:13      C/Keluar
+ 80213018                Junaedi 02/03/2021 08:07       C/Masuk
+ 80213018                Junaedi 03/03/2021 07:51       C/Masuk
+ 80213018                Junaedi 03/03/2021 17:09      C/Keluar
+ 80213018                Junaedi 04/03/2021 08:01       C/Masuk
+ 80213018                Junaedi 05/03/2021 08:15       C/Masuk
+ 80213018                Junaedi 08/03/2021 08:20       C/Masuk
+ 80213018                Junaedi 08/03/2021 17:40      C/Keluar
+ 80213018                Junaedi 09/03/2021 08:06       C/Masuk
+ 80213018                Junaedi 10/03/2021 08:14       C/Masuk
+ 80213018                Junaedi 10/03/2021 17:22      C/Keluar
+ 80213018                Junaedi 12/03/2021 08:15       C/Masuk
+ 80213018                Junaedi 15/03/2021 08:04       C/Masuk
+ 80213018                Junaedi 15/03/2021 17:03  Lembur Masuk
+ 80213018                Junaedi 16/03/2021 08:07  Lembur Masuk
+ 80213018                Junaedi 17/03/2021 08:04       C/Masuk
+ 80213018                Junaedi 17/03/2021 17:11        Keluar
+ 80213018                Junaedi 19/03/2021 07:57       C/Masuk
+ 80213018                Junaedi 22/03/2021 08:37       C/Masuk
+ 80213018                Junaedi 23/03/2021 08:32       C/Masuk
+ 80213018                Junaedi 23/03/2021 17:45      C/Keluar
+ 80213018                Junaedi 24/03/2021 08:16       C/Masuk
+ 80213018                Junaedi 24/03/2021 17:57      C/Keluar
+ 80213018                Junaedi 25/03/2021 08:06       C/Masuk
+ 80215023           Nura Latifah 26/02/2021 08:18       C/Masuk
+ 80215023           Nura Latifah 26/02/2021 17:28      C/Keluar
+ 80215023           Nura Latifah 27/02/2021 09:01       C/Masuk
+ 80215023           Nura Latifah 27/02/2021 15:11       C/Masuk
+ 80215023           Nura Latifah 28/02/2021 08:14       C/Masuk
+ 80215023           Nura Latifah 28/02/2021 14:59       C/Masuk
+ 80215023           Nura Latifah 01/03/2021 08:13       C/Masuk
+ 80215023           Nura Latifah 01/03/2021 17:28      C/Keluar
+ 80215023           Nura Latifah 02/03/2021 08:14       C/Masuk
+ 80215023           Nura Latifah 02/03/2021 17:17      C/Keluar
+ 80215023           Nura Latifah 03/03/2021 08:01       C/Masuk
+ 80215023           Nura Latifah 03/03/2021 17:05      C/Keluar
+ 80215023           Nura Latifah 04/03/2021 08:13       C/Masuk
+ 80215023           Nura Latifah 04/03/2021 17:04      C/Keluar
+ 80215023           Nura Latifah 05/03/2021 08:11       C/Masuk
+ 80215023           Nura Latifah 05/03/2021 17:03       C/Masuk
+ 80215023           Nura Latifah 06/03/2021 09:18       C/Masuk
+ 80215023           Nura Latifah 08/03/2021 08:15       C/Masuk
+ 80215023           Nura Latifah 08/03/2021 17:48      C/Keluar
+ 80215023           Nura Latifah 09/03/2021 08:09       C/Masuk
+ 80215023           Nura Latifah 09/03/2021 17:21      C/Keluar
+ 80215023           Nura Latifah 10/03/2021 08:12       C/Masuk
+ 80215023           Nura Latifah 10/03/2021 17:51      C/Keluar
+ 80215023           Nura Latifah 12/03/2021 08:10       C/Masuk
+ 80215023           Nura Latifah 12/03/2021 17:48      C/Keluar
+ 80215023           Nura Latifah 13/03/2021 09:08       C/Masuk
+ 80215023           Nura Latifah 13/03/2021 12:33       C/Masuk
+ 80215023           Nura Latifah 15/03/2021 08:14       C/Masuk
+ 80215023           Nura Latifah 15/03/2021 17:16      C/Keluar
+ 80215023           Nura Latifah 16/03/2021 08:10       C/Masuk
+ 80215023           Nura Latifah 16/03/2021 17:02      C/Keluar
+ 80215023           Nura Latifah 17/03/2021 08:06       C/Masuk
+ 80215023           Nura Latifah 17/03/2021 17:30      C/Keluar
+ 80215023           Nura Latifah 18/03/2021 08:05       C/Masuk
+ 80215023           Nura Latifah 18/03/2021 17:43      C/Keluar
+ 80215023           Nura Latifah 19/03/2021 08:19       C/Masuk
+ 80215023           Nura Latifah 19/03/2021 17:45      C/Keluar
+ 80215023           Nura Latifah 20/03/2021 09:03       C/Masuk
+ 80215023           Nura Latifah 20/03/2021 13:45       C/Masuk
+ 80215023           Nura Latifah 22/03/2021 08:05       C/Masuk
+ 80215023           Nura Latifah 22/03/2021 17:16      C/Keluar
+ 80215023           Nura Latifah 23/03/2021 08:05       C/Masuk
+ 80215023           Nura Latifah 23/03/2021 17:10      C/Keluar
+ 80215023           Nura Latifah 24/03/2021 08:12       C/Masuk
+ 80215023           Nura Latifah 24/03/2021 17:44      C/Keluar
+ 80215023           Nura Latifah 25/03/2021 08:08       C/Masuk
+ 80215024        Putri Febrianti 26/02/2021 08:30       C/Masuk
+ 80215024        Putri Febrianti 26/02/2021 18:12      C/Keluar
+ 80215024        Putri Febrianti 01/03/2021 08:21       C/Masuk
+ 80215024        Putri Febrianti 01/03/2021 18:07      C/Keluar
+ 80215024        Putri Febrianti 02/03/2021 08:23       C/Masuk
+ 80215024        Putri Febrianti 02/03/2021 17:15       C/Masuk
+ 80215024        Putri Febrianti 03/03/2021 08:27       C/Masuk
+ 80215024        Putri Febrianti 08/03/2021 08:31       C/Masuk
+ 80215024        Putri Febrianti 08/03/2021 17:07      C/Keluar
+ 80215024        Putri Febrianti 09/03/2021 08:29       C/Masuk
+ 80215024        Putri Febrianti 09/03/2021 17:15       C/Masuk
+ 80215024        Putri Febrianti 10/03/2021 08:27       C/Masuk
+ 80215024        Putri Febrianti 10/03/2021 17:04       C/Masuk
+ 80215024        Putri Febrianti 12/03/2021 08:20       C/Masuk
+ 80215024        Putri Febrianti 13/03/2021 11:21       C/Masuk
+ 80215024        Putri Febrianti 15/03/2021 08:22       C/Masuk
+ 80215024        Putri Febrianti 15/03/2021 17:04      C/Keluar
+ 80215024        Putri Febrianti 16/03/2021 08:24       C/Masuk
+ 80215024        Putri Febrianti 16/03/2021 17:03       C/Masuk
+ 80215024        Putri Febrianti 17/03/2021 08:19       C/Masuk
+ 80215024        Putri Febrianti 17/03/2021 17:12      C/Keluar
+ 80215024        Putri Febrianti 18/03/2021 08:24       C/Masuk
+ 80215024        Putri Febrianti 18/03/2021 17:12       C/Masuk
+ 80215024        Putri Febrianti 19/03/2021 08:19       C/Masuk
+ 80215024        Putri Febrianti 19/03/2021 17:06      C/Keluar
+ 80215024        Putri Febrianti 22/03/2021 08:30       C/Masuk
+ 80215024        Putri Febrianti 22/03/2021 17:11      C/Keluar
+ 80215024        Putri Febrianti 23/03/2021 08:22       C/Masuk
+ 80215024        Putri Febrianti 23/03/2021 17:11      C/Keluar
+ 80215024        Putri Febrianti 24/03/2021 08:21       C/Masuk
+ 80215024        Putri Febrianti 24/03/2021 17:56      C/Keluar
+ 80215024        Putri Febrianti 25/03/2021 08:28       C/Masuk
+ 80219035 Alfan Faizin Ardiansah 26/02/2021 08:23       C/Masuk
+ 80219035 Alfan Faizin Ardiansah 26/02/2021 17:04      C/Keluar
+ 80219035 Alfan Faizin Ardiansah 01/03/2021 08:22       C/Masuk
+ 80219035 Alfan Faizin Ardiansah 01/03/2021 17:13      C/Keluar
+ 80219035 Alfan Faizin Ardiansah 02/03/2021 08:13       C/Masuk
+ 80219035 Alfan Faizin Ardiansah 02/03/2021 17:07      C/Keluar
+ 80219035 Alfan Faizin Ardiansah 03/03/2021 08:28       C/Masuk
+ 80219035 Alfan Faizin Ardiansah 03/03/2021 17:08      C/Keluar
+ 80219035 Alfan Faizin Ardiansah 04/03/2021 08:14       C/Masuk
+ 80219035 Alfan Faizin Ardiansah 04/03/2021 17:03      C/Keluar
+ 80219035 Alfan Faizin Ardiansah 05/03/2021 08:19       C/Masuk
+ 80219035 Alfan Faizin Ardiansah 05/03/2021 17:10      C/Keluar
+ 80219035 Alfan Faizin Ardiansah 08/03/2021 08:23       C/Masuk
+ 80219035 Alfan Faizin Ardiansah 09/03/2021 08:20       C/Masuk
+ 80219035 Alfan Faizin Ardiansah 12/03/2021 08:16       C/Masuk
+ 80219035 Alfan Faizin Ardiansah 15/03/2021 08:18       C/Masuk
+ 80219035 Alfan Faizin Ardiansah 15/03/2021 17:06      C/Keluar
+ 80219035 Alfan Faizin Ardiansah 16/03/2021 08:14       C/Masuk
+ 80219035 Alfan Faizin Ardiansah 16/03/2021 17:06      C/Keluar
+ 80219035 Alfan Faizin Ardiansah 17/03/2021 08:21       C/Masuk
+ 80219035 Alfan Faizin Ardiansah 17/03/2021 17:11      C/Keluar
+ 80219035 Alfan Faizin Ardiansah 18/03/2021 08:11       C/Masuk
+ 80219035 Alfan Faizin Ardiansah 18/03/2021 17:25      C/Keluar
+ 80219035 Alfan Faizin Ardiansah 19/03/2021 08:15       C/Masuk
+ 80219035 Alfan Faizin Ardiansah 19/03/2021 17:10      C/Keluar
+ 80219035 Alfan Faizin Ardiansah 22/03/2021 08:25       C/Masuk
+ 80219035 Alfan Faizin Ardiansah 22/03/2021 17:19      C/Keluar
+ 80219035 Alfan Faizin Ardiansah 23/03/2021 08:21       C/Masuk
+ 80219035 Alfan Faizin Ardiansah 23/03/2021 17:11      C/Keluar
+ 80219035 Alfan Faizin Ardiansah 24/03/2021 08:21       C/Masuk
+ 80219035 Alfan Faizin Ardiansah 24/03/2021 17:18      C/Keluar
+ 80219035 Alfan Faizin Ardiansah 25/03/2021 08:11       C/Masuk
+ 80316026                Tarmizi 26/02/2021 08:20       C/Masuk
+ 80316026                Tarmizi 26/02/2021 08:20       C/Masuk
+ 80316026                Tarmizi 26/02/2021 17:33      C/Keluar
+ 80316026                Tarmizi 26/02/2021 17:33      C/Keluar
+ 80316026                Tarmizi 01/03/2021 09:37       C/Masuk
+ 80316026                Tarmizi 01/03/2021 17:42      C/Keluar
+ 80316026                Tarmizi 02/03/2021 08:15       C/Masuk
+ 80316026                Tarmizi 02/03/2021 08:15       C/Masuk
+ 80316026                Tarmizi 02/03/2021 17:33      C/Keluar
+ 80316026                Tarmizi 02/03/2021 17:33      C/Keluar
+ 80316026                Tarmizi 02/03/2021 17:33      C/Keluar
+ 80316026                Tarmizi 03/03/2021 08:16       C/Masuk
+ 80316026                Tarmizi 04/03/2021 08:15       C/Masuk
+ 80316026                Tarmizi 04/03/2021 17:05      C/Keluar
+ 80316026                Tarmizi 05/03/2021 08:19       C/Masuk
+ 80316026                Tarmizi 08/03/2021 08:16       C/Masuk
+ 80316026                Tarmizi 08/03/2021 17:15      C/Keluar
+ 80316026                Tarmizi 09/03/2021 08:18       C/Masuk
+ 80316026                Tarmizi 10/03/2021 08:12       C/Masuk
+ 80316026                Tarmizi 10/03/2021 08:13       C/Masuk
+ 80316026                Tarmizi 10/03/2021 17:06      C/Keluar
+ 80316026                Tarmizi 12/03/2021 08:14       C/Masuk
+ 80316026                Tarmizi 12/03/2021 17:07      C/Keluar
+ 80316026                Tarmizi 15/03/2021 12:50       C/Masuk
+ 80316026                Tarmizi 15/03/2021 17:21      C/Keluar
+ 80316026                Tarmizi 16/03/2021 08:21       C/Masuk
+ 80316026                Tarmizi 16/03/2021 08:21       C/Masuk
+ 80316026                Tarmizi 16/03/2021 17:07      C/Keluar
+ 80316026                Tarmizi 16/03/2021 17:21      C/Keluar
+ 80316026                Tarmizi 17/03/2021 08:16       C/Masuk
+ 80316026                Tarmizi 18/03/2021 08:15       C/Masuk
+ 80316026                Tarmizi 18/03/2021 08:15       C/Masuk
+ 80316026                Tarmizi 18/03/2021 17:15      C/Keluar
+ 80316026                Tarmizi 18/03/2021 17:15      C/Keluar
+ 80316026                Tarmizi 18/03/2021 17:15      C/Keluar
+ 80316026                Tarmizi 18/03/2021 17:15      C/Keluar
+ 80316026                Tarmizi 18/03/2021 17:15      C/Keluar
+ 80316026                Tarmizi 18/03/2021 17:15      C/Keluar
+ 80316026                Tarmizi 19/03/2021 08:17       C/Masuk
+ 80316026                Tarmizi 19/03/2021 08:17       C/Masuk
+ 80316026                Tarmizi 22/03/2021 08:19       C/Masuk
+ 80316026                Tarmizi 22/03/2021 08:19       C/Masuk
+ 80316026                Tarmizi 22/03/2021 17:15      C/Keluar
+ 80316026                Tarmizi 23/03/2021 08:19       C/Masuk
+ 80316026                Tarmizi 23/03/2021 08:19       C/Masuk
+ 80316026                Tarmizi 24/03/2021 08:29       C/Masuk
+ 80316026                Tarmizi 24/03/2021 17:50      C/Keluar
+ 80316026                Tarmizi 24/03/2021 17:51      C/Keluar
+ 80316026                Tarmizi 25/03/2021 08:22       C/Masuk
+ 80316026                Tarmizi 25/03/2021 08:22       C/Masuk
+ 80321039  Masayu Allia Amirah F 22/03/2021 08:15       C/Masuk
+ 80321039  Masayu Allia Amirah F 22/03/2021 17:12      C/Keluar
+ 80321039  Masayu Allia Amirah F 23/03/2021 07:52       C/Masuk
+ 80321039  Masayu Allia Amirah F 23/03/2021 17:00      C/Keluar
+ 80321039  Masayu Allia Amirah F 24/03/2021 07:51       C/Masuk
+ 80321039  Masayu Allia Amirah F 24/03/2021 17:11      C/Keluar
+ 80321039  Masayu Allia Amirah F 25/03/2021 08:21       C/Masuk
+ 80321040    Ridho Putra Permana 24/03/2021 08:29       C/Masuk
+ 80321040    Ridho Putra Permana 24/03/2021 17:27      C/Keluar
+ 80321040    Ridho Putra Permana 24/03/2021 17:27      C/Keluar
+ 80321040    Ridho Putra Permana 24/03/2021 17:28      C/Keluar
+ 80321040    Ridho Putra Permana 25/03/2021 08:16       C/Masuk
+ 80321040    Ridho Putra Permana 25/03/2021 08:16       C/Masuk
+ 80412015        Yoga Oktavianus 26/02/2021 00:21       C/Masuk
+ 80412015        Yoga Oktavianus 26/02/2021 08:15       C/Masuk
+ 80412015        Yoga Oktavianus 26/02/2021 18:43      C/Keluar
+ 80412015        Yoga Oktavianus 27/02/2021 10:44       C/Masuk
+ 80412015        Yoga Oktavianus 27/02/2021 18:11      C/Keluar
+ 80412015        Yoga Oktavianus 01/03/2021 07:03       C/Masuk
+ 80412015        Yoga Oktavianus 01/03/2021 08:07       C/Masuk
+ 80412015        Yoga Oktavianus 01/03/2021 17:12      C/Keluar
+ 80412015        Yoga Oktavianus 02/03/2021 07:47       C/Masuk
+ 80412015        Yoga Oktavianus 02/03/2021 17:09      C/Keluar
+ 80412015        Yoga Oktavianus 03/03/2021 08:08       C/Masuk
+ 80412015        Yoga Oktavianus 03/03/2021 17:03      C/Keluar
+ 80412015        Yoga Oktavianus 04/03/2021 07:50       C/Masuk
+ 80412015        Yoga Oktavianus 04/03/2021 17:03      C/Keluar
+ 80412015        Yoga Oktavianus 05/03/2021 08:09       C/Masuk
+ 80412015        Yoga Oktavianus 05/03/2021 18:43      C/Keluar
+ 80412015        Yoga Oktavianus 08/03/2021 08:00       C/Masuk
+ 80412015        Yoga Oktavianus 08/03/2021 17:40      C/Keluar
+ 80412015        Yoga Oktavianus 09/03/2021 08:05       C/Masuk
+ 80412015        Yoga Oktavianus 09/03/2021 17:28      C/Keluar
+ 80412015        Yoga Oktavianus 10/03/2021 07:56       C/Masuk
+ 80412015        Yoga Oktavianus 10/03/2021 17:07      C/Keluar
+ 80412015        Yoga Oktavianus 16/03/2021 07:43       C/Masuk
+ 80412015        Yoga Oktavianus 16/03/2021 17:05      C/Keluar
+ 80412015        Yoga Oktavianus 17/03/2021 07:58       C/Masuk
+ 80412015        Yoga Oktavianus 17/03/2021 17:10      C/Keluar
+ 80412015        Yoga Oktavianus 18/03/2021 07:45       C/Masuk
+ 80412015        Yoga Oktavianus 18/03/2021 17:00      C/Keluar
+ 80412015        Yoga Oktavianus 19/03/2021 07:50       C/Masuk
+ 80412015        Yoga Oktavianus 19/03/2021 17:02      C/Keluar
+ 80412015        Yoga Oktavianus 22/03/2021 08:12       C/Masuk
+ 80412015        Yoga Oktavianus 22/03/2021 17:05      C/Keluar
+ 80412015        Yoga Oktavianus 23/03/2021 08:06       C/Masuk
+ 80412015        Yoga Oktavianus 23/03/2021 17:02      C/Keluar
+ 80412015        Yoga Oktavianus 24/03/2021 07:49       C/Masuk
+ 80412015        Yoga Oktavianus 24/03/2021 17:57      C/Keluar
+ 80412015        Yoga Oktavianus 25/03/2021 08:02       C/Masuk
+ 80412016                 Nurdin 26/02/2021 00:21       C/Masuk
+ 80412016                 Nurdin 26/02/2021 08:17       C/Masuk
+ 80412016                 Nurdin 26/02/2021 18:14      C/Keluar
+ 80412016                 Nurdin 01/03/2021 07:02       C/Masuk
+ 80412016                 Nurdin 01/03/2021 17:56      C/Keluar
+ 80412016                 Nurdin 02/03/2021 08:03       C/Masuk
+ 80412016                 Nurdin 03/03/2021 08:02       C/Masuk
+ 80412016                 Nurdin 03/03/2021 17:40      C/Keluar
+ 80412016                 Nurdin 04/03/2021 08:00       C/Masuk
+ 80412016                 Nurdin 04/03/2021 17:35      C/Keluar
+ 80412016                 Nurdin 05/03/2021 07:58       C/Masuk
+ 80412016                 Nurdin 05/03/2021 18:49      C/Keluar
+ 80412016                 Nurdin 08/03/2021 07:57       C/Masuk
+ 80412016                 Nurdin 08/03/2021 07:58       C/Masuk
+ 80412016                 Nurdin 08/03/2021 17:50      C/Keluar
+ 80412016                 Nurdin 09/03/2021 08:04       C/Masuk
+ 80412016                 Nurdin 09/03/2021 08:04       C/Masuk
+ 80412016                 Nurdin 09/03/2021 17:22      C/Keluar
+ 80412016                 Nurdin 10/03/2021 07:58       C/Masuk
+ 80412016                 Nurdin 10/03/2021 17:52      C/Keluar
+ 80412016                 Nurdin 12/03/2021 08:04       C/Masuk
+ 80412016                 Nurdin 12/03/2021 08:15       C/Masuk
+ 80412016                 Nurdin 12/03/2021 17:29      C/Keluar
+ 80412016                 Nurdin 15/03/2021 08:00       C/Masuk
+ 80412016                 Nurdin 15/03/2021 17:27      C/Keluar
+ 80412016                 Nurdin 17/03/2021 07:58       C/Masuk
+ 80412016                 Nurdin 17/03/2021 17:30      C/Keluar
+ 80412016                 Nurdin 18/03/2021 07:59       C/Masuk
+ 80412016                 Nurdin 18/03/2021 17:33      C/Keluar
+ 80412016                 Nurdin 19/03/2021 08:06       C/Masuk
+ 80412016                 Nurdin 21/03/2021 01:59       C/Masuk
+ 80412016                 Nurdin 22/03/2021 08:05       C/Masuk
+ 80412016                 Nurdin 22/03/2021 17:34      C/Keluar
+ 80412016                 Nurdin 23/03/2021 08:06       C/Masuk
+ 80412016                 Nurdin 23/03/2021 17:15      C/Keluar
+ 80412016                 Nurdin 24/03/2021 17:35      C/Keluar
+ 80412016                 Nurdin 25/03/2021 08:05       C/Masuk
+ 80511013         Indra Sefrizal 28/02/2021 08:13       C/Masuk
+ 80511013         Indra Sefrizal 28/02/2021 17:12      C/Keluar
+ 80511013         Indra Sefrizal 01/03/2021 06:41       C/Masuk
+ 80511013         Indra Sefrizal 01/03/2021 19:22      C/Keluar
+ 80511013         Indra Sefrizal 02/03/2021 07:46       C/Masuk
+ 80511013         Indra Sefrizal 02/03/2021 18:36      C/Keluar
+ 80511013         Indra Sefrizal 03/03/2021 07:44       C/Masuk
+ 80511013         Indra Sefrizal 03/03/2021 18:33      C/Keluar
+ 80511013         Indra Sefrizal 04/03/2021 07:49       C/Masuk
+ 80511013         Indra Sefrizal 04/03/2021 18:04      C/Keluar
+ 80511013         Indra Sefrizal 05/03/2021 07:53       C/Masuk
+ 80511013         Indra Sefrizal 05/03/2021 18:55      C/Keluar
+ 80511013         Indra Sefrizal 06/03/2021 07:44       C/Masuk
+ 80511013         Indra Sefrizal 08/03/2021 07:52       C/Masuk
+ 80511013         Indra Sefrizal 08/03/2021 18:37      C/Keluar
+ 80511013         Indra Sefrizal 10/03/2021 08:19       C/Masuk
+ 80511013         Indra Sefrizal 10/03/2021 18:43      C/Keluar
+ 80511013         Indra Sefrizal 12/03/2021 08:02       C/Masuk
+ 80511013         Indra Sefrizal 12/03/2021 18:29      C/Keluar
+ 80511013         Indra Sefrizal 13/03/2021 07:48       C/Masuk
+ 80511013         Indra Sefrizal 13/03/2021 13:18      C/Keluar
+ 80511013         Indra Sefrizal 15/03/2021 07:38       C/Masuk
+ 80511013         Indra Sefrizal 15/03/2021 18:43      C/Keluar
+ 80511013         Indra Sefrizal 16/03/2021 07:44       C/Masuk
+ 80511013         Indra Sefrizal 16/03/2021 17:28      C/Keluar
+ 80511013         Indra Sefrizal 17/03/2021 07:45       C/Masuk
+ 80511013         Indra Sefrizal 17/03/2021 18:47      C/Keluar
+ 80511013         Indra Sefrizal 18/03/2021 07:47       C/Masuk
+ 80511013         Indra Sefrizal 18/03/2021 18:51      C/Keluar
+ 80511013         Indra Sefrizal 19/03/2021 17:57      C/Keluar
+ 80511013         Indra Sefrizal 22/03/2021 08:04       C/Masuk
+ 80511013         Indra Sefrizal 22/03/2021 08:04       C/Masuk
+ 80511013         Indra Sefrizal 22/03/2021 17:53      C/Keluar
+ 80511013         Indra Sefrizal 22/03/2021 17:55      C/Keluar
+ 80511013         Indra Sefrizal 23/03/2021 07:53       C/Masuk
+ 80511013         Indra Sefrizal 23/03/2021 18:04      C/Keluar
+ 80511013         Indra Sefrizal 24/03/2021 07:52       C/Masuk
+ 80511013         Indra Sefrizal 24/03/2021 18:45      C/Keluar
+ 80511013         Indra Sefrizal 25/03/2021 07:36       C/Masuk
+ 80611014        Dicky Irnanda R 26/02/2021 08:15       C/Masuk
+ 80611014        Dicky Irnanda R 26/02/2021 17:30      C/Keluar
+ 80611014        Dicky Irnanda R 01/03/2021 08:06       C/Masuk
+ 80611014        Dicky Irnanda R 01/03/2021 18:44      C/Keluar
+ 80611014        Dicky Irnanda R 02/03/2021 08:21       C/Masuk
+ 80611014        Dicky Irnanda R 02/03/2021 17:33      C/Keluar
+ 80611014        Dicky Irnanda R 03/03/2021 07:55       C/Masuk
+ 80611014        Dicky Irnanda R 03/03/2021 17:14      C/Keluar
+ 80611014        Dicky Irnanda R 04/03/2021 07:55       C/Masuk
+ 80611014        Dicky Irnanda R 04/03/2021 17:15      C/Keluar
+ 80611014        Dicky Irnanda R 05/03/2021 09:23       C/Masuk
+ 80611014        Dicky Irnanda R 05/03/2021 17:26      C/Keluar
+ 80611014        Dicky Irnanda R 08/03/2021 08:05       C/Masuk
+ 80611014        Dicky Irnanda R 08/03/2021 17:21      C/Keluar
+ 80611014        Dicky Irnanda R 09/03/2021 08:00       C/Masuk
+ 80611014        Dicky Irnanda R 09/03/2021 17:27      C/Keluar
+ 80611014        Dicky Irnanda R 10/03/2021 07:57       C/Masuk
+ 80611014        Dicky Irnanda R 10/03/2021 17:28      C/Keluar
+ 80611014        Dicky Irnanda R 12/03/2021 08:00       C/Masuk
+ 80611014        Dicky Irnanda R 12/03/2021 18:02      C/Keluar
+ 80611014        Dicky Irnanda R 15/03/2021 07:46       C/Masuk
+ 80611014        Dicky Irnanda R 15/03/2021 18:06      C/Keluar
+ 80611014        Dicky Irnanda R 16/03/2021 07:51       C/Masuk
+ 80611014        Dicky Irnanda R 16/03/2021 17:04      C/Keluar
+ 80611014        Dicky Irnanda R 17/03/2021 07:54       C/Masuk
+ 80611014        Dicky Irnanda R 17/03/2021 17:08      C/Keluar
+ 80611014        Dicky Irnanda R 18/03/2021 08:02       C/Masuk
+ 80611014        Dicky Irnanda R 18/03/2021 17:32      C/Keluar
+ 80611014        Dicky Irnanda R 19/03/2021 07:54       C/Masuk
+ 80611014        Dicky Irnanda R 19/03/2021 17:23      C/Keluar
+ 80611014        Dicky Irnanda R 22/03/2021 08:10       C/Masuk
+ 80611014        Dicky Irnanda R 22/03/2021 17:22      C/Keluar
+ 80611014        Dicky Irnanda R 23/03/2021 07:59       C/Masuk
+ 80611014        Dicky Irnanda R 24/03/2021 07:53       C/Masuk
+ 80611014        Dicky Irnanda R 24/03/2021 17:34      C/Keluar
+ 80611014        Dicky Irnanda R 25/03/2021 07:54       C/Masuk
+ 80611014        Dicky Irnanda R 25/03/2021 07:57       C/Masuk
+ 80612017      M. Rizki Mahendra 26/02/2021 00:20       C/Masuk
+ 80612017      M. Rizki Mahendra 26/02/2021 08:16       C/Masuk
+ 80612017      M. Rizki Mahendra 26/02/2021 17:38      C/Keluar
+ 80612017      M. Rizki Mahendra 27/02/2021 08:16       C/Masuk
+ 80612017      M. Rizki Mahendra 01/03/2021 06:52       C/Masuk
+ 80612017      M. Rizki Mahendra 01/03/2021 08:06       C/Masuk
+ 80612017      M. Rizki Mahendra 01/03/2021 17:45      C/Keluar
+ 80612017      M. Rizki Mahendra 02/03/2021 07:48       C/Masuk
+ 80612017      M. Rizki Mahendra 02/03/2021 17:13      C/Keluar
+ 80612017      M. Rizki Mahendra 03/03/2021 07:53       C/Masuk
+ 80612017      M. Rizki Mahendra 03/03/2021 17:15      C/Keluar
+ 80612017      M. Rizki Mahendra 04/03/2021 07:48       C/Masuk
+ 80612017      M. Rizki Mahendra 04/03/2021 17:12      C/Keluar
+ 80612017      M. Rizki Mahendra 05/03/2021 08:02       C/Masuk
+ 80612017      M. Rizki Mahendra 05/03/2021 18:43      C/Keluar
+ 80612017      M. Rizki Mahendra 08/03/2021 07:56       C/Masuk
+ 80612017      M. Rizki Mahendra 08/03/2021 17:31      C/Keluar
+ 80612017      M. Rizki Mahendra 09/03/2021 07:59       C/Masuk
+ 80612017      M. Rizki Mahendra 09/03/2021 17:23      C/Keluar
+ 80612017      M. Rizki Mahendra 10/03/2021 07:56       C/Masuk
+ 80612017      M. Rizki Mahendra 10/03/2021 17:12      C/Keluar
+ 80612017      M. Rizki Mahendra 11/03/2021 14:51       C/Masuk
+ 80612017      M. Rizki Mahendra 12/03/2021 08:02       C/Masuk
+ 80612017      M. Rizki Mahendra 12/03/2021 17:07       C/Masuk
+ 80612017      M. Rizki Mahendra 12/03/2021 17:07      C/Keluar
+ 80612017      M. Rizki Mahendra 15/03/2021 07:53       C/Masuk
+ 80612017      M. Rizki Mahendra 15/03/2021 17:09      C/Keluar
+ 80612017      M. Rizki Mahendra 16/03/2021 07:45       C/Masuk
+ 80612017      M. Rizki Mahendra 16/03/2021 17:09      C/Keluar
+ 80612017      M. Rizki Mahendra 17/03/2021 07:45       C/Masuk
+ 80612017      M. Rizki Mahendra 17/03/2021 17:08      C/Keluar
+ 80612017      M. Rizki Mahendra 18/03/2021 07:49       C/Masuk
+ 80612017      M. Rizki Mahendra 18/03/2021 17:21      C/Keluar
+ 80612017      M. Rizki Mahendra 19/03/2021 07:50       C/Masuk
+ 80612017      M. Rizki Mahendra 19/03/2021 17:01      C/Keluar
+ 80612017      M. Rizki Mahendra 20/03/2021 07:58       C/Masuk
+ 80612017      M. Rizki Mahendra 20/03/2021 13:48      C/Keluar
+ 80612017      M. Rizki Mahendra 22/03/2021 08:05       C/Masuk
+ 80612017      M. Rizki Mahendra 22/03/2021 17:14      C/Keluar
+ 80612017      M. Rizki Mahendra 23/03/2021 07:52       C/Masuk
+ 80612017      M. Rizki Mahendra 23/03/2021 17:07       C/Masuk
+ 80612017      M. Rizki Mahendra 23/03/2021 17:08      C/Keluar
+ 80612017      M. Rizki Mahendra 24/03/2021 07:52       C/Masuk
+ 80612017      M. Rizki Mahendra 24/03/2021 17:04      C/Keluar
+ 80612017      M. Rizki Mahendra 25/03/2021 07:52       C/Masuk
+ 80619034               Sumiyati 26/02/2021 17:18      C/Keluar
+ 80619034               Sumiyati 26/02/2021 17:19      C/Keluar
+ 80619034               Sumiyati 01/03/2021 08:27       C/Masuk
+ 80619034               Sumiyati 02/03/2021 08:30       C/Masuk
+ 80619034               Sumiyati 02/03/2021 17:19      C/Keluar
+ 80619034               Sumiyati 02/03/2021 17:19      C/Keluar
+ 80619034               Sumiyati 03/03/2021 08:28       C/Masuk
+ 80619034               Sumiyati 03/03/2021 17:12      C/Keluar
+ 80619034               Sumiyati 03/03/2021 17:13      C/Keluar
+ 80619034               Sumiyati 04/03/2021 08:31       C/Masuk
+ 80619034               Sumiyati 04/03/2021 17:08      C/Keluar
+ 80619034               Sumiyati 05/03/2021 08:28       C/Masuk
+ 80619034               Sumiyati 05/03/2021 17:04      C/Keluar
+ 80619034               Sumiyati 05/03/2021 17:10      C/Keluar
+ 80619034               Sumiyati 08/03/2021 08:29       C/Masuk
+ 80619034               Sumiyati 08/03/2021 17:37      C/Keluar
+ 80619034               Sumiyati 09/03/2021 08:30       C/Masuk
+ 80619034               Sumiyati 09/03/2021 17:11      C/Keluar
+ 80619034               Sumiyati 10/03/2021 08:29       C/Masuk
+ 80619034               Sumiyati 10/03/2021 08:29       C/Masuk
+ 80619034               Sumiyati 10/03/2021 17:05      C/Keluar
+ 80619034               Sumiyati 12/03/2021 08:30       C/Masuk
+ 80619034               Sumiyati 12/03/2021 17:12      C/Keluar
+ 80619034               Sumiyati 15/03/2021 08:32       C/Masuk
+ 80619034               Sumiyati 15/03/2021 17:17      C/Keluar
+ 80619034               Sumiyati 15/03/2021 17:17      C/Keluar
+ 80619034               Sumiyati 16/03/2021 08:29       C/Masuk
+ 80619034               Sumiyati 16/03/2021 17:03      C/Keluar
+ 80619034               Sumiyati 17/03/2021 08:29       C/Masuk
+ 80619034               Sumiyati 17/03/2021 17:13      C/Keluar
+ 80619034               Sumiyati 18/03/2021 08:29       C/Masuk
+ 80619034               Sumiyati 18/03/2021 17:05      C/Keluar
+ 80619034               Sumiyati 19/03/2021 08:36       C/Masuk
+ 80619034               Sumiyati 19/03/2021 17:04      C/Keluar
+ 80619034               Sumiyati 19/03/2021 17:05      C/Keluar
+ 80619034               Sumiyati 22/03/2021 08:33       C/Masuk
+ 80619034               Sumiyati 22/03/2021 17:13      C/Keluar
+ 80619034               Sumiyati 22/03/2021 17:13      C/Keluar
+ 80619034               Sumiyati 23/03/2021 08:31       C/Masuk
+ 80619034               Sumiyati 23/03/2021 17:05      C/Keluar
+ 80619034               Sumiyati 23/03/2021 17:06      C/Keluar
+ 80619034               Sumiyati 24/03/2021 08:31       C/Masuk
+ 80619034               Sumiyati 24/03/2021 17:20      C/Keluar
+ 80619034               Sumiyati 25/03/2021 08:29       C/Masuk
+ 80707008             M. Fachrie 26/02/2021 08:19       C/Masuk
+ 80707008             M. Fachrie 01/03/2021 08:12       C/Masuk
+ 80707008             M. Fachrie 01/03/2021 17:08      C/Keluar
+ 80707008             M. Fachrie 02/03/2021 08:17       C/Masuk
+ 80707008             M. Fachrie 02/03/2021 17:08      C/Keluar
+ 80707008             M. Fachrie 03/03/2021 08:14       C/Masuk
+ 80707008             M. Fachrie 03/03/2021 17:11      C/Keluar
+ 80707008             M. Fachrie 04/03/2021 08:08       C/Masuk
+ 80707008             M. Fachrie 04/03/2021 17:05      C/Keluar
+ 80707008             M. Fachrie 05/03/2021 08:08       C/Masuk
+ 80707008             M. Fachrie 08/03/2021 08:12       C/Masuk
+ 80707008             M. Fachrie 08/03/2021 17:11      C/Keluar
+ 80707008             M. Fachrie 09/03/2021 08:11       C/Masuk
+ 80707008             M. Fachrie 09/03/2021 17:06      C/Keluar
+ 80707008             M. Fachrie 10/03/2021 08:08       C/Masuk
+ 80707008             M. Fachrie 10/03/2021 17:06      C/Keluar
+ 80707008             M. Fachrie 12/03/2021 08:16       C/Masuk
+ 80707008             M. Fachrie 12/03/2021 17:07      C/Keluar
+ 80707008             M. Fachrie 17/03/2021 11:08       C/Masuk
+ 80707008             M. Fachrie 17/03/2021 11:08       C/Masuk
+ 80707008             M. Fachrie 17/03/2021 17:12      C/Keluar
+ 80707008             M. Fachrie 25/03/2021 08:12       C/Masuk
+ 80708011      Fransiska Triwiji 26/02/2021 08:31       C/Masuk
+ 80708011      Fransiska Triwiji 26/02/2021 17:38      C/Keluar
+ 80708011      Fransiska Triwiji 01/03/2021 08:28       C/Masuk
+ 80708011      Fransiska Triwiji 01/03/2021 17:47      C/Keluar
+ 80708011      Fransiska Triwiji 02/03/2021 08:30       C/Masuk
+ 80708011      Fransiska Triwiji 02/03/2021 17:35      C/Keluar
+ 80708011      Fransiska Triwiji 03/03/2021 08:28       C/Masuk
+ 80708011      Fransiska Triwiji 03/03/2021 17:40      C/Keluar
+ 80708011      Fransiska Triwiji 04/03/2021 08:28       C/Masuk
+ 80708011      Fransiska Triwiji 04/03/2021 17:45      C/Keluar
+ 80708011      Fransiska Triwiji 05/03/2021 08:29       C/Masuk
+ 80708011      Fransiska Triwiji 05/03/2021 17:31      C/Keluar
+ 80708011      Fransiska Triwiji 08/03/2021 08:31       C/Masuk
+ 80708011      Fransiska Triwiji 09/03/2021 08:30       C/Masuk
+ 80708011      Fransiska Triwiji 09/03/2021 17:41      C/Keluar
+ 80708011      Fransiska Triwiji 10/03/2021 08:27       C/Masuk
+ 80708011      Fransiska Triwiji 10/03/2021 18:27      C/Keluar
+ 80708011      Fransiska Triwiji 12/03/2021 08:30       C/Masuk
+ 80708011      Fransiska Triwiji 12/03/2021 17:48      C/Keluar
+ 80708011      Fransiska Triwiji 15/03/2021 08:27       C/Masuk
+ 80708011      Fransiska Triwiji 15/03/2021 18:08      C/Keluar
+ 80708011      Fransiska Triwiji 16/03/2021 08:29       C/Masuk
+ 80708011      Fransiska Triwiji 16/03/2021 17:14      C/Keluar
+ 80708011      Fransiska Triwiji 17/03/2021 08:31       C/Masuk
+ 80708011      Fransiska Triwiji 17/03/2021 17:36      C/Keluar
+ 80708011      Fransiska Triwiji 18/03/2021 08:25       C/Masuk
+ 80708011      Fransiska Triwiji 19/03/2021 08:31       C/Masuk
+ 80708011      Fransiska Triwiji 19/03/2021 17:52      C/Keluar
+ 80708011      Fransiska Triwiji 22/03/2021 08:30       C/Masuk
+ 80708011      Fransiska Triwiji 22/03/2021 17:14      C/Keluar
+ 80708011      Fransiska Triwiji 23/03/2021 08:27       C/Masuk
+ 80708011      Fransiska Triwiji 23/03/2021 17:21      C/Keluar
+ 80708011      Fransiska Triwiji 24/03/2021 08:23       C/Masuk
+ 80708011      Fransiska Triwiji 24/03/2021 17:53      C/Keluar
+ 80708011      Fransiska Triwiji 25/03/2021 08:28       C/Masuk
+ 80799004        Muslich Mochtar 26/02/2021 08:28       C/Masuk
+ 80799004        Muslich Mochtar 26/02/2021 17:19      C/Keluar
+ 80799004        Muslich Mochtar 01/03/2021 08:26       C/Masuk
+ 80799004        Muslich Mochtar 01/03/2021 17:28      C/Keluar
+ 80799004        Muslich Mochtar 02/03/2021 08:27       C/Masuk
+ 80799004        Muslich Mochtar 02/03/2021 17:13      C/Keluar
+ 80799004        Muslich Mochtar 03/03/2021 08:24       C/Masuk
+ 80799004        Muslich Mochtar 04/03/2021 08:23       C/Masuk
+ 80799004        Muslich Mochtar 04/03/2021 17:29      C/Keluar
+ 80799004        Muslich Mochtar 05/03/2021 08:27       C/Masuk
+ 80799004        Muslich Mochtar 05/03/2021 17:19      C/Keluar
+ 80799004        Muslich Mochtar 08/03/2021 08:24       C/Masuk
+ 80799004        Muslich Mochtar 08/03/2021 17:24      C/Keluar
+ 80799004        Muslich Mochtar 09/03/2021 08:24       C/Masuk
+ 80799004        Muslich Mochtar 09/03/2021 17:10      C/Keluar
+ 80799004        Muslich Mochtar 10/03/2021 08:25       C/Masuk
+ 80799004        Muslich Mochtar 10/03/2021 17:10      C/Keluar
+ 80799004        Muslich Mochtar 12/03/2021 08:27       C/Masuk
+ 80799004        Muslich Mochtar 12/03/2021 17:17      C/Keluar
+ 80799004        Muslich Mochtar 15/03/2021 08:22       C/Masuk
+ 80799004        Muslich Mochtar 15/03/2021 17:18      C/Keluar
+ 80799004        Muslich Mochtar 16/03/2021 08:22       C/Masuk
+ 80799004        Muslich Mochtar 16/03/2021 17:16      C/Keluar
+ 80799004        Muslich Mochtar 17/03/2021 08:24       C/Masuk
+ 80799004        Muslich Mochtar 18/03/2021 08:20       C/Masuk
+ 80799004        Muslich Mochtar 18/03/2021 17:05      C/Keluar
+ 80799004        Muslich Mochtar 19/03/2021 08:22       C/Masuk
+ 80799004        Muslich Mochtar 22/03/2021 08:24       C/Masuk
+ 80799004        Muslich Mochtar 22/03/2021 17:20      C/Keluar
+ 80799004        Muslich Mochtar 24/03/2021 08:20       C/Masuk
+ 80799004        Muslich Mochtar 24/03/2021 17:56      C/Keluar
+ 80799004        Muslich Mochtar 25/03/2021 08:23       C/Masuk
+ 80816027            Yudi Irawan 26/02/2021 08:34       C/Masuk
+ 80816027            Yudi Irawan 26/02/2021 17:25      C/Keluar
+ 80816027            Yudi Irawan 01/03/2021 08:25       C/Masuk
+ 80816027            Yudi Irawan 01/03/2021 17:26      C/Keluar
+ 80816027            Yudi Irawan 02/03/2021 08:22       C/Masuk
+ 80816027            Yudi Irawan 03/03/2021 08:27       C/Masuk
+ 80816027            Yudi Irawan 03/03/2021 17:16      C/Keluar
+ 80816027            Yudi Irawan 04/03/2021 08:22       C/Masuk
+ 80816027            Yudi Irawan 04/03/2021 17:19      C/Keluar
+ 80816027            Yudi Irawan 05/03/2021 08:25       C/Masuk
+ 80816027            Yudi Irawan 05/03/2021 17:30      C/Keluar
+ 80816027            Yudi Irawan 08/03/2021 08:30       C/Masuk
+ 80816027            Yudi Irawan 08/03/2021 17:25      C/Keluar
+ 80816027            Yudi Irawan 09/03/2021 08:21       C/Masuk
+ 80816027            Yudi Irawan 09/03/2021 17:17      C/Keluar
+ 80816027            Yudi Irawan 10/03/2021 08:25       C/Masuk
+ 80816027            Yudi Irawan 10/03/2021 17:28      C/Keluar
+ 80816027            Yudi Irawan 12/03/2021 08:31       C/Masuk
+ 80816027            Yudi Irawan 12/03/2021 17:33      C/Keluar
+ 80816027            Yudi Irawan 15/03/2021 08:22       C/Masuk
+ 80816027            Yudi Irawan 15/03/2021 17:19      C/Keluar
+ 80816027            Yudi Irawan 16/03/2021 08:30       C/Masuk
+ 80816027            Yudi Irawan 16/03/2021 17:14      C/Keluar
+ 80816027            Yudi Irawan 17/03/2021 08:22       C/Masuk
+ 80816027            Yudi Irawan 17/03/2021 17:21      C/Keluar
+ 80816027            Yudi Irawan 18/03/2021 08:20       C/Masuk
+ 80816027            Yudi Irawan 18/03/2021 17:18      C/Keluar
+ 80816027            Yudi Irawan 19/03/2021 08:27       C/Masuk
+ 80816027            Yudi Irawan 19/03/2021 17:29      C/Keluar
+ 80816027            Yudi Irawan 22/03/2021 08:36       C/Masuk
+ 80816027            Yudi Irawan 22/03/2021 17:23      C/Keluar
+ 80816027            Yudi Irawan 23/03/2021 08:25       C/Masuk
+ 80816027            Yudi Irawan 23/03/2021 17:20        Keluar
+ 80816027            Yudi Irawan 24/03/2021 08:26       C/Masuk
+ 80816027            Yudi Irawan 24/03/2021 17:40      C/Keluar
+ 80816027            Yudi Irawan 25/03/2021 08:27       C/Masuk
+ 80905006              Chairudin 26/02/2021 08:29       C/Masuk
+ 80905006              Chairudin 26/02/2021 17:22      C/Keluar
+ 80905006              Chairudin 01/03/2021 08:27       C/Masuk
+ 80905006              Chairudin 01/03/2021 17:11      C/Keluar
+ 80905006              Chairudin 02/03/2021 08:31       C/Masuk
+ 80905006              Chairudin 02/03/2021 17:12      C/Keluar
+ 80905006              Chairudin 03/03/2021 08:27       C/Masuk
+ 80905006              Chairudin 03/03/2021 17:04      C/Keluar
+ 80905006              Chairudin 04/03/2021 08:28       C/Masuk
+ 80905006              Chairudin 04/03/2021 17:03      C/Keluar
+ 80905006              Chairudin 05/03/2021 08:25       C/Masuk
+ 80905006              Chairudin 05/03/2021 17:05      C/Keluar
+ 80905006              Chairudin 08/03/2021 08:27       C/Masuk
+ 80905006              Chairudin 08/03/2021 17:06      C/Keluar
+ 80905006              Chairudin 09/03/2021 08:26       C/Masuk
+ 80905006              Chairudin 10/03/2021 08:23       C/Masuk
+ 80905006              Chairudin 10/03/2021 17:05      C/Keluar
+ 80905006              Chairudin 12/03/2021 08:26       C/Masuk
+ 80905006              Chairudin 12/03/2021 17:05      C/Keluar
+ 80905006              Chairudin 15/03/2021 08:27       C/Masuk
+ 80905006              Chairudin 15/03/2021 17:06      C/Keluar
+ 80905006              Chairudin 16/03/2021 08:22       C/Masuk
+ 80905006              Chairudin 16/03/2021 17:04      C/Keluar
+ 80905006              Chairudin 17/03/2021 08:23       C/Masuk
+ 80905006              Chairudin 17/03/2021 17:11      C/Keluar
+ 80905006              Chairudin 18/03/2021 08:29       C/Masuk
+ 80905006              Chairudin 18/03/2021 17:05      C/Keluar
+ 80905006              Chairudin 19/03/2021 08:26       C/Masuk
+ 80905006              Chairudin 19/03/2021 17:04      C/Keluar
+ 80905006              Chairudin 22/03/2021 08:30       C/Masuk
+ 80905006              Chairudin 22/03/2021 17:15      C/Keluar
+ 80905006              Chairudin 23/03/2021 08:28       C/Masuk
+ 80905006              Chairudin 24/03/2021 08:26       C/Masuk
+ 80905006              Chairudin 24/03/2021 17:19      C/Keluar
+ 80905006              Chairudin 25/03/2021 08:27       C/Masuk
+ 81018035         Nopri Liansari 26/02/2021 08:25       C/Masuk
+ 81018035         Nopri Liansari 26/02/2021 17:22      C/Keluar
+ 81018035         Nopri Liansari 01/03/2021 08:07       C/Masuk
+ 81018035         Nopri Liansari 01/03/2021 17:14      C/Keluar
+ 81018035         Nopri Liansari 02/03/2021 08:19       C/Masuk
+ 81018035         Nopri Liansari 02/03/2021 17:15      C/Keluar
+ 81018035         Nopri Liansari 03/03/2021 08:19       C/Masuk
+ 81018035         Nopri Liansari 03/03/2021 17:10      C/Keluar
+ 81018035         Nopri Liansari 04/03/2021 08:18       C/Masuk
+ 81018035         Nopri Liansari 04/03/2021 17:05      C/Keluar
+ 81018035         Nopri Liansari 05/03/2021 08:25       C/Masuk
+ 81018035         Nopri Liansari 05/03/2021 17:25      C/Keluar
+ 81018035         Nopri Liansari 08/03/2021 08:14       C/Masuk
+ 81018035         Nopri Liansari 08/03/2021 17:25      C/Keluar
+ 81018035         Nopri Liansari 09/03/2021 08:19       C/Masuk
+ 81018035         Nopri Liansari 09/03/2021 17:06      C/Keluar
+ 81018035         Nopri Liansari 10/03/2021 08:13       C/Masuk
+ 81018035         Nopri Liansari 10/03/2021 17:04      C/Keluar
+ 81018035         Nopri Liansari 12/03/2021 08:25       C/Masuk
+ 81018035         Nopri Liansari 12/03/2021 17:17      C/Keluar
+ 81018035         Nopri Liansari 15/03/2021 08:17       C/Masuk
+ 81018035         Nopri Liansari 15/03/2021 17:00      C/Keluar
+ 81018035         Nopri Liansari 16/03/2021 08:11       C/Masuk
+ 81018035         Nopri Liansari 16/03/2021 17:03      C/Keluar
+ 81018035         Nopri Liansari 17/03/2021 08:15       C/Masuk
+ 81018035         Nopri Liansari 17/03/2021 17:10      C/Keluar
+ 81018035         Nopri Liansari 18/03/2021 08:15       C/Masuk
+ 81018035         Nopri Liansari 18/03/2021 17:12      C/Keluar
+ 81018035         Nopri Liansari 19/03/2021 08:15       C/Masuk
+ 81018035         Nopri Liansari 19/03/2021 17:06      C/Keluar
+ 81018035         Nopri Liansari 22/03/2021 08:26       C/Masuk
+ 81018035         Nopri Liansari 22/03/2021 17:12      C/Keluar
+ 81018035         Nopri Liansari 23/03/2021 08:18       C/Masuk
+ 81018035         Nopri Liansari 23/03/2021 17:10      C/Keluar
+ 81018035         Nopri Liansari 24/03/2021 08:10       C/Masuk
+ 81018035         Nopri Liansari 24/03/2021 17:07      C/Keluar
+ 81018035         Nopri Liansari 25/03/2021 08:17       C/Masuk
+ 81106007        Dessy Kurniatun 26/02/2021 08:18       C/Masuk
+ 81106007        Dessy Kurniatun 26/02/2021 17:38      C/Keluar
+ 81106007        Dessy Kurniatun 01/03/2021 08:16       C/Masuk
+ 81106007        Dessy Kurniatun 01/03/2021 18:42      C/Keluar
+ 81106007        Dessy Kurniatun 02/03/2021 08:17       C/Masuk
+ 81106007        Dessy Kurniatun 02/03/2021 17:12      C/Keluar
+ 81106007        Dessy Kurniatun 03/03/2021 08:17       C/Masuk
+ 81106007        Dessy Kurniatun 03/03/2021 17:12      C/Keluar
+ 81106007        Dessy Kurniatun 04/03/2021 08:17       C/Masuk
+ 81106007        Dessy Kurniatun 04/03/2021 17:15      C/Keluar
+ 81106007        Dessy Kurniatun 05/03/2021 08:29       C/Masuk
+ 81106007        Dessy Kurniatun 05/03/2021 18:00      C/Keluar
+ 81106007        Dessy Kurniatun 08/03/2021 08:21       C/Masuk
+ 81106007        Dessy Kurniatun 08/03/2021 17:32      C/Keluar
+ 81106007        Dessy Kurniatun 09/03/2021 08:17       C/Masuk
+ 81106007        Dessy Kurniatun 09/03/2021 17:22      C/Keluar
+ 81106007        Dessy Kurniatun 10/03/2021 08:18       C/Masuk
+ 81106007        Dessy Kurniatun 10/03/2021 17:22      C/Keluar
+ 81106007        Dessy Kurniatun 12/03/2021 08:21       C/Masuk
+ 81106007        Dessy Kurniatun 12/03/2021 17:17      C/Keluar
+ 81106007        Dessy Kurniatun 15/03/2021 08:17       C/Masuk
+ 81106007        Dessy Kurniatun 15/03/2021 17:13      C/Keluar
+ 81106007        Dessy Kurniatun 16/03/2021 08:17       C/Masuk
+ 81106007        Dessy Kurniatun 16/03/2021 17:15      C/Keluar
+ 81106007        Dessy Kurniatun 17/03/2021 08:17       C/Masuk
+ 81106007        Dessy Kurniatun 17/03/2021 17:16      C/Keluar
+ 81106007        Dessy Kurniatun 18/03/2021 08:17       C/Masuk
+ 81106007        Dessy Kurniatun 18/03/2021 17:22      C/Keluar
+ 81106007        Dessy Kurniatun 19/03/2021 08:18       C/Masuk
+ 81106007        Dessy Kurniatun 19/03/2021 17:07      C/Keluar
+ 81106007        Dessy Kurniatun 22/03/2021 08:18       C/Masuk
+ 81106007        Dessy Kurniatun 22/03/2021 17:14      C/Keluar
+ 81106007        Dessy Kurniatun 23/03/2021 08:17       C/Masuk
+ 81106007        Dessy Kurniatun 23/03/2021 17:04      C/Keluar
+ 81106007        Dessy Kurniatun 24/03/2021 08:16       C/Masuk
+ 81106007        Dessy Kurniatun 24/03/2021 17:29      C/Keluar
+ 81106007        Dessy Kurniatun 25/03/2021 08:17       C/Masuk
+ 81207009                Apriadi 26/02/2021 08:21       C/Masuk
+ 81207009                Apriadi 26/02/2021 17:22      C/Keluar
+ 81207009                Apriadi 03/03/2021 08:20       C/Masuk
+ 81207009                Apriadi 03/03/2021 17:09      C/Keluar
+ 81207009                Apriadi 04/03/2021 08:15       C/Masuk
+ 81207009                Apriadi 04/03/2021 17:03      C/Keluar
+ 81207009                Apriadi 05/03/2021 08:25       C/Masuk
+ 81207009                Apriadi 05/03/2021 17:05      C/Keluar
+ 81207009                Apriadi 08/03/2021 08:24       C/Masuk
+ 81207009                Apriadi 08/03/2021 17:07      C/Keluar
+ 81207009                Apriadi 10/03/2021 08:22       C/Masuk
+ 81207009                Apriadi 10/03/2021 17:03      C/Keluar
+ 81207009                Apriadi 12/03/2021 08:30       C/Masuk
+ 81207009                Apriadi 12/03/2021 17:02      C/Keluar
+ 81207009                Apriadi 15/03/2021 08:19       C/Masuk
+ 81207009                Apriadi 15/03/2021 17:02      C/Keluar
+ 81207009                Apriadi 16/03/2021 08:20       C/Masuk
+ 81207009                Apriadi 16/03/2021 17:03      C/Keluar
+ 81207009                Apriadi 17/03/2021 08:24       C/Masuk
+ 81207009                Apriadi 17/03/2021 17:04      C/Keluar
+ 81207009                Apriadi 18/03/2021 08:23       C/Masuk
+ 81207009                Apriadi 22/03/2021 08:30       C/Masuk
+ 81207009                Apriadi 22/03/2021 17:15      C/Keluar
+ 81207009                Apriadi 23/03/2021 08:20       C/Masuk
+ 81207009                Apriadi 23/03/2021 17:05      C/Keluar
+ 81207009                Apriadi 24/03/2021 08:29       C/Masuk
+ 81207009                Apriadi 24/03/2021 17:16      C/Keluar
+ 81207009                Apriadi 25/03/2021 08:22       C/Masuk

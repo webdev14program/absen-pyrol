@@ -1,0 +1,331 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<script src="../ext/jquery-1.3.2.min.js">
+</script>
+<script src="../ext/jquery.cookie.js"></script>
+<style>
+	div#settingsDiv td{
+		font-size:11px;
+		font-weight:bold;
+		color:#666;
+		font-family: Arial;
+	}
+	div#settingsDiv .helptext
+	{
+		color:#666;
+		font-size:10px;
+	}
+</style>
+<div id="settingsDiv">
+	<table width="100%" cellpadding="4" cellspacing="4">
+		<tr>
+			<td valign="top">
+				Default View
+			</td>
+			<td valign="top">
+				<div class="value">
+					<select name="calDefaultView" onchange="getCustomSize(this)" id="calDefaultView">
+						<option value="day">Day
+						<option value="week">Week
+						<option value="month">Month
+						<option value="custom">Custom # of Days 
+						<option value="agenda">Agenda
+						<option value="workweek">Workweek
+					</select>
+					<span style="visibility:hidden" id="customViewSizeSpan">					
+						How Many? <select name="" id="customViewSize">
+						<option value="2">Two Days
+						<option value="3">Three Days
+						<option value="4" selected>Four Days
+						<option value="5">Five Days
+						<option value="6">Six Days
+						</select> 
+					</span>
+					<div class="helptext">
+					<small>
+						Select the default View
+					</small>
+					</div>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+				Start Time
+			</td>
+			<td valign="top">
+				<select id="calSettingsStartTime">
+				<option value="0">12AM
+				<option value="1">1AM
+				<option value="2">2AM
+				<option value="3">3AM
+				<option value="4">4AM
+				<option value="5" selected>5AM
+				<option value="6">6AM
+				<option value="7">7AM
+				<option value="8">8AM
+				<option value="9">9AM
+				<option value="10">10AM
+				<option value="11">11AM
+				<option value="12">12N
+				<option value="13">1PM
+				<option value="14">2PM
+				<option value="15">3PM
+				<option value="16">4PM
+				<option value="17">5PM
+				<option value="18">6PM
+				<option value="19">7PM
+				<option value="20">8PM
+				<option value="21">9PM
+				<option value="22">10PM
+				<option value="23">11PM 
+				</select>	
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+				End Time
+			</td>
+			<td valign="top">
+				<select id="calSettingsEndTime">					 
+				<option value="1">1AM
+				<option value="2">2AM
+				<option value="3">3AM
+				<option value="4">4AM
+				<option value="5">5AM
+				<option value="6">6AM
+				<option value="7">7AM
+				<option value="8">8AM
+				<option value="9">9AM
+				<option value="10">10AM
+				<option value="11">11AM
+				<option value="12">12N
+				<option value="13">1PM
+				<option value="14">2PM
+				<option value="15">3PM
+				<option value="16">4PM
+				<option value="17">5PM
+				<option value="18">6PM
+				<option value="19">7PM
+				<option value="20">8PM
+				<option value="21">9PM
+				<option value="22">10PM
+				<option value="23" selected>11PM 
+				<option value="24">12PM 
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+				Time Format
+			</td>
+			<td valign="top">
+				<select id="calTimeFormat">
+				<option value="12">1 PM
+				<option value="24">1300					 
+				</select>
+			</td>
+		</tr> 
+		<tr>
+			<td valign="top">
+				Start of Week
+			</td>
+			<td valign="top">
+				<select id="calStartOfWeek">
+				<option value="0">Sunday
+				<option value="1">Monday	
+				<option value="2">Tuesday				
+				<option value="3">Wednesday	
+				<option value="4">Thursday	
+				<option value="5">Friday
+				<option value="6">Saturday				 
+				</select>
+			</td>
+		</tr>  
+		<tr>
+			<td valign="top">
+				Language
+			</td>
+			<td valign="top">
+				<select id="calLanguage">
+				<option value="FR">French
+				<option value="EN">English				 
+				<option value="IT">Italian
+				<option value="SP">Spanish
+				</select>
+			</td>
+		</tr>  
+		<tr>
+			<td valign="top">
+				Views
+			</td>
+			<td valign="top">
+			<table width="100%">
+				<tr>
+					<td width="120">
+						<input type="checkbox" value="week"  checked="checked" class="calview" id="weekview" name="week" />
+						<label class="ssformlabel" for="weekview">
+						Week
+						</label>
+					</td>
+					<td width="125">
+						<input type="checkbox" value="month" checked="checked" class="calview"  id="monthview" name="month" />
+						<label class="ssformlabel" for="monthview">
+						Month
+						</label>
+					</td>
+					<td>
+						<input type="checkbox" value="custom" checked="checked"  class="calview" id="customview" name="custom" />
+						<label class="ssformlabel" for="customview">
+						Custom
+						</label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="checkbox" value="day" checked="checked"  class="calview" id="dayview" name="day" />
+						<label class="ssformlabel" for="dayview">
+						Day
+						</label>
+					</td>
+					<td>
+						<input type="checkbox" value="agenda" checked="checked" class="calview"  id="agendaview" name="agenda" />
+						<label class="ssformlabel" for="agendaview">
+						Agenda
+						</label>
+					</td> 
+					<td>
+						<input type="checkbox" value="workweek" id="workweekview" class="calview"  name="workweek" />
+						<label class="ssformlabel" for="workweekview">
+						Work Week
+						</label>
+					</td>
+				</tr> 
+			</table>
+
+
+			</td>
+		</tr> 
+		<tr> 
+			<td colspan="2">
+				<input type="button" value="Save" onclick="saveSettings()">	 
+			</td>
+		</tr>
+	</table> 
+</div>  
+
+
+<script>
+	function getCustomSize(obj)
+	{
+		var defView=obj.value;
+		var customSizeSpan=document.getElementById("customViewSizeSpan");
+		if(defView=="custom")
+		{
+			customSizeSpan.style.visibility="visible";
+		}else
+		{
+			customSizeSpan.style.visibility="hidden";
+		}
+	}
+
+	function getInputValue(inputId)
+	{
+		var box=document.getElementById(inputId);
+		return box.value;
+	}
+	function getCheckboxValue(inputId)
+	{
+		var box=document.getElementById(inputId);
+		if(!box.checked)
+		{
+			return null;
+		}
+		return box.value;
+	}
+	function setInputValue(inputId, val)
+	{
+		var box=document.getElementById(inputId);
+		box.value=val;
+	}
+	function saveSettings()
+	{
+		//Lets save settings in a cookie
+		var defaultView=getInputValue("calDefaultView");
+		var customViewSize=getInputValue("customViewSize");
+		var startTime=getInputValue("calSettingsStartTime");
+		var endTime=getInputValue("calSettingsEndTime");
+		var timeFormat=getInputValue("calTimeFormat");
+		var startOfWeek=getInputValue("calStartOfWeek");
+		var language=getInputValue("calLanguage");
+		
+		var viewStr="";
+		if(getCheckboxValue("weekview"))
+			viewStr=viewStr+getCheckboxValue("weekview")+",";
+		if(getCheckboxValue("monthview"))
+			viewStr=viewStr+getCheckboxValue("monthview")+",";
+		if(getCheckboxValue("customview"))
+			viewStr=viewStr+getCheckboxValue("customview")+",";
+		if(getCheckboxValue("dayview"))
+			viewStr=viewStr+getCheckboxValue("dayview")+",";
+		if(getCheckboxValue("agendaview"))
+			viewStr=viewStr+getCheckboxValue("agendaview")+",";
+		if(getCheckboxValue("workweekview"))
+			viewStr=viewStr+getCheckboxValue("workweekview")+",";
+
+		var options = { path: '/', expires: 10 };
+		
+		if (viewStr.indexOf(defaultView)==-1) 
+		{
+			alert("The Default View you selected is not amongst the list of views ");
+			return;
+		}
+
+		jQuery.cookie("defaultView",defaultView, options);
+		jQuery.cookie("customViewSize",customViewSize, options);
+		jQuery.cookie("startTime",startTime, options);
+		jQuery.cookie("endTime",endTime, options);
+		jQuery.cookie("timeFormat",timeFormat, options);
+		jQuery.cookie("startOfWeek",startOfWeek, options);
+		jQuery.cookie("viewsList",viewStr, options);
+		jQuery.cookie("language",language, options); 
+		
+		alert("Settings Saved!");
+
+		window.parent.location.reload();
+	}
+
+	function loadSettings()
+	{
+		setInputValue("calDefaultView", jQuery.cookie("defaultView" ));
+		setInputValue("customViewSize", jQuery.cookie("customViewSize" ));
+		setInputValue("calSettingsStartTime", jQuery.cookie("startTime" ));
+		setInputValue("calSettingsEndTime", jQuery.cookie("endTime" ));
+		setInputValue("calTimeFormat", jQuery.cookie("timeFormat" ));
+		setInputValue("calStartOfWeek", jQuery.cookie("startOfWeek" ));
+		
+		var viewsListStr=jQuery.cookie("viewsList" );
+		jQuery("input.calview").attr("checked", false);
+		var oneViewFound=false;
+		if(viewsListStr!=null && viewsListStr!="")
+		{
+			var arr=viewsListStr.split(",");
+			for(var i=0; i<arr.length; i++)
+			{
+				var view=arr[i];
+				oneViewFound=true;
+				jQuery("input[value='"+view+"']").attr("checked", true);
+			} 
+		}
+		if (!oneViewFound) 
+		{ 
+			jQuery("input.calview").attr("checked", true);
+		}
+		
+		setInputValue("calLanguage", jQuery.cookie("language" ));
+		
+
+		getCustomSize(document.getElementById("calDefaultView"));
+	}
+	loadSettings();
+ 
+</script>
