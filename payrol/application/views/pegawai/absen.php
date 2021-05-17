@@ -13,7 +13,7 @@
                 <table id="table" class="table table-bordered table-striped text-center">
                   <thead>
                     <th>No</th>
-                    <th>Nama coba</th>
+                    <th>Nama</th>
                     <th>Waktu</th>
                     <th>Keterangan</th>
                   </thead>
