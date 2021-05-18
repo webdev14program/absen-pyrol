@@ -16,12 +16,11 @@
                       <tr>
                         <th>No</th>
                         <th>Kode Pegawai</th>
-                        <th>Nama</th>
-                        <th>Hadir</th>
-                        <th>Cuti</th>
-                        <th>Izin</th>
-                        <th>Sakit</th>
-                        <th>Gaji</th>
+                        <th>Nama Pegawai</th>
+                        <th>Gaji Pokok</th>
+                        <th>Tunjangan</th>
+                        <th>Uang Makan</th>
+                        <th>Insentif</th>
                         <th>Opsi</th>
                       </tr>
                     </thead>
@@ -29,16 +28,19 @@
                       <?php
 
                       $no=1; foreach ($list as $data) {
-                        $tahun  = date('Y');
-                        $bulan  = date('m');
-                        $jumlah = 0;
-                        $stotal = 0;
-                        $absen  = $this->M_data->absenbulan($data->kode_pegawai,$tahun,$bulan)->num_rows();
-                        $cuti   = $this->M_data->cutibulan($data->kode_pegawai,$tahun,$bulan)->num_rows();
-                        $sakit  = $this->M_data->sakitbulan($data->kode_pegawai,$tahun,$bulan)->num_rows();
-                        $izin   = $this->M_data->izinbulan($data->kode_pegawai,$tahun,$bulan)->num_rows();
+                        // $tahun  = date('Y');
+                        // $bulan  = date('m');
+                        // $jumlah = 0;
+                        // $stotal = 0;
+                        // $absen  = $this->M_data->absenbulan($data->kode_pegawai,$tahun,$bulan)->num_rows();
+                        // $cuti   = $this->M_data->cutibulan($data->kode_pegawai,$tahun,$bulan)->num_rows();
+                        // $sakit  = $this->M_data->sakitbulan($data->kode_pegawai,$tahun,$bulan)->num_rows();
+                        // $izin   = $this->M_data->izinbulan($data->kode_pegawai,$tahun,$bulan)->num_rows();
 
                         $gaji = 0;
+                        $tunjangan = 0;
+                        $insentif = 0;
+                        $uangmakan = 0;
                         // $gaji   = ($absen * $data->gaji) + ($cuti * $data->gaji) + ($sakit * $data->gaji);
                         //var_dump($cuti);
                         //hitung hari cuti
@@ -47,11 +49,10 @@
                         <td width="1%"><?=$no++?></td>
                         <td><?=ucfirst($data->kode_pegawai)?></td>
                         <td><?=ucfirst($data->nama)?></td>
-                        <td><?=$absen?></td>
-                        <td><?=$cuti?></td>
-                        <td><?=$izin?></td>
-                        <td><?=$sakit?></td>
                         <td>Rp. <?=number_format($gaji)?></td>
+                        <td>Rp. <?=number_format($tunjangan)?></td>
+                        <td>Rp. <?=number_format($uangmakan)?></td>
+                        <td>Rp. <?=number_format($insentif)?></td>
                         <td>
                           <a href="#" class="btn btn-primary btn-sm"><span class="fa fa-eye" data-toggle="modal" data-target="#exampleModal"></span></a>
                           <a href="#" class="btn btn-primary btn-sm"><span class="fa fa-edit"></span></a>
@@ -77,7 +78,7 @@
                   <label>Gaji Pokok &nbsp:</label><br>
                   <label>Tunjangan &nbsp:</label><br>
                   <label>Uang Makan &nbsp:</label><br>
-                  <label>Lembur &nbsp:</label><br>
+                  <label>Uang Lembur &nbsp:</label><br>
                   <label>Insentif &nbsp:</label><br>
                   <label>BPJS Kesehatan &nbsp:</label><br>
                   <label>BPJS Tenaga Kerja &nbsp:</label><br>
