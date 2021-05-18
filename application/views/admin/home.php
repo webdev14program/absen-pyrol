@@ -115,8 +115,8 @@
 </section>
 
 <div class="row">
-  <section class="col-lg-10" style="margin-left:50px;margin-right:60px">
-    <div class="card">
+  <section class="col-lg-12">
+    <div class="card" style="margin-left:15px;margin-right:15px">
       <div id="calendar">
 
       </div>
@@ -284,5 +284,5 @@
 //   iCal.build();
 // });
 <
-/script> 
+/script>
 -->
