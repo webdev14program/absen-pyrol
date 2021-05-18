@@ -256,7 +256,6 @@
               </li>
             <?php } ?>
             <?php if ($this->session->userdata('level') == 'admin') { ?>
-
               <li class="nav-item has-treeview">
                 <a href="#" class="nav-link">
                   <i class="nav-icon fas fa-folder-open"></i>
@@ -268,7 +267,7 @@
                 <ul class="nav nav-treeview">
                   <li class="nav-item" style="margin-left:20px">
                     <a href="<?= base_url($this->session->userdata('level')) ?>/laporanabsen" class="nav-link">
-                      <i class="fa fa-calendar-plus nav-icon"></i>
+                      <i class="fas fa-fingerprint nav-icon"></i>
                       <p>Absen</p>
                     </a>
                   </li>
@@ -281,7 +280,6 @@
                 </ul>
               </li>
             <?php } ?>
-
             <li class="nav-item">
               <a onclick="return confirm('apakah anda yakin ingin keluar ?')" href="<?= base_url('auth') ?>/logout" class="nav-link">
                 <i class="nav-icon fas fa-sign-out-alt"></i>

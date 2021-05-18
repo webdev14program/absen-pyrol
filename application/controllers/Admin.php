@@ -12,7 +12,7 @@ class Admin extends CI_Controller {
 			redirect('/');
 		}
 	}
-	 
+
 	public function index()
 	{
 		$tahun 			= date('Y');
@@ -248,7 +248,7 @@ class Admin extends CI_Controller {
 		$data['web']	= $this->web;
 		$data['data']	= $this->M_data->pegawai()->result();
 		$data['title']	= 'Data Pegawai';
-		$data['body']	= 'admin/pegawai'; 
+		$data['body']	= 'admin/pegawai';
 		$this->load->view('template',$data);
 	}
 	public function pegawai_add()
@@ -295,7 +295,7 @@ class Admin extends CI_Controller {
 			'no_kartu_bpjs_kesehatan'=>$p['nokartubpjskesehatan'],
 			'no_kartu_bpjs_tenagakerja'=>$p['nokartubpjstenagakerja']
 		];
-		
+
 
 		$this->db->trans_start();
 		$this->db->insert('user',$user);
@@ -430,7 +430,7 @@ class Admin extends CI_Controller {
 			$this->db->insert('new_absen', $alldata);
 		}
 		fclose($datafile);
-		
+
 		$this->db->insert('upload_absen',$file);
 		$this->session->set_flashdata('message', 'swal("Berhasil!", "Upload Data Absen", "success");');
 		redirect('admin/absen_add');
@@ -442,7 +442,7 @@ class Admin extends CI_Controller {
 		$data['pegawai'] = $this->M_data->pegawai()->result();
 		$data['jabatan'] = $this->db->get('jabatan')->result();
 		$data['departemen']	= $this->db->get('departemen')->result();
-		
+
 		$data['title']	= 'Mutasi Pegawai';
 		$data['body']	= 'admin/mutasi';
 		$this->load->view('template', $data);
@@ -471,7 +471,21 @@ class Admin extends CI_Controller {
 	}
 	public function pekerjaan_simpan()
 	{
-		
+
+	}
+	public function laporanabsen()
+	{
+		$data['web'] = $this->web;
+		$data['title'] = 'Data Laporan Absen';
+		$data['body'] = 'admin/laporanabsen';
+		$this->load->view('template',$data);
+	}
+	public function laporangaji()
+	{
+		$data['web'] = $this->web;
+		$data['title'] = 'Data Laporan Gaji';
+		$data['body'] = 'admin/laporanabsen';
+		$this->load->view('template',$data);
 	}
 	public function riwayatmutasi()
 	{
@@ -498,9 +512,9 @@ class Admin extends CI_Controller {
 	public function mutasi_simpan()
 	{
 		$jenismutasi = $this->input->post('jenismutasi');
-		$data = $this->db->get_where("pegawai",array("kode_pegawai" => $this->input->post("pegawai")))->row(); 
+		$data = $this->db->get_where("pegawai",array("kode_pegawai" => $this->input->post("pegawai")))->row();
 		$idjabatanlama = $data->id_jabatan;
-		$iddepartemenlama = $data->id_departemen; 
+		$iddepartemenlama = $data->id_departemen;
 		$promosi=
 		[
 			'id_pegawai' => $this->input->post('pegawai'),
@@ -546,7 +560,7 @@ class Admin extends CI_Controller {
 				}
 			}
 		}
-		
+
 		if($jenismutasi == "promosi"){
 			$this->db->trans_start();
 			$this->db->insert('mutasi', $promosi);
@@ -613,13 +627,13 @@ class Admin extends CI_Controller {
         $bulan  = $this->input->post('bulan');
         $web 	= $this->web;
         $data   = $this->M_data->laporan($bulan)->result();
-        
+
         $pdf = new FPDF('P','mm','A4');
         // membuat halaman baru
         $pdf->AddPage();
         // setting jenis font yang akan digunakan
         $pdf->SetFont('Arial','B',22);
-        // mencetak string 
+        // mencetak string
         $pdf->Image('assets/img/'.$web->logo,10,5,25);
         $pdf->Cell(190,7,$web->nama,0,1,'C');
         $pdf->SetFont('Arial','',9);
@@ -651,10 +665,10 @@ class Admin extends CI_Controller {
         $pdf->Cell(170,5,ucfirst($web->kabupaten).', '.date('d-m-Y'),0,1,'R');
         $pdf->Cell(190,15,'',0,1,'C');
         $pdf->Cell(160,5,$web->author,0,1,'R');
-            
-        
+
+
         $pdf->Output();
-                    
+
     }
     public function profile()
 	{
