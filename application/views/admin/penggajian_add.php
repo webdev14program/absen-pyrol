@@ -43,7 +43,7 @@
                             </div>
                             <div class="form-group">
                               <label>Pinjaman</label><br>
-                              <button type="button" name="modal" class="btn btn-primary">Tambah Pinjaman</button>
+                              <button type="button" name="modal" class="btn btn-primary"><i class="fa fa-plus"></i></button>
                             </div>
                             <div class="form-group">
                                 <label>Uang Makan</label>
