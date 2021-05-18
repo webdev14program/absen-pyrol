@@ -55,7 +55,7 @@
                         <td>Rp. <?=number_format($insentif)?></td>
                         <td>
                           <a href="#" class="btn btn-primary btn-sm"><span class="fa fa-eye" data-toggle="modal" data-target="#exampleModal"></span></a>
-                          <a href="#" class="btn btn-primary btn-sm"><span class="fa fa-edit"></span></a>
+                          <a href="<?= base_url('admin/penggajian_edit/'.$data->kode_pegawai)?>" class="btn btn-primary btn-sm"><span class="fa fa-edit"></span></a>
                           <a onclick="return confirm('apakah anda yakin ingin menghapus pegawai ini?')" href="#" class="btn btn-danger btn-sm"><span class="fa fa-trash"></span></a>
                         </td>
                       </tr>

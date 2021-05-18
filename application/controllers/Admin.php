@@ -745,4 +745,16 @@ class Admin extends CI_Controller
 		$data['body'] = 'admin/penggajian_add';
 		$this->load->view('template',$data);
 	}
+	public function penggajian_edit($id)
+	{
+		$data['web']	= $this->web;
+		$data['detail']	= $this->M_data->pegawaiid($id)->row();
+		$data['title']	= 'Update Data Penggajian';
+		$data['body']	= 'admin/penggajian_edit';
+		$this->load->view('template', $data);
+	}
+	public function penggajian_ubah($id)
+	{
+		
+	}
 }
