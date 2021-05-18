@@ -77,6 +77,7 @@
                   <label>Nama Pegawai &nbsp:  </label><br>
                   <label>Gaji Pokok &nbsp:</label><br>
                   <label>Tunjangan &nbsp:</label><br>
+                  <label>Pinjaman &nbsp:</label><br>
                   <label>Uang Makan &nbsp:</label><br>
                   <label>Uang Lembur &nbsp:</label><br>
                   <label>Insentif &nbsp:</label><br>
