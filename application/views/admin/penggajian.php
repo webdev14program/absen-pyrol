@@ -8,6 +8,7 @@
             <!-- Map card -->
             <div class="card">
               <div class="card-header"> <?=$title?> </h3>
+                <a style="float: right;" href="<?=base_url('admin/penggajian_add')?>" class="btn btn-sm btn-primary">Tambah data</a>
               </div>
               <div class="card-body table-responsive">
                 <table border="1" id="myTable" class="table table-bordered table-striped text-center">
@@ -24,19 +25,20 @@
                       </tr>
                     </thead>
                     <tbody>
-                      <?php 
-                      
-                      $no=1; foreach ($list as $data) { 
+                      <?php
+
+                      $no=1; foreach ($list as $data) {
                         $tahun  = date('Y');
                         $bulan  = date('m');
                         $jumlah = 0;
                         $stotal = 0;
-                        $absen  = $this->M_data->absenbulan($data->kode_pegawai,$tahun,$bulan)->num_rows(); 
-                        $cuti   = $this->M_data->cutibulan($data->kode_pegawai,$tahun,$bulan)->num_rows(); 
-                        $sakit  = $this->M_data->sakitbulan($data->kode_pegawai,$tahun,$bulan)->num_rows(); 
+                        $absen  = $this->M_data->absenbulan($data->kode_pegawai,$tahun,$bulan)->num_rows();
+                        $cuti   = $this->M_data->cutibulan($data->kode_pegawai,$tahun,$bulan)->num_rows();
+                        $sakit  = $this->M_data->sakitbulan($data->kode_pegawai,$tahun,$bulan)->num_rows();
                         $izin   = $this->M_data->izinbulan($data->kode_pegawai,$tahun,$bulan)->num_rows();
 
-                        $gaji   = ($absen * $data->gaji) + ($cuti * $data->gaji) + ($sakit * $data->gaji);
+                        $gaji = 0;
+                        // $gaji   = ($absen * $data->gaji) + ($cuti * $data->gaji) + ($sakit * $data->gaji);
                         //var_dump($cuti);
                         //hitung hari cuti
                       ?>

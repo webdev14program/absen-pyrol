@@ -737,4 +737,12 @@ class Admin extends CI_Controller
 		$data['body']	= 'admin/penggajian';
 		$this->load->view('template', $data);
 	}
+	public function penggajian_add()
+	{
+		$data['pegawai'] = $this->M_data->pegawai()->result();
+		$data['web'] = $this->web;
+		$data['title'] = 'Tambah Penggajian Karyawan';
+		$data['body'] = 'admin/penggajian_add';
+		$this->load->view('template',$data);
+	}
 }
