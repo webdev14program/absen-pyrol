@@ -22,6 +22,7 @@
                         <th>Izin</th>
                         <th>Sakit</th>
                         <th>Gaji</th>
+                        <th>Opsi</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -51,12 +52,45 @@
                         <td><?=$izin?></td>
                         <td><?=$sakit?></td>
                         <td>Rp. <?=number_format($gaji)?></td>
+                        <td>
+                          <a href="#" class="btn btn-primary btn-sm"><span class="fa fa-eye" data-toggle="modal" data-target="#exampleModal"></span></a>
+                          <a href="#" class="btn btn-primary btn-sm"><span class="fa fa-edit"></span></a>
+                          <a onclick="return confirm('apakah anda yakin ingin menghapus pegawai ini?')" href="#" class="btn btn-danger btn-sm"><span class="fa fa-trash"></span></a>
+                        </td>
                       </tr>
                       <?php } ?>
                     </tbody>
                   </table>
               </div>
             </div>
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Data Penggajian</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <label>Nama Pegawai &nbsp:  </label><br>
+                  <label>Gaji Pokok &nbsp:</label><br>
+                  <label>Tunjangan &nbsp:</label><br>
+                  <label>Uang Makan &nbsp:</label><br>
+                  <label>Lembur &nbsp:</label><br>
+                  <label>Insentif &nbsp:</label><br>
+                  <label>BPJS Kesehatan &nbsp:</label><br>
+                  <label>BPJS Tenaga Kerja &nbsp:</label><br>
+                  <label>Uang Vaksin &nbsp:</label><br>
+                  <label>Uang Sanski &nbsp:</label><br>
+                  <label>Uang THP &nbsp:</label>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
           </section>
         </div>
       </div>
