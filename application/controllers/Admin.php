@@ -24,7 +24,7 @@ class Admin extends CI_Controller
 		$data['hadir']	= $this->M_data->hadirtoday($tahun, $bulan, $hari)->num_rows();
 		$data['cuti']	= $this->M_data->cutitoday($tahun, $bulan, $hari)->num_rows();
 		$data['izin']	= $this->M_data->izintoday($tahun, $bulan, $hari)->num_rows() + $this->M_data->sakittoday($tahun, $bulan, $hari)->num_rows();
-		$data['absensi'] = $this->M_data->absen()->num_rows();
+		$data['absensi'] = $this->M_data->absen();
 		$absen			= $this->M_data->absendaily($this->session->userdata('kode_pegawai'), $tahun, $bulan, $hari);
 		if ($absen->num_rows() == 0) {
 			$data['waktu'] = 'masuk';
@@ -47,6 +47,7 @@ class Admin extends CI_Controller
 			'keterangan' => $p['ket']
 		];
 		$this->db->insert('absen', $data);
+		redirect('Admin');
 	}
 	public function pengaturanabsen()
 	{
@@ -367,7 +368,8 @@ class Admin extends CI_Controller
 	public function absensi()
 	{
 		$data['web']	= $this->web;
-		$data['data']	= $this->M_data->absen()->result();
+		// $data['data']	= $this->M_data->absen()->result();
+		$data['data'] = $this->M_data->absen();
 		$data['title']	= 'Data Absen Pegawai';
 		$data['body']	= 'admin/absen';
 		$this->load->view('template', $data);

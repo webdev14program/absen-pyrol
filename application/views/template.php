@@ -150,12 +150,6 @@
                 </a>
                 <ul class="nav nav-treeview">
                   <li class="nav-item" style="margin-left:20px">
-                    <a href="<?= base_url($this->session->userdata('level')) ?>/pengaturanmesin" class="nav-link">
-                      <i class="nav-icon fas fa-cogs"></i>
-                      <p> Pengaturan Mesin</p>
-                    </a>
-                  </li>
-                  <li class="nav-item" style="margin-left:20px">
                     <a href="<?= base_url($this->session->userdata('level')) ?>/pengaturanabsen" class="nav-link">
                       <i class="nav-icon fas fa-cogs"></i>
                       <p> Pengaturan Absensi</p>

@@ -16,15 +16,17 @@
                                     <th>Nama</th>
                                     <th>Waktu</th>
                                     <th>Keterangan</th>
+                                    <th>Satus</th>
                                 </thead>
                                 <tbody>
                                     <?php $no = 1;
                                     foreach ($data as $d) { ?>
                                         <tr>
                                             <td width="1%"><?= $no++ ?></td>
-                                            <td><?= ucfirst($d->nama) ?></td>
-                                            <td><?= ucfirst($d->waktu) ?></td>
-                                            <td><?= ucfirst($d->keterangan) ?></td>
+                                            <td><?= $d['nama'] ?></td>
+                                            <td><?= $d['waktu'] ?></td>
+                                            <td><?= $d['keterangan'] ?></td>
+                                            <td><?= $d['status'] ?></td>
                                         </tr>
                                     <?php } ?>
                                 </tbody>

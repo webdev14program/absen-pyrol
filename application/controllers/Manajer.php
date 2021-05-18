@@ -23,7 +23,7 @@ class Manajer extends CI_Controller
         $data['hadir']    = $this->M_data->hadirtoday($tahun, $bulan, $hari)->num_rows();
         $data['cuti']    = $this->M_data->cutitoday($tahun, $bulan, $hari)->num_rows();
         $data['izin']    = $this->M_data->izintoday($tahun, $bulan, $hari)->num_rows() + $this->M_data->sakittoday($tahun, $bulan, $hari)->num_rows();
-        $data['absensi'] = $this->M_data->absen()->num_rows();
+        $data['absensi'] = $this->M_data->absen();
         $absen            = $this->M_data->absendaily($this->session->userdata('kode_pegawai'), $tahun, $bulan, $hari);
         if ($absen->num_rows() == 0) {
             $data['waktu'] = 'masuk';
@@ -40,7 +40,7 @@ class Manajer extends CI_Controller
     public function absensi()
     {
         $data['web']    = $this->web;
-        $data['data']    = $this->M_data->absen()->result();
+        $data['data']    = $this->M_data->absen();
         $data['title']    = 'Data Absen Pegawai';
         $data['body']    = 'manajer/absen';
         $this->load->view('template', $data);
@@ -77,28 +77,28 @@ class Manajer extends CI_Controller
     {
         $daftarmutasi = $this->db->get_where('mutasi', array("no_urut" => $id))->row();
         $idpegawai = $daftarmutasi->id_pegawai;
-        $jenisdata = $daftarmutasi->jenis_mutasi; 
-        
-        
+        $jenisdata = $daftarmutasi->jenis_mutasi;
+
+
 
         $datajabatanbaru = ['id_jabatan' => $daftarmutasi->id_jabatan_baru];
         $datadepartemenbaru = ['id_departemen' => $daftarmutasi->id_departemen_baru];
 
-        
-        if($jenisdata == "promosi"){
+
+        if ($jenisdata == "promosi") {
             $this->db->trans_start();
             $this->db->update('mutasi', ['status_mutasi' => 'diterima'], ['no_urut' => $id]);
             $this->db->update('pegawai', $datajabatanbaru, ['kode_pegawai' => $idpegawai]);
             $this->db->trans_complete();
             $this->session->set_flashdata('message', 'swal("Berhasil!", "Menerima pengajuan mutasi", "success");');
             redirect('manajer/mutasi');
-        }else{
+        } else {
             $this->db->trans_start();
             $this->db->update('mutasi', ['status_mutasi' => 'diterima'], ['no_urut' => $id]);
             $this->db->update('pegawai', $datadepartemenbaru, ['kode_pegawai' => $idpegawai]);
             $this->db->trans_complete();
             $this->session->set_flashdata('message', 'swal("Berhasil!", "Menerima pengajuan mutasi", "success");');
-            redirect('manajer/mutasi');   
+            redirect('manajer/mutasi');
         }
     }
 
@@ -123,7 +123,6 @@ class Manajer extends CI_Controller
         $data['title'] = 'Data perjalanan Dinas';
         $data['body'] = 'manajer/perjalanandinas';
         $this->load->view('template', $data);
-
     }
     public function perjalanandinas_add()
     {
