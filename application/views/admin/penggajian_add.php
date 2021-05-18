@@ -42,8 +42,8 @@
                                 <input type="text" name="tunjangan" id="tunjangan" class="form-control" required="">
                             </div>
                             <div class="form-group">
-                              <label>Pinjaman</label>
-                              
+                              <label>Pinjaman</label><br>
+                              <button type="button" name="modal" class="btn btn-primary">Tambah Pinjaman</button>
                             </div>
                             <div class="form-group">
                                 <label>Uang Makan</label>
@@ -75,7 +75,7 @@
                             </div>
                         </div>
                         <div class="card-footer">
-                            <a href="<?= base_url('admin/pegawai') ?>" class="btn btn-danger">Kembali</a>
+                            <a href="<?= base_url('admin/penggajian') ?>" class="btn btn-danger">Kembali</a>
                             <button type="submit" class="btn btn-primary">Simpan</button>
                         </div>
                     </form>

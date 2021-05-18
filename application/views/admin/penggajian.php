@@ -8,7 +8,7 @@
             <!-- Map card -->
             <div class="card">
               <div class="card-header"> <?=$title?> </h3>
-                <a style="float: right;" href="<?=base_url('admin/penggajian_add')?>" class="btn btn-sm btn-primary">Tambah data</a>
+                <a style="float: right;" href="<?=base_url('admin/penggajian_add')?>" class="btn btn-sm btn-primary"><i class="fa fa-plus"></i></a>
               </div>
               <div class="card-body table-responsive">
                 <table border="1" id="myTable" class="table table-bordered table-striped text-center">
