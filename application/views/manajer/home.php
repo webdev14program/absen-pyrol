@@ -7,7 +7,6 @@
                     <div class="small-box bg-info">
                         <div class="inner">
                             <h3><?= $pegawai ?></h3>
-
                             <p>Jumlah Karyawan</p>
                         </div>
                         <div class="icon">
@@ -22,7 +21,6 @@
                     <div class="small-box bg-success">
                         <div class="inner">
                             <h3><?= $hadir ?></h3>
-
                             <p>Karyawan hadir hari ini</p>
                         </div>
                         <div class="icon">
@@ -70,7 +68,7 @@
                 <section class="col-lg-12 connectedSortable">
 
                     <!-- Map card -->
-
+ 
                     <div class="card">
                         <div class="card-header"> Notifikasi </h3>
                         </div>

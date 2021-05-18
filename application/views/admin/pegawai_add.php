@@ -12,10 +12,6 @@
               <form method="post" action="<?= base_url('admin/pegawai_simpan/') ?>">
                 <div class="card-body">
                   <div class="form-group">
-                    <label>Kode Pegawai</label>
-                    <input type="text" name="kode_pegawai" class="form-control" required="">
-                  </div>
-                  <div class="form-group">
                     <label>Nama Pegawai</label>
                     <input type="text" name="nama" class="form-control" required="">
                   </div>
@@ -85,10 +81,10 @@
                   <div class="form-group">
                     <label>Jabatan</label>
                     <select name="jabatan" class="form-control">
-                        <option value="" selected="" disabled="">Pilih Jabatan..</option>
-                        <?php foreach ($jabatan as $e) {?>
-                          <option value="<?= $e->id_jabatan?>"><?= $e->nama_jabatan ?></option>
-                        <?php }?>
+                      <option value="" selected="" disabled="">Pilih Jabatan..</option>
+                      <?php foreach ($jabatan as $e) { ?>
+                        <option value="<?= $e->id_jabatan ?>"><?= $e->nama_jabatan ?></option>
+                      <?php } ?>
                     </select>
                   </div>
                   <div class="form-group">
@@ -107,10 +103,6 @@
                       <option value="manajer">Manajer</option>
                       <option value="admin">Admin</option>
                     </select>
-                  </div>
-                  <div class="form-group">
-                    <label>Waktu masuk</label>
-                    <input type="date" name="masuk" class="form-control" required="">
                   </div>
                 </div>
                 <div class="card-footer">
