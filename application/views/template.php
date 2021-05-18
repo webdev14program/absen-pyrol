@@ -201,32 +201,6 @@
 
               <li class="nav-item has-treeview">
                 <a href="#" class="nav-link">
-                  <i class="nav-icon fas fa-table"></i>
-                  <p>
-                    Master Data Gaji
-                    <i class="fas fa-angle-left right"></i>
-                  </p>
-                </a>
-                <ul class="nav nav-treeview">
-                  <li class="nav-item" style="margin-left:20px">
-                    <a href="<?= base_url($this->session->userdata('level')) ?>/pekerjaan" class="nav-link">
-                      <i class="fa fa-calculator nav-icon"></i>
-                      <p>Data Gaji</p>
-                    </a>
-                  </li>
-                  <li class="nav-item" style="margin-left:20px">
-                    <a href="<?= base_url($this->session->userdata('level')) ?>/pinjaman" class="nav-link">
-                      <i class="fa fa-credit-card nav-icon"></i>
-                      <p>Pinjaman</p>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-            <?php } ?>
-            <?php if ($this->session->userdata('level') == 'admin') { ?>
-
-              <li class="nav-item has-treeview">
-                <a href="#" class="nav-link">
                   <i class="nav-icon fas fa-folder"></i>
                   <p>
                     Riwayat Data
