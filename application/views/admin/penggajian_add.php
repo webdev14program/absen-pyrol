@@ -43,7 +43,7 @@
                             </div>
                             <div class="form-group">
                               <label>Pinjaman</label><br>
-                              <button type="button" name="modal" class="btn btn-primary"><i class="fa fa-plus"></i></button>
+                              <button type="button" name="modal" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-plus"></i></button>
                             </div>
                             <div class="form-group">
                                 <label>Uang Makan</label>
@@ -80,6 +80,28 @@
                         </div>
                     </form>
                 </div>
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Pinjaman</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <label>Persenan</label>
+                      <input type="int" name="persenan" class="form-control" required="">
+                      <label>Jumlah Pinjaman</label>
+                      <input type="text" name="pinjaman" id="pinjaman" value="" class="form-control" required="">
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-dismiss="modal">Batal</button>
+                      <button type="button" class="btn btn-success">Simpan</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </section>
         </div>
     </div>
@@ -128,6 +150,11 @@
     var thp = document.getElementById('thp');
     thp.addEventListener('keyup', function(e) {
         thp.value = formatRupiah(this.value, "Rp. ");
+    });
+
+    var pinjaman = document.getElementById('pinjaman');
+    pinjaman.addEventListener('keyup', function(e) {
+        pinjaman.value = formatRupiah(this.value, "Rp. ");
     });
 
 
