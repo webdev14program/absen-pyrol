@@ -26,6 +26,10 @@
                                     </select>
                                 </div>
                                 <div class="form-group">
+                                  <label>Jumlah Kehadiran</label>
+                                  <input type="number" name="jumlahkehadiran" value="" class="form-control" required="">
+                                </div>
+                                <div class="form-group">
                                     <label>Gaji Pokok</label>
                                     <input type="text" name="gajipokok" id="gajipokok" class="form-control" required="">
                                 </div>
