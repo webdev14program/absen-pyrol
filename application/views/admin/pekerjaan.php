@@ -30,6 +30,10 @@
                                   <input type="number" name="jumlahkehadiran" value="" class="form-control" required="">
                                 </div>
                                 <div class="form-group">
+                                  <label>Jumlah Lembur</label>
+                                  <input type="text" name="jumlahlembur" value="" class="form-control" required>
+                                </div>
+                                <div class="form-group">
                                     <label>Gaji Pokok</label>
                                     <input type="text" name="gajipokok" id="gajipokok" class="form-control" required="">
                                 </div>
