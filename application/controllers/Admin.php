@@ -484,7 +484,7 @@ class Admin extends CI_Controller
 	{
 		$data['web'] = $this->web;
 		$data['title'] = 'Data Laporan Gaji';
-		$data['body'] = 'admin/laporanabsen';
+		$data['body'] = 'admin/laporangaji';
 		$this->load->view('template', $data);
 	}
 	public function riwayatmutasi()
