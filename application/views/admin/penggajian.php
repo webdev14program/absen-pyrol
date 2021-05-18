@@ -7,11 +7,12 @@
 
             <!-- Map card -->
             <div class="card">
-              <div class="card-header"> <?=$title?> </h3>
-                <a style="float: right;" href="<?=base_url('admin/penggajian_add')?>" class="btn btn-sm btn-primary"><i class="fa fa-plus"></i></a>
-              </div>
+              <!-- <div class="card-header"> <?= $title ?> </h3>
+                <a style="float: right;" href="<?= base_url('admin/penggajian_add') ?>" class="btn btn-sm btn-primary"><i class="fa fa-plus"></i></a>
+              </div> -->
               <div class="card-body table-responsive">
                 <table border="1" id="myTable" class="table table-bordered table-striped text-center">
+<<<<<<< Updated upstream
                     <thead>
                       <tr>
                         <th>No</th>
@@ -58,10 +59,54 @@
                           <a href="<?= base_url('admin/penggajian_edit/'.$data->kode_pegawai)?>" class="btn btn-primary btn-sm"><span class="fa fa-edit"></span></a>
                           <a onclick="return confirm('apakah anda yakin ingin menghapus pegawai ini?')" href="#" class="btn btn-danger btn-sm"><span class="fa fa-trash"></span></a>
                         </td>
+=======
+                  <thead>
+                    <tr>
+                      <th>No</th>
+                      <th>Kode Pegawai</th>
+                      <th>Nama</th>
+                      <th>Hadir</th>
+                      <th>Cuti</th>
+                      <th>Izin</th>
+                      <th>Sakit</th>
+                      <th>Gaji</th>
+                      <th>Opsi</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <?php
+
+                    $no = 1;
+                    foreach ($list as $data) {
+                      $tahun  = date('Y');
+                      $bulan  = date('m');
+                      $jumlah = 0;
+                      $stotal = 0;
+                      $absen  = $this->M_data->absenbulan($data->kode_pegawai, $tahun, $bulan)->num_rows();
+                      $cuti   = $this->M_data->cutibulan($data->kode_pegawai, $tahun, $bulan)->num_rows();
+                      $sakit  = $this->M_data->sakitbulan($data->kode_pegawai, $tahun, $bulan)->num_rows();
+                      $izin   = $this->M_data->izinbulan($data->kode_pegawai, $tahun, $bulan)->num_rows();
+
+                      $gaji = 0;
+                      // $gaji   = ($absen * $data->gaji) + ($cuti * $data->gaji) + ($sakit * $data->gaji);
+                      //var_dump($cuti);
+                      //hitung hari cuti
+                    ?>
+                      <tr>
+                        <td width="1%"><?= $no++ ?></td>
+                        <td><?= ucfirst($data->kode_pegawai) ?></td>
+                        <td><?= ucfirst($data->nama) ?></td>
+                        <td><?= $absen ?></td>
+                        <td><?= $cuti ?></td>
+                        <td><?= $izin ?></td>
+                        <td><?= $sakit ?></td>
+                        <td>Rp. <?= number_format($gaji) ?></td>
+                        <td> <a href="<?= base_url('admin/penggajian_add/' . $data->kode_pegawai) ?>" class="btn btn-primary btn-sm"><span class="fa fa-plus"></span></a></td>
+>>>>>>> Stashed changes
                       </tr>
-                      <?php } ?>
-                    </tbody>
-                  </table>
+                    <?php } ?>
+                  </tbody>
+                </table>
               </div>
             </div>
             <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
