@@ -56,11 +56,7 @@
                     <th>Lembur</th>
                   </tr>
                 </thead>
-                <tbody>
-
-                  <tr>
-
-                  </tr>
+                <tbody id="hasildata">
                 </tbody>
               </table>
           </div>
@@ -77,4 +73,6 @@
         placeholder: "Pilih Tahun...",
         allowClear: true
     });
+
+    
 </script>
