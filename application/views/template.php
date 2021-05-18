@@ -142,7 +142,7 @@
 
               <li class="nav-item has-treeview">
                 <a href="#" class="nav-link">
-                  <i class="nav-icon fas fa-fingerprint"></i>
+                  <i class="nav-icon fa fa-qrcode"></i>
                   <p>
                     Absensi
                     <i class="fas fa-angle-left right"></i>
@@ -152,7 +152,7 @@
                   <li class="nav-item" style="margin-left:20px">
                     <a href="<?= base_url($this->session->userdata('level')) ?>/pengaturanmesin" class="nav-link">
                       <i class="nav-icon fas fa-cogs"></i>
-                      <p> Pengaturan Mesin</p>
+                      <p> Set Jam Absensi</p>
                     </a>
                   </li>
                   <li class="nav-item" style="margin-left:20px">
