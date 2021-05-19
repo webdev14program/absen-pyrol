@@ -737,13 +737,13 @@ class Admin extends CI_Controller
 		$data['body']	= 'admin/penggajian';
 		$this->load->view('template', $data);
 	}
-	public function penggajian_add()
+	public function penggajian_add($id)
 	{
-		$data['pegawai'] = $this->M_data->pegawai()->result();
+		$data['pegawai'] = $this->M_data->pegawai_add($id);
 		$data['web'] = $this->web;
 		$data['title'] = 'Tambah Penggajian Karyawan';
 		$data['body'] = 'admin/penggajian_add';
-		$this->load->view('template',$data);
+		$this->load->view('template', $data);
 	}
 	public function penggajian_edit($id)
 	{
@@ -755,6 +755,5 @@ class Admin extends CI_Controller
 	}
 	public function penggajian_ubah($id)
 	{
-
 	}
 }

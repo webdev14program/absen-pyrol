@@ -14,6 +14,22 @@ class M_data extends CI_Model
 		$this->db->join('jabatan', 'pegawai.id_jabatan = jabatan.id_jabatan');
 		return $this->db->get();
 	}
+
+	function pegawai_add($id)
+	{
+		$sql = "SELECT * FROM `user`
+				WHERE kode_pegawai LIKE '%$id%'";
+		$query = $this->db->query($sql);
+		return $query->row_array();
+	}
+
+	function count_hadir_pegawai()
+	{
+		$sql = "SELECT count(*) AS kelas FROM `a_kelas`";
+		$query = $this->db->query($sql);
+		return $query->row()->kelas;
+	}
+
 	function pegawaiid($id)
 	{
 		$this->db->select('*');
