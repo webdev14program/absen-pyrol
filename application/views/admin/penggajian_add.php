@@ -14,28 +14,20 @@
         <div class="card">
           <div class="card-header"> <?= $title ?> </h3>
           </div>
-          <form method="post" action="<?= base_url('admin/simpan_penggajian_add/') ?>">
+          <form method="post" action="<?= base_url('admin/simpan_penggajian_add') ?>" enctype="multipart/form-data">
             <div class="card-body">
-              <!-- <div class="form-group">
-                                <label>Nama Pegawai</label>
-                                <select name="namapegawai" class="pilihpegawai form-control" required="">
-                                    <option value=""></option>
-                                    <?php foreach ($pegawai as $key) { ?>
-                                        <option value="<?= $key->kode_pegawai ?>"><?= $key->kode_pegawai ?> - <?= $key->nama ?> - <?= $key->nama_jabatan ?> - <?= $key->departemen ?></option>
-                                    <?php } ?>
-                                </select>
-                            </div> -->
+
               <div class="row">
                 <div class="col-md">
                   <div class="form-group">
                     <label>ID Pegawai</label>
-                    <input type="text" name="kode_pegawai" value="<?= $pegawai['kode_pegawai'] ?>" class="form-control" required="" disabled>
+                    <input type="text" name="kode_pegawai" id="kode_pegawai" value="<?= $pegawai['kode_pegawai'] ?>" class="form-control">
                   </div>
                 </div>
                 <div class="col-md">
                   <div class="form-group">
                     <label>Nama Pegawai</label>
-                    <input type="text" name="namapegawai" value="<?= $pegawai['nama'] ?>" class="form-control" required="" disabled>
+                    <input type="text" name="namapegawai" value="<?= $pegawai['nama'] ?>" class="form-control" disabled>
                   </div>
                 </div>
               </div>
@@ -43,13 +35,13 @@
                 <div class="col-md">
                   <div class="form-group">
                     <label>Jumlah Kehadiran</label>
-                    <input type="text" name="jumlahkehadiran" value="<?= $jumlah_hadir['jum_hadir'] ?>" class="form-control" disabled>
+                    <input type="text" name="jumlahkehadiran" value="<?= $jumlah_hadir['jum_hadir'] ?>" class="form-control">
                   </div>
                 </div>
                 <div class="col-md">
                   <div class="form-group">
                     <label>Jumlah Lembur</label>
-                    <input type="number" name="jumlahlembur" value="<?= $lembur['lembur'] ?>" class="form-control" disabled>
+                    <input type="number" name="jumlahlembur" value="<?= $lembur['lembur'] ?>" class="form-control">
                   </div>
                 </div>
               </div>
@@ -57,13 +49,13 @@
                 <div class="col-md">
                   <div class="form-group">
                     <label>Gaji Pokok</label>
-                    <input type="text" name="gajipokok" id="gajipokok" class="form-control" required="">
+                    <input type="text" name="gajipokok" id="gajipokok" class="form-control">
                   </div>
                 </div>
                 <div class="col-md">
                   <div class="form-group">
                     <label>Tunjangan</label>
-                    <input type="text" name="tunjangan" id="tunjangan" class="form-control" required="">
+                    <input type="text" name="tunjangan" id="tunjangan" class="form-control">
                   </div>
                 </div>
               </div>
@@ -77,35 +69,35 @@
                 <div class="col-md">
                   <div class="form-group">
                     <label>Uang Makan</label>
-                    <input type="text" name="uangmakan" id="uangmakan" class="form-control" required="" />
+                    <input type="text" name="uangmakan" id="uangmakan" class="form-control" />
                   </div>
                 </div>
                 <div class="col-md">
                   <div class="form-group">
                     <label>Insentif</label>
-                    <input type="text" name="insentif" id="insentif" class="form-control" required="">
+                    <input type="text" name="insentif" id="insentif" class="form-control">
                   </div>
                 </div>
               </div>
               <div class="form-group">
                 <label>BPJS Kesehatan</label>
-                <input type="text" name="kesehatan" id="kesehatan" class="form-control" required="">
+                <input type="text" name="kesehatan" id="kesehatan" class="form-control">
               </div>
               <div class="form-group">
                 <label>BPJS Tenaga Kerja</label>
-                <input type="text" name="tenagakerja" id="tenagakerja" class="form-control" required="">
+                <input type="text" name="tenagakerja" id="tenagakerja" class="form-control">
               </div>
               <div class="form-group">
                 <label>Vaksin</label>
-                <input type="text" name="vaksin" id="vaksin" class="form-control" required="">
+                <input type="text" name="vaksin" id="vaksin" class="form-control">
               </div>
               <div class="form-group">
                 <label>Sanksi</label>
-                <input type="text" name="sanksi" id="sanksi" class="form-control" required="">
+                <input type="text" name="sanksi" id="sanksi" class="form-control">
               </div>
               <div class="form-group">
                 <label>THP</label>
-                <input type="text" name="thp" id="thp" class="form-control" required="">
+                <input type="text" name="thp" id="thp" class="form-control">
               </div>
             </div>
             <div class="card-footer">
@@ -113,28 +105,6 @@
               <button type="submit" class="btn btn-primary">Simpan</button>
             </div>
           </form>
-        </div>
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Pinjaman</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                <label>Persenan</label>
-                <input type="int" name="persenan" class="form-control" required="">
-                <label>Jumlah Pinjaman</label>
-                <input type="text" name="pinjaman" id="pinjaman" value="" class="form-control" required="">
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-dismiss="modal">Batal</button>
-                <button type="button" class="btn btn-success">Simpan</button>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
     </div>
@@ -215,8 +185,8 @@
 
 
 
-  $('.pilihpegawai').select2({
-    placeholder: "Pilih Nama Pegawai...",
-    allowClear: true,
-  });
+  // $('.pilihpegawai').select2({
+  //   placeholder: "Pilih Nama Pegawai...",
+  //   allowClear: true,
+  // });
 </script>

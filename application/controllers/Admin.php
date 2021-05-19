@@ -751,15 +751,18 @@ class Admin extends CI_Controller
 	public function simpan_penggajian_add()
 	{
 		$p = $this->input->post();
+		$kode_pegawai = $this->input->post('kode_pegawai');
+		$hadir = $this->input->post('jumlahkehadiran');
+		$lembur = $this->input->post('jumlahlembur');
 		$id_gaji = rand(10000000, 99999999);
 		$data = [
 			'id_gaji'		=> $id_gaji,
-			'kode_pegawai'		=> $p['kode_pegawai'],
+			'kode_pegawai'		=> $kode_pegawai,
 			'gaji_pokok'		=> $p['gajipokok'],
 			'tunjangan'		=> $p['tunjangan'],
 			'uang_makan'		=> $p['uangmakan'],
-			'hadir'		=> $p['jumlahkehadiran'],
-			'lembur'		=> $p['jumlahlembur'],
+			'hadir'		=> $hadir,
+			'lembur'		=> $lembur,
 			'insentif'		=> $p['insentif'],
 			'bpjs_kesehatan'		=> $p['kesehatan'],
 			'bpjs_tkj'		=> $p['tenagakerja'],
@@ -767,9 +770,9 @@ class Admin extends CI_Controller
 			'sanksi'		=> $p['sanksi'],
 			'thp'		=> $p['thp'],
 		];
-		$this->db->trans_start();
+
 		$this->db->insert('gaji', $data);
-		$this->db->trans_complete();
+
 		redirect('admin/penggajian', $data);
 	}
 
