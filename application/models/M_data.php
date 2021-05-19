@@ -23,11 +23,20 @@ class M_data extends CI_Model
 		return $query->row_array();
 	}
 
-	function count_hadir_pegawai()
+	function count_hadir_pegawai($id)
 	{
-		$sql = "SELECT count(*) AS kelas FROM `a_kelas`";
+		$sql = "SELECT  count(*) AS jum_hadir  FROM `absen`
+				WHERE absen.kode_pegawai LIKE '%$id%'";
 		$query = $this->db->query($sql);
-		return $query->row()->kelas;
+		return $query->row_array();
+	}
+
+	function count_lembur_pegawai($id)
+	{
+		$sql = "SELECT COUNT(*) AS lembur FROM `absen_lembur`
+				WHERE absen_lembur.kode_pegawai LIKE '%$id%'";
+		$query = $this->db->query($sql);
+		return $query->row_array();
 	}
 
 	function pegawaiid($id)

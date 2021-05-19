@@ -14,7 +14,7 @@
         <div class="card">
           <div class="card-header"> <?= $title ?> </h3>
           </div>
-          <form method="post" action="<?= base_url('admin/pekerjaan_simpan/') ?>">
+          <form method="post" action="<?= base_url('admin/simpan_penggajian_add/') ?>">
             <div class="card-body">
               <!-- <div class="form-group">
                                 <label>Nama Pegawai</label>
@@ -29,7 +29,7 @@
                 <div class="col-md">
                   <div class="form-group">
                     <label>ID Pegawai</label>
-                    <input type="text" name="namapegawai" value="<?= $pegawai['kode_pegawai'] ?>" class="form-control" required="" disabled>
+                    <input type="text" name="kode_pegawai" value="<?= $pegawai['kode_pegawai'] ?>" class="form-control" required="" disabled>
                   </div>
                 </div>
                 <div class="col-md">
@@ -43,13 +43,13 @@
                 <div class="col-md">
                   <div class="form-group">
                     <label>Jumlah Kehadiran</label>
-                    <input type="number" name="jumlahkehadiran" value="" class="form-control" required="">
+                    <input type="text" name="jumlahkehadiran" value="<?= $jumlah_hadir['jum_hadir'] ?>" class="form-control" disabled>
                   </div>
                 </div>
                 <div class="col-md">
                   <div class="form-group">
                     <label>Jumlah Lembur</label>
-                    <input type="number" name="jumlahlembur" value="" class="form-control" required>
+                    <input type="number" name="jumlahlembur" value="<?= $lembur['lembur'] ?>" class="form-control" disabled>
                   </div>
                 </div>
               </div>

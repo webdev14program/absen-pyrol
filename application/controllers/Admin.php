@@ -740,11 +740,41 @@ class Admin extends CI_Controller
 	public function penggajian_add($id)
 	{
 		$data['pegawai'] = $this->M_data->pegawai_add($id);
+		$data['jumlah_hadir'] = $this->M_data->count_hadir_pegawai($id);
+		$data['lembur'] = $this->M_data->count_lembur_pegawai($id);
 		$data['web'] = $this->web;
 		$data['title'] = 'Tambah Penggajian Karyawan';
 		$data['body'] = 'admin/penggajian_add';
 		$this->load->view('template', $data);
 	}
+
+	public function simpan_penggajian_add()
+	{
+		$p = $this->input->post();
+		$id_gaji = rand(10000000, 99999999);
+		$data = [
+			'id_gaji'		=> $id_gaji,
+			'kode_pegawai'		=> $p['kode_pegawai'],
+			'gaji_pokok'		=> $p['gajipokok'],
+			'tunjangan'		=> $p['tunjangan'],
+			'uang_makan'		=> $p['uangmakan'],
+			'hadir'		=> $p['jumlahkehadiran'],
+			'lembur'		=> $p['jumlahlembur'],
+			'insentif'		=> $p['insentif'],
+			'bpjs_kesehatan'		=> $p['kesehatan'],
+			'bpjs_tkj'		=> $p['tenagakerja'],
+			'vaksin'		=> $p['vaksin'],
+			'sanksi'		=> $p['sanksi'],
+			'thp'		=> $p['thp'],
+		];
+		$this->db->trans_start();
+		$this->db->insert('gaji', $data);
+		$this->db->trans_complete();
+		redirect('admin/penggajian', $data);
+	}
+
+
+
 	public function penggajian_edit($id)
 	{
 		$data['web']	= $this->web;
