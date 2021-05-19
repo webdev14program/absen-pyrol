@@ -73,6 +73,4 @@
         placeholder: "Pilih Tahun...",
         allowClear: true
     });
-
-    
 </script>
