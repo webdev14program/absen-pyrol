@@ -755,6 +755,6 @@ class Admin extends CI_Controller
 	}
 	public function penggajian_ubah($id)
 	{
-		
+
 	}
 }
