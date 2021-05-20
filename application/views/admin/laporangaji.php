@@ -56,11 +56,7 @@
                     <th>Uang Lembur</th>
                   </tr>
                 </thead>
-                <tbody>
-
-                  <tr>
-
-                  </tr>
+                <tbody id="hasildata">
                 </tbody>
               </table>
           </div>
