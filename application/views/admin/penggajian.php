@@ -42,7 +42,7 @@
                       $tunjangan = 0;
                       $insentif = 0;
                       $uangmakan = 0;
-                      // $gaji   = ($absen * $data->gaji) + ($cuti * $data->gaji) + ($sakit * $data->gaji);
+                      // $gaji   = ($absen * $data->gaji_pokok) + ($cuti * $data->gaji_pokok) + ($sakit * $data->gaji_pokok);
                       //var_dump($cuti);
                       //hitung hari cuti
                     ?>
@@ -74,10 +74,10 @@
                         <th>No</th>
                         <th>Kode Pegawai</th>
                         <th>Nama</th>
-                        <th>Hadir</th>
-                        <th>Cuti</th>
-                        <th>Izin</th>
-                        <th>Sakit</th>
+                        <th>Hadir/bulan</th>
+                        <th>Cut/bulan</th>
+                        <th>Izin/bulan</th>
+                        <th>Sakit/bulan</th>
                         <th>Gaji</th>
                         <th>Opsi</th>
                       </tr>
