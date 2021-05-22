@@ -17,7 +17,7 @@
           </div>
           <div class="card-body">
             <span>
-              <select name="birth_month" id="day" class="form-inline" style="width:200px">
+              <select name="birth_month" id="month" class="form-inline" style="width:200px">
                 <option value=""></option>
                 <?php for( $m=1; $m<=12; ++$m ) {
                   $month_label = date('F', mktime(0, 0, 0, $m, 1));
@@ -40,7 +40,7 @@
               </select>
             </span>
             <span>
-              <button type="submit" class="btn btn-primary">Cari</button>
+              <button type="button" id="cari" class="btn btn-primary">Cari</button>
             </span>
           </div>
           <div class="card-body table-responsive">
@@ -66,11 +66,13 @@
   </div>
 </section>
 <script type="text/javascript">
-    $('#day').select2({
+    $('#month').select2({
         placeholder: "Pilih Bulan...",
         allowClear: true
     });$('#year').select2({
         placeholder: "Pilih Tahun...",
         allowClear: true
     });
+
+
 </script>

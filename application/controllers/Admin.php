@@ -489,6 +489,32 @@ class Admin extends CI_Controller
 		$data['body'] = 'admin/laporangaji';
 		$this->load->view('template', $data);
 	}
+
+	public function jsonbulangaji()
+	{
+		$gaji = $this->db->get('gaji')->result();
+		foreach ($gaji as $key) {
+			$date = strtotime($key->waktu);
+			$var = date('M',$date);
+		}
+		$data = array(
+			'bulan' => $var
+		);
+		echo json_encode($data);
+	}
+	public function jsontahungaji()
+	{
+		$gaji = $this->db->get('gaji')->result();
+		foreach ($gaji as $key) {
+			$date = strtotime($key->waktu);
+			$var = date('Y',$date);
+		}
+		$data = array(
+			'tahun' => $var
+		);
+		echo json_encode($data);
+	}
+
 	public function riwayatmutasi()
 	{
 		$data['web']	= $this->web;
