@@ -73,6 +73,16 @@
         placeholder: "Pilih Tahun...",
         allowClear: true
     });
+    $('#cari').click(function(){
+      var bulan = $('#month').val();
+      var tahun = $('#year').val();
+      if(bulan != '' && tahun != ''){
+        $.ajax({
 
+        })
+      }else{
+
+      }
+    });
 
 </script>

@@ -514,6 +514,13 @@ class Admin extends CI_Controller
 		);
 		echo json_encode($data);
 	}
+	public function jsondatagaji()
+	{
+		$sql = 'SELECT waktu from gaji';
+		$query = $this->db->query($sql);
+	 	echo json_encode($query->row());
+	}
+
 
 	public function riwayatmutasi()
 	{
