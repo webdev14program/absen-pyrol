@@ -516,10 +516,49 @@ class Admin extends CI_Controller
 	}
 	public function jsondatagaji()
 	{
-		$sql = 'SELECT waktu from gaji';
+		$sql = 'SELECT SUBSTRING(waktu,1,4) AS tahun from gaji';
 		$query = $this->db->query($sql);
-	 	echo json_encode($query->row());
+	 	$sql2 = 'SELECT SUBSTRING(waktu,6,2) AS bulan from gaji';
+		$query2 = $this->db->query($sql2);
+		$data = array(
+			'tahun' => $query->row()->tahun,
+			'bulan' => $query2->row()->bulan
+	 );
+	 echo json_encode($data);
 	}
+	public function json()
+	{
+
+		// $sqltahun = "SELECT SUBSTRING(waktu, 1, 4) as tahun from gaji";
+		// $querytahun = $this->db->query($sqltahun);
+		// $sqlbulan = "SELECT SUBSTRING(waktu,6,2) AS bulan from gaji";
+		// $querybulan = $this->db->query($sqlbulan);
+		// $data = array(
+		// 	'tahun' => $querytahun->row()->tahun,
+		// 	'bulan' => $querybulan->row()->bulan
+	 // );
+
+	 $tahun = "2021";
+	 $bulan = "05";
+	 if($bulan != '' && $tahun != ''){
+		 $sql = "SELECT * FROM gaji";
+		 $query = $this->db->query($sql);
+		 foreach ($query->result() as $row) {
+		 	$data['gajipokok'] = $row->gaji_pokok;
+		 }
+	 }
+		echo json_encode($data);
+	}
+
+
+	// public function jsongaji()
+	// {
+	// 	if(isset($this->input->post('selectbulan') && $this->input->post('selecttahun')))
+	// 	{
+	// 			$query = "SELECT * FROM gaji WHERE SUBSTRING(waktu, 1, 4) as tahun = '".$this->input->post('selecttahun')."'";
+	// 			echo
+	// 	}
+	// }
 
 
 	public function riwayatmutasi()

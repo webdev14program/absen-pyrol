@@ -17,7 +17,7 @@
           </div>
           <div class="card-body">
             <span>
-              <select name="birth_month" id="month" class="form-inline" style="width:200px">
+              <select name="selectbulan" id="month" class="form-inline" style="width:200px">
                 <option value=""></option>
                 <?php for( $m=1; $m<=12; ++$m ) {
                   $month_label = date('F', mktime(0, 0, 0, $m, 1));
@@ -27,7 +27,7 @@
               </select>
             </span>
             <span>
-              <select name="birth_year" id="year" style="width:200px">
+              <select name="selecttahun" id="year" style="width:200px">
                 <option value=""></option>
                 <?php
                   $year = date('Y');
