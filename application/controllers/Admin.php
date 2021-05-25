@@ -538,16 +538,22 @@ class Admin extends CI_Controller
 		// 	'bulan' => $querybulan->row()->bulan
 	 // );
 
-	 $tahun = "2021";
-	 $bulan = "05";
+	 $tahun = $this->input->post('selecttahun');
+	 $bulan = $this->input->post('selectbulan');
+	 $tglawal = strtotime("01 ".$bulan." ".$tahun);
+	 $tglakhir = strtotime("+1 month", $tglawal);
 	 if($bulan != '' && $tahun != ''){
-		 $sql = "SELECT * FROM gaji";
+		 $sql = "SELECT * FROM gaji WHERE waktu >='".date("Y-m-d",$tglawal)."' AND waktu < '".date("Y-m-d",$tglakhir)."'";
 		 $query = $this->db->query($sql);
+		 $datas = array();
 		 foreach ($query->result() as $row) {
+			$data['kodepegawai'] = $row->kode_pegawai;
 		 	$data['gajipokok'] = $row->gaji_pokok;
+			$data['uangmakan'] = $row->uang_makan;
+			array_push($datas,$data);
 		 }
 	 }
-		echo json_encode($data);
+		echo json_encode($datas);
 	}
 
 

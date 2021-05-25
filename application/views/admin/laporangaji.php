@@ -56,7 +56,7 @@
                     <th>Uang Lembur</th>
                   </tr>
                 </thead>
-                <tbody id="hasildata">
+                <tbody>
                 </tbody>
               </table>
           </div>
@@ -73,15 +73,45 @@
         placeholder: "Pilih Tahun...",
         allowClear: true
     });
+
+
     $('#cari').click(function(){
       var bulan = $('#month').val();
       var tahun = $('#year').val();
+        $('#myTable').DataTable();
       if(bulan != '' && tahun != ''){
         $.ajax({
-
+            url:"<?php echo base_url(); ?>admin/json",
+            method:"POST",
+            data:{selectbulan:bulan, selecttahun:tahun},
+            dataType:"JSON",
+            success:function (data) {
+              // //header
+              // $("#myTable").html("<thead><tr><th>No</th><th>Nama Pegawai</th><th>Gaji Pegawai</th><th>Pinjaman</th><th>Uang Makan</th><th>Uang Perjalanan Dinas</th><th>Uang Lembur</th></tr></thead><tbody>");
+              var tabel = $('#myTable').DataTable();
+              tabel.clear().draw();
+              $.each( data, function(i) {
+                tabel.row.add([(i+1).toString(),
+                  data[i].kodepegawai,
+                  data[i].gajipokok,
+                  '',
+                  data[i].uangmakan,
+                  '',
+                  '']).draw(false);
+                //body
+                // $("#myTable").html($("#myTable").html()+"<tr><td>"+(i+1)+"</td><td>"+data[i].kodepegawai+"</td><td>"+data[i].gajipokok+"</td><td></td><td>"+data[i].uangmakan+"</td><td></td><td></td></tr>");
+                // alert("<tr><td>"+(i+1)+"</td><td>"+data[i].kodepegawai+"</td><td>"+data[i].gajipokok+"</td><td></td><td>"+data[i].uangmakan+"</td><td></td><td></td></tr>");
+                // alert((i+1)+" ma"+ data[i].kodepegawai);
+                // alert($("#hasildata").html());
+                // alert(data[i].kodepegawai);
+              });
+              // //footer
+              // $("#myTable").html($("#myTable").html()+"</tbody>");
+              // $('#myTable').DataTable();
+            }
         })
       }else{
-
+        alert("Error");
       }
     });
 
