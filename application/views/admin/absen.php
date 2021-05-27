@@ -17,7 +17,7 @@
                     <th>Nama</th>
                     <th>Waktu</th>
                     <th>Keterangan</th>
-                    <th>Satus</th>
+                    <th>Status</th>
                   </thead>
                   <tbody>
 
