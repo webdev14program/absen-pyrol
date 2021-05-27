@@ -118,7 +118,11 @@
                   </div>
                   <div class="form-group">
                     <label>Waktu masuk</label>
-                    <input type="date" name="masuk" value="<?= $detail->waktu_masuk ?>" class="form-control" required="">
+                    <?php
+                      $x = strtotime($detail->waktu_masuk);
+                      $conver = date('m/d/Y',$x);
+                    ?>
+                    <input type="date" name="masuk" value="<?php echo $conver; ?>" class="form-control" required="">
                   </div>
                 </div>
                 <div class="card-footer">

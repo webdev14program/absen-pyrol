@@ -48,7 +48,7 @@
                 <thead>
                   <tr>
                     <th>No</th>
-                    <th>Nama Pegawai</th>
+                    <th>Kode Pegawai</th>
                     <th>Gaji Pegawai</th>
                     <th>Pinjaman</th>
                     <th>Uang Makan</th>

@@ -48,7 +48,7 @@
                 <thead>
                   <tr>
                     <th>No</th>
-                    <th>Nama Pegawai</th>
+                    <th>Kode Pegawai</th>
                     <th>Jumlah Kehadiran</th>
                     <th>Cuti</th>
                     <th>Izin</th>
