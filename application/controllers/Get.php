@@ -1,4 +1,4 @@
-<?php 
+<?php
 class Get extends CI_Controller {
     public function __construct()
     {
@@ -20,8 +20,8 @@ class Get extends CI_Controller {
         $id = $this->input->post('idjabatan');
         $jabatan = $this->M_data->pegawaiid($id)->row();
         echo $jabatan->nama_jabatan;
-        
-        
+
+
         // echo 'aa';
         // $data['data'] = $this->input->post('jabatan');
         // $data['pegawai'] = $this->db->get('pegawai')->result();

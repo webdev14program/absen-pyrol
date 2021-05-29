@@ -115,7 +115,7 @@ class Pegawai extends CI_Controller {
 		$dt2 = new DateTime(date('Y-m-d'));
 		$d = $dt2->diff($dt1)->days + 1;
 		$data['bakti']	= $d;
-		$data['title']	= 'Data Permohonan Ketidakhadiran';
+		$data['title']	= 'Data Pengajuan Cuti';
 		$data['body']	= 'pegawai/cuti';
 		$this->load->view('template',$data);
 	}
@@ -127,7 +127,7 @@ class Pegawai extends CI_Controller {
 		$dt2 = new DateTime(date('Y-m-d'));
 		$d = $dt2->diff($dt1)->days + 1;
 		$data['bakti']	= $d;
-		$data['title']	= 'Tambah Data Ketidakhadiran';
+		$data['title']	= 'Tambah Data Cuti';
 		$data['body']	= 'pegawai/cuti_add';
 		$this->load->view('template',$data);
 	}
@@ -158,24 +158,49 @@ class Pegawai extends CI_Controller {
 			}
 		}
 
-		$this->db->insert('cuti',$data);
-		$cek = $this->db->query(" select * from cuti order by id_cuti desc limit 1 ")->row();
-		$dt1 = new DateTime($this->input->post('mulai'));
-		$dt2 = new DateTime($this->input->post('akhir'));
-		$jml = $dt2->diff($dt1)->days + 1;
-		$tgl1= $this->input->post('mulai');
-		$no  = 1;
-		for ($i=0; $i < $jml ; $i++) {
-			$insert = array(
-				'id_cuti' => $cek->id_cuti,
-				'tanggal' => date('Y-m-d', strtotime('+'.$i.' days', strtotime($tgl1))),
-			);
-			$this->db->insert('detailcuti',$insert);
+		$awal = $this->input->post('mulai');
+		$akhir = $this->input->post('akhir');
+		$format_awal = strtotime($awal);
+		$format_akhir = strtotime($akhir);
+
+		$haribiasa = array();
+		$harisabtuminggu = array();
+
+		for ($i = $format_awal; $i <= $format_akhir; $i += (60 * 60 * 24)) {
+			if (date('w', $i) !== '0' && date('w', $i) !== '6') {
+				$haribiasa[] = $i;
+			} else {
+				$harisabtuminggu[] = $i;
+			}
 		}
 
-		$this->db->trans_complete();
-		$this->session->set_flashdata('message', 'swal("Berhasil!", "Pengajuan cuti", "success");');
-		redirect('pegawai/cuti');
+		$jumlah = count($haribiasa);
+		$jumlahsabtuminggu = count($harisabtuminggu);
+		$totallama = $jumlah + $jumlahsabtuminggu;
+
+		if($totallama >= 3){
+			$this->db->insert('cuti',$data);
+			$cek = $this->db->query(" select * from cuti order by id_cuti desc limit 1 ")->row();
+			$dt1 = new DateTime($this->input->post('mulai'));
+			$dt2 = new DateTime($this->input->post('akhir'));
+			$jml = $dt2->diff($dt1)->days + 1;
+			$tgl1= $this->input->post('mulai');
+			$no  = 1;
+			for ($i=0; $i < $jml ; $i++) {
+				$insert = array(
+					'id_cuti' => $cek->id_cuti,
+					'tanggal' => date('Y-m-d', strtotime('+'.$i.' days', strtotime($tgl1))),
+				);
+				$this->db->insert('detailcuti',$insert);
+			}
+
+			$this->db->trans_complete();
+			$this->session->set_flashdata('message', 'swal("Berhasil!", "Pengajuan cuti", "success");');
+			redirect('pegawai/cuti');
+		}else{
+			$this->session->set_flashdata('message', 'swal("Ops!", "Pengajuan cuti ditolak karena mengambil cuti sebanyak '.$totallama.' Hari", "error");');
+			redirect('pegawai/cuti');
+		}
 	}
 	public function cuti_update($id)
 	{
@@ -199,6 +224,7 @@ class Pegawai extends CI_Controller {
 	}
 	public function cuti_delete($id)
 	{
+		$this->db->delete('detailcuti',['id_cuti'=>$id]);
 		$this->db->delete('cuti',['id_cuti'=>$id]);
 		$this->session->set_flashdata('message', 'swal("Berhasil!", "Delete pengajuan cuti", "success");');
 		redirect('pegawai/cuti');

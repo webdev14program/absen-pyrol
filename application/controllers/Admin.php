@@ -52,10 +52,62 @@ class Admin extends CI_Controller
 	public function pengaturanabsen()
 	{
 		$data['web'] = $this->web;
+		$data['pengaturanabsen'] = $this->db->get('configurasi_absen')->result();
 		$data['title'] = 'Data Pengaturan Absen';
 		$data['body'] = 'admin/pengaturanabsen';
 		$this->load->view('template', $data);
 	}
+	public function pengaturanabsen_add()
+	{
+		$data['web'] = $this->web;
+		$data['title'] = 'Tambah Data Pengaturan Absen';
+		$data['body'] = 'admin/pengaturanabsen_add';
+		$this->load->view('template', $data);
+	}
+	public function pengaturanabsen_simpan()
+	{
+		$this->db->trans_start();
+		$data = array(
+			'awal_jam_masuk' => $this->input->post('jammasukawal'),
+			'akhir_jam_masuk' => $this->input->post('jammasukakhir'),
+			'awal_jam_pulang' => $this->input->post('jampulangawal'),
+			'akhir_jam_pulang' => $this->input->post('jampulangakhir')
+		);
+		$this->db->insert('configurasi_absen', $data);
+		$this->db->trans_complete();
+		$this->session->set_flashdata('message', 'swal("Berhasil!", "Tambah Data Pengaturan Absen", "success");');
+		redirect('admin/pengaturanabsen');
+	}
+
+	public function pengaturanabsen_edit($id)
+	{
+		$data['web']	= $this->web;
+		$data['data'] = $this->M_data->pengaturanabsenid($id)->row();
+		$data['pengaturanabsen']	= $this->db->get_where('configurasi_absen', ['no_urut' => $id])->row();
+		$data['title']	= 'Update Data Pengaturan Absen';
+		$data['body']	= 'admin/pengaturanabsen_edit';
+		$this->load->view('template', $data);
+	}
+	public function pengaturanabsen_update($id)
+	{
+		$data = array(
+					'awal_jam_masuk' => $this->input->post('jammasukawal'),
+					'akhir_jam_masuk' => $this->input->post('jammasukakhir'),
+					'awal_jam_pulang' => $this->input->post('jampulangawal'),
+					'akhir_jam_pulang' => $this->input->post('jampulangakhir'));
+		$this->db->update(
+			'configurasi_absen',$data,['no_urut' => $id]
+		);
+		$this->session->set_flashdata('message', 'swal("Berhasil!", "Update Pengaturan Absen", "success");');
+		redirect('admin/pengaturanabsen');
+	}
+	public function pengaturanabsen_delete($id)
+	{
+		$this->db->delete('configurasi_absen', ['no_urut' => $id]);
+		$this->session->set_flashdata('message', 'swal("Berhasil!", "Delete Pengaturan Absen", "success");');
+		redirect('admin/pengaturanabsen');
+	}
+
 	public function pengangkatan()
 	{
 		$data['web'] = $this->web;
@@ -489,7 +541,14 @@ class Admin extends CI_Controller
 		$data['body'] = 'admin/laporangaji';
 		$this->load->view('template', $data);
 	}
-
+	public function laporanpegawai()
+	{
+		$data['web'] = $this->web;
+		$data['title'] = 'Data Laporan Pegawai';
+		$data['departemen']	= $this->db->get('departemen')->result();
+		$data['body'] = 'admin/laporanpegawai';
+		$this->load->view('template', $data);
+	}
 	public function jsonbulangaji()
 	{
 		$gaji = $this->db->get('gaji')->result();
@@ -526,6 +585,7 @@ class Admin extends CI_Controller
 	 );
 	 echo json_encode($data);
 	}
+
 	public function json()
 	{
 
@@ -553,6 +613,30 @@ class Admin extends CI_Controller
 			array_push($datas,$data);
 		 }
 	 }
+		echo json_encode($datas);
+	}
+	public function json2()
+	{
+		$departemen = $this->input->post('selectdepartemen');
+		if($departemen != ''){
+			$sql = "SELECT * FROM pegawai WHERE id_departemen='".$departemen."'";
+			$query = $this->db->query($sql);
+			$datas = array();
+			foreach ($query->result() as $row) {
+				$data['kodepegawai'] = $row->kode_pegawai;
+				$x = $row->jenis_kelamin;
+				if($x == 'L'){
+					$data['jeniskelamin'] = "Laki-laki";
+				}else{
+					$data['jeniskelamin'] = "Perempuan";
+				}
+				$data['departemen'] = $row->id_departemen;
+				$y = new DateTime($row->waktu_masuk);
+				$data['tglmasuk'] = $y->format("d M Y");
+				$data['jabatan'] = $row->id_jabatan;
+				array_push($datas,$data);
+			}
+		}
 		echo json_encode($datas);
 	}
 

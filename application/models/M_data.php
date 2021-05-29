@@ -146,6 +146,13 @@ ON absen.kode_pegawai=user.kode_pegawai";
 		$this->db->where('pengangkatanpegawai.id_pengangkatan_pegawai', $id);
 		return $this->db->get();
 	}
+	public function pengaturanabsenid($id)
+	{
+		$this->db->select('*');
+		$this->db->from('configurasi_absen');
+		$this->db->where('configurasi_absen.no_urut', $id);
+		return $this->db->get();
+	}
 	public function cuti()
 	{
 		$this->db->select('*');
@@ -164,6 +171,15 @@ ON absen.kode_pegawai=user.kode_pegawai";
 		$this->db->join('jabatan', 'mutasi.id_jabatan_lama = jabatan.id_jabatan');
 		$this->db->join('departemen', 'mutasi.id_departemen_lama = departemen.departemen_id');
 		$this->db->order_by('mutasi.no_urut', 'desc');
+		return $this->db->get();
+	}
+	public function gaji()
+	{
+		$this->db->select('*');
+		$this->db->from('gaji');
+		$this->db->join('pegawai', 'gaji.kode_pegawai = pegawai.kode_pegawai');
+		$this->db->join('user', 'pegawai.kode_pegawai = user.kode_pegawai');
+		$this->db->order_by('gaji.id_gaji', 'desc');
 		return $this->db->get();
 	}
 	public function perjalanandinas()

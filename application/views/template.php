@@ -234,6 +234,12 @@
                 </a>
                 <ul class="nav nav-treeview">
                   <li class="nav-item" style="margin-left:20px">
+                    <a href="<?= base_url($this->session->userdata('level')) ?>/laporanpegawai" class="nav-link">
+                      <i class="fas fa-users nav-icon"></i>
+                      <p>Pegawai</p>
+                    </a>
+                  </li>
+                  <li class="nav-item" style="margin-left:20px">
                     <a href="<?= base_url($this->session->userdata('level')) ?>/laporanabsen" class="nav-link">
                       <i class="fas fa-fingerprint nav-icon"></i>
                       <p>Absen</p>

@@ -1,10 +1,10 @@
 <?php
 
-    $conn = new mysqli('localhost', 'root', '', 'payrol');  
+    $conn = new mysqli('localhost', 'root', '', 'payrol_2');
     if(!$conn->connect_error){
         if($_SERVER['REQUEST_METHOD'] == 'POST'){
-            $kode = $_POST['id'];    
-            $query = 'Select * From pegawai where kode_pegawai like "'.$kode.'"';
+            $kode = $_POST['id'];
+            $query = 'Select * From pegawai where kode_pegawai = "'.$kode.'"';
             $result = $conn->query($query);
             if($result->num_rows >0){
                 $data = $result->fetch_assoc();
@@ -29,15 +29,15 @@
                 $array = array();
                 $array['dept'] = $dept;
                 $array['jab'] = $jab;
-                echo json_encode($array);           
+                echo json_encode($array);
             } else{
-                echo'no data';
+                echo'no data -'.$kode.'-';
             }
         } else{
             echo 'It is not post';
         }
     } else{
-        echo'failed to connect to server '.$conn->error; 
+        echo'failed to connect to server '.$conn->error;
     }
 
 

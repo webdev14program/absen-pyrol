@@ -152,7 +152,9 @@
             var xhttps = new XMLHttpRequest();
             xhttps.onreadystatechange = function() {
                 if (this.readyState == 4 && this.status == 200) {
+                  // alert(this.responseText);
                     var data = JSON.parse(this.responseText);
+                    // alert(data);
                     // if (jenis == "promosi") {
                     // alert(data["jab"]);
                     var index = 0;
