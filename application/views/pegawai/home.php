@@ -12,7 +12,7 @@
           <div class="card-body">
             <p align="center">Hai,&nbsp<b><?= $this->session->userdata('nama') ?></b>&nbsp silahkan mengambil kode untuk absensi <b><?= $waktu ?></b></p>
             <p align="center"><button id="kode" class="btn btn-primary">Buka QR Code</button><img id="gambarkode" hidden></p>
-            
+
           </div>
         </div>
       </section>
@@ -47,17 +47,28 @@
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
 <script>
+  //yo ini yang qr pegawai
+  //dari sini ad yang salah, di bagian key mkony dk bs decrypt
+  //buat fungsi get date hr ini, cuma tanggal  b, bulan dk sah, sm tahun jg, tpi sebenerny boleh b sih klo nk tanggl,bulan,tahun
+
+  var today = new Date();
+  var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+  console.log(date);
+
   var isi = "<?= $kodepegawai ?>";
-  console.log("isi :" + isi);
-
-  var enkripsitext = CryptoJS.AES.encrypt(isi, isi);
+  console.log("isi kode pegawai :" + isi);
+  //isi,key
+  var enkripsitext = CryptoJS.AES.encrypt(isi, date);
+  console.log(typeof(enkripsitext));
   console.log("enskripsi " + enkripsitext);
-
-  var dekripsitext = CryptoJS.AES.decrypt(enkripsitext.toString(), isi);
+  var test1=enkripsitext.toString();
+  console.log(typeof(test1));
+//dari sini
+  var dekripsitext = CryptoJS.AES.decrypt(enkripsitext.toString(), date);
   console.log("dekripsi " + dekripsitext);
   var hasildekripsi = dekripsitext.toString(CryptoJS.enc.Utf8);
-  console.log("hasil " + hasildekripsi);
-
+  console.log("hasil decrypt " + hasildekripsi);
+//sampe sini
   var urlD = "https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=";
   var urlComplete = urlD + enkripsitext;
   document.getElementById('gambarkode').src = urlComplete;

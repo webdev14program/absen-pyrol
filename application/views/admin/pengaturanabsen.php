@@ -14,8 +14,8 @@
                         <table id="myTable" class="table table-bordered table-striped text-center">
                             <thead>
                                 <th>No</th>
-                                <th>Jam Masuk</th>
-                                <th>Jam Keluar</th>
+                                <th>Waktu Absen</th>
+                                <th>Tipe Jam</th>
                                 <th>Opsi</th>
                             </thead>
                             <tbody>
@@ -25,20 +25,21 @@
                                 <td width="1%"><?= $no++ ?></td>
                                 <td>
                                   <?php
-                                  $timeawalmasuk=strtotime($d->awal_jam_masuk);
-                                  $timeakhirmasuk=strtotime($d->akhir_jam_masuk);
+                                  $timeawalmasuk=strtotime($d->waktu_awal);
+                                  $timeakhirmasuk=strtotime($d->waktu_akhir);
                                   $timeformatawalmasuk = date('H',$timeawalmasuk);
                                   $timeformatakhirmasuk = date('H',$timeakhirmasuk);
                                   if($timeformatawalmasuk >= "01" && $timeformatawalmasuk <= "11"){
-                                    $ket = "Pagi";
+                                    $ketmasuk = "Pagi";
                                   }
                                   else if($timeformatawalmasuk >= "12" && $timeformatawalmasuk <= "15"){
-                                      $ket = "Siang";
+                                      $ketmasuk = "Siang";
                                   }else if($timeformatawalmasuk >="16" && $timeformatawalmasuk <= "18"){
-                                        $ket = "Sore";
+                                        $ketmasuk = "Sore";
                                   }else{
-                                    $ket = "Malam";
+                                    $ketmasuk = "Malam";
                                   }
+
                                   if($timeformatakhirmasuk >= "01" && $timeformatakhirmasuk <= "11"){
                                     $ket = "Pagi";
                                   }
@@ -49,36 +50,20 @@
                                   }else{
                                     $ket = "Malam";
                                   }
-                                  echo date('h:i',$timeawalmasuk)," ",$ket," - ",date('h:i',$timeakhirmasuk)," ",$ket;
+
+                                  echo date('h:i',$timeawalmasuk)," ",$ketmasuk," - ",date('h:i',$timeakhirmasuk)," ",$ket;
                                   ?>
                                 </td>
                                 <td>
                                   <?php
-                                  $timeawalmasuk=strtotime($d->awal_jam_pulang);
-                                  $timeakhirmasuk=strtotime($d->akhir_jam_pulang);
-                                  $timeformatawalmasuk = date('H',$timeawalmasuk);
-                                  $timeformatakhirmasuk = date('H',$timeakhirmasuk);
-                                  if($timeformatawalmasuk >= "01" && $timeformatawalmasuk <= "11"){
-                                    $ket = "Pagi";
-                                  }
-                                  else if($timeformatawalmasuk >= "12" && $timeformatawalmasuk <= "15"){
-                                      $ket = "Siang";
-                                  }else if($timeformatawalmasuk >="16" && $timeformatawalmasuk <= "18"){
-                                        $ket = "Sore";
-                                  }else{
-                                    $ket = "Malam";
-                                  }
-                                  if($timeformatakhirmasuk >= "01" && $timeformatakhirmasuk <= "11"){
-                                    $ket = "Pagi";
-                                  }
-                                  else if($timeformatakhirmasuk >= "12" && $timeformatakhirmasuk <= "15"){
-                                      $ket = "Siang";
-                                  }else if($timeformatakhirmasuk >="16" && $timeformatakhirmasuk <= "18"){
-                                        $ket = "Sore";
-                                  }else{
-                                    $ket = "Malam";
-                                  }
-                                  echo date('h:i',$timeawalmasuk)," ",$ket," - ",date('h:i',$timeakhirmasuk)," ",$ket;
+                                    $x = $d->tipe_jam;
+                                    if($x == "masuk")
+                                    {
+                                      $a = "Masuk";
+                                    }else{
+                                      $a = "Pulang";
+                                    }
+                                    echo $a;
                                   ?>
                                 </td>
                                 <td>

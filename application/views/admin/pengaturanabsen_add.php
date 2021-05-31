@@ -11,17 +11,25 @@
                     </div>
                     <form method="post" action="<?= base_url("admin/pengaturanabsen_simpan")?>">
                         <div class="card-body">
-                            <div class="form-inline">
-                              <label>Set Jam Absen</label>&nbsp;
-                              <div class="form-horizontal " style="margin-left:20px">
-                                <label style="margin-right:150px">Jam Masuk</label><br>
-                                <input type="time" name="jammasukawal" value="" class="form-inline" style="width:200px"><br>
-                                <input type="time" name="jammasukakhir" value="" class="form-inline" style="width:200px"><br>
-                                <label style="margin-right:150px">Jam Pulang</label><br>
-                                <input type="time" name="jampulangawal" value="" class="form-inline" style="width:200px"><br>
-                                <input type="time" name="jampulangakhir" value="" class="form-inline" style="width:200px">
-                              </div>
-                            </div>
+                          <div class="row">
+                             <div class="col">
+                               <div class="form-group">
+                                 <label>Set Jam Absen</label>
+                                 <input type="time" name="awal" value="" class="form-control" style="width:200px"><br>
+                                 <input type="time" name="akhir" value="" class="form-control" style="width:200px">
+                               </div>
+                             </div>
+                             <div class="col">
+                               <div class="form-grou">
+                                 <label>Tipe Jam</label>
+                                 <select class="form-control" name="optiontipe" style="width:200px">
+                                   <option value=""></option>
+                                   <option value="masuk">Masuk</option>
+                                   <option value="pulang">Pulang</option>
+                                 </select>
+                               </div>
+                             </div>
+                           </div>
                         </div>
                         <div class="card-footer">
                             <a href="<?= base_url('admin/pengaturanabsen') ?>" class="btn btn-danger">Kembali</a>

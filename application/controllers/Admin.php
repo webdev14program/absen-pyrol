@@ -68,10 +68,10 @@ class Admin extends CI_Controller
 	{
 		$this->db->trans_start();
 		$data = array(
-			'awal_jam_masuk' => $this->input->post('jammasukawal'),
-			'akhir_jam_masuk' => $this->input->post('jammasukakhir'),
-			'awal_jam_pulang' => $this->input->post('jampulangawal'),
-			'akhir_jam_pulang' => $this->input->post('jampulangakhir')
+			'waktu_awal' => $this->input->post('awal'),
+			'waktu_akhir' => $this->input->post('akhir'),
+			'tipe_jam' => $this->input->post('optiontipe')
+
 		);
 		$this->db->insert('configurasi_absen', $data);
 		$this->db->trans_complete();
@@ -91,10 +91,9 @@ class Admin extends CI_Controller
 	public function pengaturanabsen_update($id)
 	{
 		$data = array(
-					'awal_jam_masuk' => $this->input->post('jammasukawal'),
-					'akhir_jam_masuk' => $this->input->post('jammasukakhir'),
-					'awal_jam_pulang' => $this->input->post('jampulangawal'),
-					'akhir_jam_pulang' => $this->input->post('jampulangakhir'));
+			'waktu_awal' => $this->input->post('awal'),
+			'waktu_akhir' => $this->input->post('akhir'),
+			'tipe_jam' => $this->input->post('optiontipe'));
 		$this->db->update(
 			'configurasi_absen',$data,['no_urut' => $id]
 		);

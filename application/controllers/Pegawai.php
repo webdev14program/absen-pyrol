@@ -22,7 +22,7 @@ class Pegawai extends CI_Controller {
 		if ($absen->num_rows() == 0) { $data['waktu'] = 'masuk'; }
 		elseif ($absen->num_rows() == 1) { $data['waktu'] = 'pulang'; }
 		else { $data['waktu'] = 'dilarang'; }
-		$data['kodepegawai'] = $this->db->get('pegawai')->row()->kode_pegawai;
+		$data['kodepegawai'] = $this->session->userdata('kode_pegawai');
 		$data['web']	= $this->web;
 		$data['title']	= 'Dashboard';
 		$data['body']	= 'pegawai/home';
