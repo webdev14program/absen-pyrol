@@ -96,12 +96,12 @@ IF(absen.keterangan = 'Masuk',
     WHEN hour(waktu)<8 THEN 'Masuk'
     WHEN hour(waktu)=8 THEN 'Telat'
     WHEN hour(waktu)=9 THEN 'Telat'
-    WHEN hour(waktu)=10 THEN 'Telat'
-    WHEN hour(waktu)=11 THEN 'Telat'
-   	WHEN hour(waktu)=12 THEN 'Telat'
-   	WHEN hour(waktu)=13 THEN 'Telat'
-    WHEN hour(waktu)=14 THEN 'Telat'
-    WHEN hour(waktu)=15 THEN 'Telat'
+    WHEN hour(waktu)=10 THEN 'Sangat Telat'
+    WHEN hour(waktu)=11 THEN 'Sangat Telat'
+   	WHEN hour(waktu)=12 THEN 'Sangat Telat'
+   	WHEN hour(waktu)=13 THEN 'Sangat Telat'
+    WHEN hour(waktu)=14 THEN 'Sangat Telat'
+    WHEN hour(waktu)=15 THEN 'Sangat Telat'
    END,
   CASE
     WHEN hour(waktu)>16 THEN 'Keluar'

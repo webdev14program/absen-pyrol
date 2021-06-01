@@ -28,6 +28,14 @@ class Pegawai extends CI_Controller {
 		$data['body']	= 'pegawai/home';
 		$this->load->view('template',$data);
 	}
+	public function jsonpegawai()
+	{
+		$data = array(
+			'kode_pegawai'=> $this->session->userdata('kode_pegawai'),
+			'nama_pegawai'=> $this->session->userdata('nama'),
+		);
+		echo json_encode($data);
+	}
 	//proses absen
 	public function proses_absen()
 	{
