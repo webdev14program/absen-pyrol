@@ -10,7 +10,7 @@
           <div class="card-header"> Notifikasi </h3>
           </div>
           <div class="card-body">
-            <p align="center">Hai,&nbsp<b><?= $this->session->userdata('nama') ?></b>&nbsp silahkan mengambil kode untuk absensi <b><?= $waktu ?></b></p>
+            <p align="center">Hai,&nbsp<b><?= $this->session->userdata('nama') ?></b>&nbsp silahkan mengambil kode untuk absensi</p>
             <p align="center"><button id="kode" class="btn btn-primary">Buka QR Code</button><img id="gambarkode" hidden></p>
 
           </div>

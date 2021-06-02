@@ -89,28 +89,89 @@ class M_data extends CI_Model
 		// $this->db->join('user','pegawai.kode_pegawai = user.kode_pegawai');
 		// $this->db->order_by('absen.waktu','desc');
 		// return $this->db->get();
-
-		$sql = "SELECT absen.id_absen,absen.kode_pegawai,absen.waktu,user.nama,absen.keterangan,
-IF(absen.keterangan = 'Masuk',
-   CASE
-    WHEN hour(waktu)<8 THEN 'Masuk'
-    WHEN hour(waktu)=8 THEN 'Telat'
-    WHEN hour(waktu)=9 THEN 'Telat'
-    WHEN hour(waktu)=10 THEN 'Sangat Telat'
-    WHEN hour(waktu)=11 THEN 'Sangat Telat'
-   	WHEN hour(waktu)=12 THEN 'Sangat Telat'
-   	WHEN hour(waktu)=13 THEN 'Sangat Telat'
-    WHEN hour(waktu)=14 THEN 'Sangat Telat'
-    WHEN hour(waktu)=15 THEN 'Sangat Telat'
-   END,
-  CASE
-    WHEN hour(waktu)>16 THEN 'Keluar'
-  END) AS status
-FROM absen
-INNER JOIN user
-ON absen.kode_pegawai=user.kode_pegawai";
+		$sql2 = "SELECT configurasi_absen.waktu_awal FROM configurasi_absen WHERE tipe_jam='pulang'";
+		$query2 = $this->db->query($sql2);
+		foreach ($query2->result() as $key) {
+			$datax = array(
+				'waktuawal' => $key->waktu_awal,
+				// echo json_encode($datax);
+			);
+		}
+		$jamawalpulang = strtotime($datax['waktuawal']);
+		$sql3 = "SELECT configurasi_absen.waktu_akhir FROM configurasi_absen WHERE tipe_jam='masuk'";
+		$query3 = $this->db->query($sql3);
+		foreach ($query3->result() as $key) {
+			$datay = array(
+				'waktuakhir' => $key->waktu_akhir,
+			);
+			// echo json_encode($datay);
+		}
+		$jamakhirmasuk = strtotime($datay['waktuakhir']);
+		$penentuantelat = ceil(($jamawalpulang-$jamakhirmasuk)*0.2);
+		// $telat = ceil($selisih*0.2);
+		$hasilakhir = $jamakhirmasuk+$penentuantelat;
+		$jamtelat = date("H:i:s",$hasilakhir);
+		// echo $jamtelat;
+		$sql = "SELECT absen.id_absen,absen.kode_pegawai,absen.waktu,user.nama,absen.keterangan FROM absen INNER JOIN user
+		ON absen.kode_pegawai=user.kode_pegawai";
 		$query = $this->db->query($sql);
-		return $query->result_array();
+		$datas=array();
+		foreach ($query->result() as $key) {
+			$status = "";
+			if($key->keterangan=="pulang"){
+				$status = "Keluar";
+			} elseif ($key->keterangan=="masuk") {
+				$temp = explode(" ",$key->waktu);
+				$checkjam =strtotime($temp[1]);
+				// echo "$jamakhirmasuk-$checkjam";
+				if($checkjam<=$jamakhirmasuk){
+					$status="Masuk";
+				} elseif ($checkjam<=$hasilakhir) {
+					$status="Telat";
+				}else{
+					$status="Sangat Telat";
+				}
+			}
+			$data = array(
+				'kodepegawai' => $key->kode_pegawai,
+				'waktu' => $key->waktu,
+				'nama' => $key->nama,
+				'keterangan' => $key->keterangan,
+				'status'=>$status
+			);
+			array_push($datas,$data);
+		}
+		return $datas;
+		// $jamtelat = ceil($telat/60);
+		//wait, habis batere pos cas lah dlu ak bngung
+		// $menittelat = $telat%60;
+		//kito anggep be, men dibawah 20%, dio telat, men diatasny dio ikutin jam setny be token_get_all
+		//jam setny brp be??
+		// echo ("$selisih $jamtelat $menittelat");
+		// $selisihjam = $selisih/60
+
+
+// 		$sql = "SELECT absen.id_absen,absen.kode_pegawai,absen.waktu,user.nama,absen.keterangan,
+// IF(absen.keterangan = 'Masuk',
+//    CASE
+//     WHEN hour(waktu)<8 THEN 'Masuk'
+//     WHEN hour(waktu)=8 THEN 'Telat'
+//     WHEN hour(waktu)=9 THEN 'Telat'
+//     WHEN hour(waktu)=10 THEN 'Sangat Telat'
+//     WHEN hour(waktu)=11 THEN 'Sangat Telat'
+//    	WHEN hour(waktu)=12 THEN 'Sangat Telat'
+//    	WHEN hour(waktu)=13 THEN 'Sangat Telat'
+//     WHEN hour(waktu)=14 THEN 'Sangat Telat'
+//     WHEN hour(waktu)=15 THEN 'Sangat Telat'
+//    END,
+//   CASE
+//     WHEN hour(waktu)>16 THEN 'Keluar'
+//   END) AS status
+// FROM absen
+// INNER JOIN user
+// ON absen.kode_pegawai=user.kode_pegawai";
+// 		$query = $this->db->query($sql);
+// 		return $query->result_array();
 	}
 	public function absensi_pegawai($id)
 	{
@@ -151,6 +212,13 @@ ON absen.kode_pegawai=user.kode_pegawai";
 		$this->db->select('*');
 		$this->db->from('configurasi_absen');
 		$this->db->where('configurasi_absen.no_urut', $id);
+		return $this->db->get();
+	}
+	public function pengaturanlemburid($id)
+	{
+		$this->db->select('*');
+		$this->db->from('configurasi_lembur');
+		$this->db->where('configurasi_lembur.no_lembur', $id);
 		return $this->db->get();
 	}
 	public function cuti()

@@ -9,7 +9,7 @@
                 <div class="card">
                     <div class="card-header"> <?= $title ?> </h3>
                     </div>
-                    <form method="post" action="<?= base_url("admin/pengaturanabsen_simpan")?>">
+                    <form method="post" action="<?= base_url("admin/pengaturanlembur_simpan")?>">
                         <div class="card-body">
                           <div class="row">
                              <div class="col">
@@ -21,7 +21,7 @@
                              </div>
                              <div class="col">
                                <div class="form-group">
-                                 <label>Tipe Jam</label>
+                                 <label>Tipe Lembur</label>
                                  <select class="form-control" name="optiontipe" style="width:200px">
                                    <option value=""></option>
                                    <option value="masuk">Masuk</option>
@@ -29,10 +29,16 @@
                                  </select>
                                </div>
                              </div>
+                             <div class="col">
+                               <div class="form-group">
+                                 <label>Ket Lembur</label>
+                                 <input type="text" name="ketlembur" value="" class="form-control" style="width:200px">
+                               </div>
+                             </div>
                            </div>
                         </div>
                         <div class="card-footer">
-                            <a href="<?= base_url('admin/pengaturanabsen') ?>" class="btn btn-danger">Kembali</a>
+                            <a href="<?= base_url('admin/pengaturanlembur') ?>" class="btn btn-danger">Kembali</a>
                             <button type="submit" class="btn btn-primary">Simpan</button>
                         </div>
                     </form>

@@ -138,6 +138,12 @@
                 <p> List Absensi </p>
               </a>
             </li>
+            <li class="nav-item">
+              <a href="<?= base_url($this->session->userdata('level')) ?>/lembur" class="nav-link">
+                <i class="nav-icon fas fa-list"></i>
+                <p> List Lembur</p>
+              </a>
+            </li>
             <?php if ($this->session->userdata('level') == 'admin') { ?>
 
               <li class="nav-item has-treeview">
@@ -153,6 +159,12 @@
                     <a href="<?= base_url($this->session->userdata('level')) ?>/pengaturanabsen" class="nav-link">
                       <i class="nav-icon fas fa-cogs"></i>
                       <p> Pengaturan Absensi</p>
+                    </a>
+                  </li>
+                  <li class="nav-item" style="margin-left:20px">
+                    <a href="<?= base_url($this->session->userdata('level')) ?>/pengaturanlembur" class="nav-link">
+                      <i class="nav-icon fas fa-cogs"></i>
+                      <p> Pengaturan Lembur</p>
                     </a>
                   </li>
                 </ul>

@@ -38,6 +38,10 @@ class Admin extends CI_Controller
 		$data['body']	= 'admin/home';
 		$this->load->view('template', $data);
 	}
+	public function jsondataabsen()
+	{
+		$sql = $this->M_data->absen();
+	}
 	public function proses_absen()
 	{
 		$id = $this->session->userdata('kode_pegawai');
@@ -56,6 +60,65 @@ class Admin extends CI_Controller
 		$data['title'] = 'Data Pengaturan Absen';
 		$data['body'] = 'admin/pengaturanabsen';
 		$this->load->view('template', $data);
+	}
+	public function pengaturanlembur()
+	{
+		$data['web'] = $this->web;
+		$data['pengaturanlembur'] = $this->db->get('configurasi_lembur')->result();
+		$data['title'] = 'Data Pengaturan Lembur';
+		$data['body'] = 'admin/pengaturanlembur';
+		$this->load->view('template', $data);
+	}
+	public function pengaturanlembur_add()
+	{
+		$data['web'] = $this->web;
+		$data['title'] = 'Tambah Data Pengaturan Lembur';
+		$data['body'] = 'admin/pengaturanlembur_add';
+		$this->load->view('template', $data);
+	}
+	public function pengaturanlembur_simpan()
+	{
+		$this->db->trans_start();
+		$data = array(
+			'ket_lembur' => $this->input->post('ketlembur'),
+			'waktu_awal' => $this->input->post('awal'),
+			'waktu_akhir' => $this->input->post('akhir'),
+			'tipe_lembur' => $this->input->post('optiontipe'),
+			'tanggal_lembur'=> date("Y/m/d"),
+		 );
+		 $this->db->insert('configurasi_lembur',$data);
+		 $this->db->trans_complete();
+ 		$this->session->set_flashdata('message', 'swal("Berhasil!", "Tambah Data Pengaturan Lembur", "success");');
+ 		redirect('admin/pengaturanlembur');
+	}
+	public function pengaturanlembur_edit($id)
+	{
+		$data['web']	= $this->web;
+		$data['data'] = $this->M_data->pengaturanlemburid($id)->row();
+		$data['pengaturanlembur']	= $this->db->get_where('configurasi_lembur', ['no_lembur' => $id])->row();
+		$data['title']	= 'Update Data Pengaturan Lembur';
+		$data['body']	= 'admin/pengaturanlembur_edit';
+		$this->load->view('template', $data);
+	}
+	public function pengaturanlembur_update($id)
+	{
+		$data = array(
+			'ket_lembur' => $this->input->post('ketlembur'),
+			'waktu_awal' => $this->input->post('awal'),
+			'waktu_akhir' => $this->input->post('akhir'),
+			'tipe_lembur' => $this->input->post('optiontipe')
+		);
+		$this->db->update(
+			'configurasi_lembur',$data,['no_lembur' => $id]
+		);
+		$this->session->set_flashdata('message', 'swal("Berhasil!", "Update Pengaturan Lembur", "success");');
+		redirect('admin/pengaturanlembur');
+	}
+	public function pengaturanlembur_delete($id)
+	{
+		$this->db->delete('configurasi_lembur', ['no_lembur' => $id]);
+		$this->session->set_flashdata('message', 'swal("Berhasil!", "Delete Pengaturan Lembur", "success");');
+		redirect('admin/pengaturanlembur');
 	}
 	public function pengaturanabsen_add()
 	{
